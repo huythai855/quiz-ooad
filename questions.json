@@ -1,0 +1,1631 @@
+[
+    {
+        "question": "Question 1: Which statement is true?",
+        "answers": [
+            "A. The UML is a development process for software-intensive systems.",
+            "B. The UML is a process-dependent language used for visualizing software artifacts.",
+            "C. The UML is a modeling language for software blueprints.",
+            "D. The UML is a visual programming language."
+        ],
+        "correct_answers": [
+            "C. The UML is a modeling language for software blueprints."
+        ]
+    },
+    {
+        "question": "Question 2: In which three ways does a structured class differ from a traditional class? (Choose three)",
+        "answers": [
+            "A. It clearly defines the class boundary via an encapsulation shell.",
+            "B. It brings public interfaces into the class via ports.",
+            "C. It shows the role that the class plays.",
+            "D. It defines messages between itself and other classes."
+        ],
+        "correct_answers": [
+            "A. It clearly defines the class boundary via an encapsulation shell.",
+            "B. It brings public interfaces into the class via ports.",
+            "C. It shows the role that the class plays."
+        ]
+    },
+    {
+        "question": "Question 3: Which is a characteristic of a structured class?",
+        "answers": [
+            "A. must have one interface for each role it plays",
+            "B. can play only one role, no matter how many objects transact with it",
+            "C. can play multiple roles that vary on the objects that interact with it",
+            "D. is limited to one role, but can have multiple interfaces"
+        ],
+        "correct_answers": [
+            "C. can play multiple roles that vary on the objects that interact with it"
+        ]
+    },
+    {
+        "question": "Question 4: Which statement is true about an iterative development process?",
+        "answers": [
+            "A. Testing and integration take place in every iteration.",
+            "B. An iteration focuses on partial completion of selected use-case realizations.",
+            "C. It encourages user feedback in later iterations.",
+            "D. It is based on functional decomposition of a system."
+        ],
+        "correct_answers": [
+            "A. Testing and integration take place in every iteration."
+        ]
+    },
+    {
+        "question": "Question 5: Which two statements are true about interfaces? (Choose two)",
+        "answers": [
+            "A. The interface should have a clear purpose.",
+            "B. A single interface should include as many possible methods, if not all methods, that may be shared by objects that implement the interface.",
+            "C. An interface should be used to restrict which methods are exposed to a client.",
+            "D. Classes may have multiple interfaces depending on the purpose of each interface it implements."
+        ],
+        "correct_answers": [
+            "A. The interface should have a clear purpose.",
+            "D: Classes may have multiple interfaces depending on the purpose of each interface it implements."
+        ]
+    },
+    {
+        "question": "Question 6: What is the focus of analysis?",
+        "answers": [
+            "A. translating functional requirements into code",
+            "B. translating requirements into a system design",
+            "C. translating real-world concepts into solution-oriented objects",
+            "D. translating functional requirements into software concepts"
+        ],
+        "correct_answers": [
+            "C. translating real-world concepts into solution-oriented objects"
+        ]
+    },
+    {
+        "question": "Question 7: Why is encapsulation important? (Choose two)",
+        "answers": [
+            "A. It describes the relationship between two subclasses.",
+            "B. It places operations and attributes in the same object.",
+            "C. It allows other objects to change private operations and attributes of an object.",
+            "D. It prevents other objects from directly changing the attributes of an object."
+        ],
+        "correct_answers": [
+            "B. It places operations and attributes in the same object.",
+            "D. It prevents other objects from directly changing the attributes of an object."
+        ]
+    },
+    {
+        "question": "Question 8: What are analysis classes?",
+        "answers": [
+            "A. early conjectures on the composition of the system that usually change over time, rarely surviving intact into Implementation",
+            "B. incomplete classes that require a programmer to formalize operation signatures and attribute types before they can be implemented",
+            "C. the classes inside a system's Business Object or Domain Model, in UML form",
+            "D. a prototype of a system's user interface, developed during the Analysis Phase, which allows users to define the system's look and feel"
+        ],
+        "correct_answers": [
+            "C: the classes inside a system's Business Object or Domain Model, in UML form"
+        ]
+    },
+    {
+        "question": "Question. 9 An architect looks at two classes. The first class has the following operations: getName(), getSize(), getTotal(), and findAverage(). The second class has the following operations: getName(),getSize(), findAverage(), findMinimum(), and findMaximum(). The two classes share the same superclass. Which operations are most likely contained in the superclass?",
+        "answers": [
+            "A. getName(), getSize(), and findAverage()",
+            "B. findMaximum(), findMinimum(), getSize(), and getTotal()",
+            "C. getName(), findAverage(), and findMaximum()",
+            "D. getName(), getSize(), getTotal(), and findAverage()"
+        ],
+        "correct_answers": [
+            "A. getName(), getSize(), and findAverage()"
+        ]
+    },
+    {
+        "question": "Question. 10 An architect is responsible for creating an Analysis Model for a system. Which area of focus is essential for the creation of this model?",
+        "answers": [
+            "A. hardware on which the system will be deployed",
+            "B. behavior of the objects that comprise the system",
+            "C. evolution of analysis classes into design classes",
+            "D. performance requirements of the system"
+        ],
+        "correct_answers": [
+            "B. behavior of the objects that comprise the system"
+        ]
+    },
+    {
+        "question": "Question. 11 What does a required interface do?",
+        "answers": [
+            "A. exposes services to anonymous requestors",
+            "B. uses the services that a classifier requires to request from anonymous providers",
+            "C. declares the services that a classifier offers to provide anonymous requestors",
+            "D. exposes methods that the requestor must use"
+        ],
+        "correct_answers": [
+            "B. uses the services that a classifier requires to request from anonymous providers"
+        ]
+    },
+    {
+        "question": "Question. 12 In a sequence diagram, each interaction on the diagram maps to .",
+        "answers": [
+            "A. a choice point on a state diagram",
+            "B. the transition on a state diagram",
+            "C. a state on the diagram",
+            "D. the initial state"
+        ],
+        "correct_answers": [
+            "B. the transition on a state diagram"
+        ]
+    },
+    {
+        "question": "Question. 13 Which two questions does the use of multiplicity on relationships allow you to answer? (Choose two.)",
+        "answers": [
+            "A. Is the relationship mandatory or optional?",
+            "B. How many links can an object of one type maintain with objects of another type?",
+            "C. Is an object of a given type permitted to interact with objects of another type?",
+            "D. Is the relationship between objects permanent or temporary"
+        ],
+        "correct_answers": [
+            "A. Is the relationship mandatory or optional?",
+            "B. How many links can an object of one type maintain with objects of another type?"
+        ]
+    },
+    {
+        "question": "Question. 14 What are two important considerations when diagramming state? (Choose two.)",
+        "answers": [
+            "A. Any time a message is received; there may be a change of state.",
+            "B. Any time a message is received; there must be a change of state.",
+            "C. Whenever there is a change of state, there is a transition.",
+            "D. Changing state may not change transition."
+        ],
+        "correct_answers": [
+            "A. Any time a message is received; there may be a change of state.",
+            "C. Whenever there is a change of state, there is a transition."
+        ]
+    },
+    {
+        "question": "Question. 15 Which statement is true about circular dependencies?",
+        "answers": [
+            "A. They do not matter.",
+            "B. They are prohibited.",
+            "C. They must be avoided.",
+            "D. When there are more than two packages, they are irrelevant."
+        ],
+        "correct_answers": [
+            "C. They must be avoided."
+        ]
+    },
+    {
+        "question": "Question. 16 What is the purpose of Architectural Analysis?",
+        "answers": [
+            "A. to detail the design of the system",
+            "B. to review the architecture of the system",
+            "C. to define a candidate architecture for the system",
+            "D. to define the layers of the architecture"
+        ],
+        "correct_answers": [
+            "C. to define a candidate architecture for the system"
+        ]
+    },
+    {
+        "question": "Question. 17 When the interfaces between two classes have been defined from a sequence",
+        "answers": [
+            "A. interface",
+            "B. operations the class performs",
+            "C. user of the system",
+            "D. attributes passed in the sequence diagram"
+        ],
+        "correct_answers": [
+            "A. interface"
+        ]
+    },
+    {
+        "question": "Question. 18 Which statement is true about attributes?",
+        "answers": [
+            "A. They cannot change once the object is instantiated.",
+            "B. They change value from object to object of the same class.",
+            "C. They can only be primitives.",
+            "D. They are required for every class."
+        ],
+        "correct_answers": [
+            "B. They change value from object to object of the same class."
+        ]
+    },
+    {
+        "question": "Question. 19 What are the three purposes of Analysis and Design? (Choose three.)",
+        "answers": [
+            "A. to provide an organizational context for the system",
+            "B. to transform the requirements into a design of the to-be system",
+            "C. to evolve a robust architecture for the system",
+            "D. to scope the system to be built and describe what it must do",
+            "E. to adapt the design to match the implementation environment"
+        ],
+        "correct_answers": [
+            "B. to transform the requirements into a design of the to-be system",
+            "C. to evolve a robust architecture for the system",
+            "E. to adapt the design to match the implementation environment"
+        ]
+    },
+    {
+        "question": "Question. 20 Objects that are polymorphic _______.",
+        "answers": [
+            "A. must have the same attributes",
+            "B. share all the same operations, and the operations perform the same",
+            "C. can only be implemented through interfaces",
+            "D. may have the same operation names but the operations perform differently"
+        ],
+        "correct_answers": [
+            "D. may have the same operation names but the operations perform differently"
+        ]
+    },
+    {
+        "question": "Question. 21 Which is a best practice for nesting structured classes?",
+        "answers": [
+            "A. should limit the nesting of structured classes to two levels per diagram",
+            "B. should display all substructured classes of a structured class in a single to show the depth of interactions",
+            "C. should be limited to one level of depth, thereby allowing the user to navigate from diagram to",
+            "D. should be determined by the architect during the design phase"
+        ],
+        "correct_answers": [
+            "A. should limit the nesting of structured classes to two levels per diagram"
+        ]
+    },
+    {
+        "question": "Question. 22 During Architectural Analysis, a Software Architect wants to reduce the complexity of the system at work and improve its consistency. What should the Software Architect define to accomplish this?",
+        "answers": [
+            "A. coding rules",
+            "B. use-case realizations",
+            "C. analysis mechanisms",
+            "D. design mechanisms"
+        ],
+        "correct_answers": [
+            "C. analysis mechanisms"
+        ]
+    },
+    {
+        "question": "Question. 23 Which two characteristics do all objects have? (Choose two.)",
+        "answers": [
+            "A. primitives",
+            "B. state and behavior",
+            "C. interfaces",
+            "D. a unique identity"
+        ],
+        "correct_answers": [
+            "B. state and behavior",
+            "D. a unique identity"
+        ]
+    },
+    {
+        "question": "Question. 24 Analysis classes evolve into _____. (Choose two.)",
+        "answers": [
+            "A. design classes",
+            "B. subsystems",
+            "C. use-case realizations",
+            "D. design packages",
+            "E. architecture"
+        ],
+        "correct_answers": [
+            "A. design classes",
+            "B. subsystems"
+        ]
+    },
+    {
+        "question": "Question. 25 What happens when a superclass is changed?",
+        "answers": [
+            "A. All subclasses inherit the change.",
+            "B. The operations of the subclass must be changed.",
+            "C. Additional operations in the subclass that are not associated with the superclass must change.",
+            "D. Only the operations of the superclass are inherited."
+        ],
+        "correct_answers": [
+            "A. All subclasses inherit the change."
+        ]
+    },
+    {
+        "question": "Question. 26 Which two statements are true about use-case realization? (Choose two.)",
+        "answers": [
+            "A. It lists the different steps performed by a use-case.",
+            "B. It provides traceability from Analysis and Design back to requirements.",
+            "C. It is created by the System Analyst.",
+            "D. It describes the use-case in terms of collaborating objects."
+        ],
+        "correct_answers": [
+            "B. It provides traceability from Analysis and Design back to requirements.",
+            "D. It describes the use-case in terms of collaborating objects."
+        ]
+    },
+    {
+        "question": "Question. 27 Which state does NOT contain another state?",
+        "answers": [
+            "A. Top State",
+            "B. Composite State",
+            "C. Simple State",
+            "D. Bottom State"
+        ],
+        "correct_answers": [
+            "C. Simple State"
+        ]
+    },
+    {
+        "question": "Question. 28 Which statement is true about grouping elements into a package?",
+        "answers": [
+            "A. Elements in a package should share a logical, common grouping.",
+            "B. Packages should contain a small number of elements to avoid confusion.",
+            "C. Packages should only be used on large projects requiring a large number of elements.",
+            "D. Packages should not contain other packages."
+        ],
+        "correct_answers": [
+            "A. Elements in a package should share a logical, common grouping."
+        ]
+    },
+    {
+        "question": "Question. 29 What are three architectural mechanism categories? (Choose three.)",
+        "answers": [
+            "A. analysis mechanisms",
+            "B. requirement mechanisms",
+            "C. implementation mechanisms",
+            "D. design mechanisms"
+        ],
+        "correct_answers": [
+            "A. analysis mechanisms",
+            "B. requirement mechanisms",
+            "D. design mechanisms"
+        ]
+    },
+    {
+        "question": "Question. 30 In a sequence diagram, what can be defined by the interactions between",
+        "answers": [
+            "A. only services provided by an interface",
+            "B. only services required by an interface",
+            "C. both provided and required services for interfaces",
+            "D. the name of the interface"
+        ],
+        "correct_answers": [
+            "C. both provided and required services for interfaces"
+        ]
+    },
+    {
+        "question": "Question. 31 Which view focuses on the physical realization of the system?",
+        "answers": [
+            "A. Logical View",
+            "B. Implementation View",
+            "C. Process View",
+            "D. Use-Case View"
+        ],
+        "correct_answers": [
+            "B. Implementation View"
+        ]
+    },
+    {
+        "question": "Question. 32 Which statement is true about an active object?",
+        "answers": [
+            "A. It is an independent object that can communicate with other active objects asynchronously.",
+            "B. It does not contain state.",
+            "C. It is dependent on the overall system execution.",
+            "D. It is unstructured to allow the class to be manipulated easily."
+        ],
+        "correct_answers": [
+            "A. It is an independent object that can communicate with other active objects asynchronously."
+        ]
+    },
+    {
+        "question": "Question. 33 During Use Case Analysis, what is generally allocated to control classes?",
+        "answers": [
+            "A. behavior specific to a use-case or part of a very important flow of events",
+            "B. behavior that involves the data encapsulated within the abstraction",
+            "C. behavior that involves communication with an actor",
+            "D. behavior specific to business rule enforcement or workflow"
+        ],
+        "correct_answers": [
+            "A. behavior specific to a use-case or part of a very important flow of events"
+        ]
+    },
+    {
+        "question": "Question. 34 What are three sources for Key Abstractions identification? (Choose three.)",
+        "answers": [
+            "A. domain knowledge",
+            "B. requirements",
+            "C. design classes",
+            "D. glossary"
+        ],
+        "correct_answers": [
+            "A. domain knowledge",
+            "B. requirements",
+            "D. glossary"
+        ]
+    },
+    {
+        "question": "Question. 35 What is a named object in UML?",
+        "answers": [
+            "A. Matt:Employee",
+            "B. :Employee",
+            "C. Matt::Employee",
+            "D. ::employee"
+        ],
+        "correct_answers": [
+            "A. Matt:Employee"
+        ]
+    },
+    {
+        "question": "Question. 36 During Use Case Analysis, an attribute should be used instead of a class when",
+        "answers": [
+            "A. is accessed by operations that only get, set, or perform simple transformations",
+            "B. is related to entities in the Business or Domain Model",
+            "C. needs to be hidden from other parts of the Analysis Model and not shared",
+            "D. is referred to and used multiple times throughout the use-case realization"
+        ],
+        "correct_answers": [
+            "A. is accessed by operations that only get, set, or perform simple transformations"
+        ]
+    },
+    {
+        "question": "Question. 37 Which view is NOT part of the RUP 4+1 View Model?",
+        "answers": [
+            "A. Logical View",
+            "B. Distribution View",
+            "C. Use-Case View",
+            "D. Process View"
+        ],
+        "correct_answers": [
+            "B. Distribution View"
+        ]
+    },
+    {
+        "question": "Question. 38 What are two functions of visual modeling? (Choose two.)",
+        "answers": [
+            "A. produces a single model that represents all views of the system",
+            "B. improves communication and comprehension among team members",
+            "C. documents important design decisions in the code",
+            "D. documents system behavior and structure before coding the system"
+        ],
+        "correct_answers": [
+            "B. improves communication and comprehension among team members",
+            "D. documents system behavior and structure before coding the system"
+        ]
+    },
+    {
+        "question": "Question. 39 During Use Case Analysis, why are analysis mechanisms used?",
+        "answers": [
+            "A. to reduce complexity and improve consistency by providing a shorthand representation for complex behavior",
+            "B. to simplify the task of creating use-case realizations by providing convenient shorthand for repetitive tasks",
+            "C. to gather common tasks into one place, in order to more easily assign them to developers for implementation",
+            "D. to verify that designers have performed the analysis task correctly, according to the architects recommendations"
+        ],
+        "correct_answers": [
+            "A. to reduce complexity and improve consistency by providing a shorthand representation for complex behavior"
+        ]
+    },
+    {
+        "question": "Question. 40 Which statement is true about patterns?",
+        "answers": [
+            "A. Patterns only exist at the Design level.",
+            "B. Patterns provide a common solution to a common problem.",
+            "C. Patterns only exist at the Architectural level.",
+            "D. Patterns are only used during the Elaboration Phase."
+        ],
+        "correct_answers": [
+            "B. Patterns provide a common solution to a common problem."
+        ]
+    },
+    {
+        "question": "Question. 41 During Use Case Analysis, why is it sometimes necessary to supplement the",
+        "answers": [
+            "A. The description of each use-case is not always sufficient for finding analysis classes and their objects.",
+            "B. The flow of events in the use-case is sometimes too complex to be implemented.",
+            "C. Designers need to know which use-case flows are being developed in the current iteration.",
+            "D. The architect may need to adjust incorrect requirements before giving them to the designers."
+        ],
+        "correct_answers": [
+            "A. The description of each use-case is not always sufficient for finding analysis classes and their objects."
+        ]
+    },
+    {
+        "question": "Question. 42 In Use Case Analysis, what is the purpose of the Unify Analysis Classes step?",
+        "answers": [
+            "A. to ensure that each analysis class represents a single well-defined concept, with no overlapping responsibilities",
+            "B. to gather the analysis classes from each use-case realization and bring them into the Design Model",
+            "C. to make sure the responsibilities of each class are consistent and that the class has a well defined single purpose",
+            "D. to create initial class families by using inheritance to group related classes into tree structures"
+        ],
+        "correct_answers": [
+            "A. to ensure that each analysis class represents a single well-defined concept, with no overlapping responsibilities"
+        ]
+    },
+    {
+        "question": "Question. 43 Which three processes are best suited for UML? (Choose three.)",
+        "answers": [
+            "A. use-case driven",
+            "B. waterfall development-based",
+            "C. iterative and incremental",
+            "D. architecture-centric",
+            "E. requirements-centric"
+        ],
+        "correct_answers": [
+            "A. use-case driven",
+            "C. iterative and incremental",
+            "D. architecture-centric"
+        ]
+    },
+    {
+        "question": "Question. 44 Architectural layers are commonly modeled in UML using a .",
+        "answers": [
+            "A. package stereotyped <<Layer>>",
+            "B. subsystem stereotyped <<Layer>>",
+            "C. composite class stereotyped <<Layer>>",
+            "D. class diagram entitled Layer"
+        ],
+        "correct_answers": [
+            "A. package stereotyped <<Layer>>"
+        ]
+    },
+    {
+        "question": "Question. 45 In a state diagram, a state has two transitions. One of the transitions is an internal transition and the other is an external transition. Which state(s) can perform an exit action?",
+        "answers": [
+            "A. the internal transition only",
+            "B. the external transition only",
+            "C. neither the internal nor the external transition",
+            "D. both the internal and external transitions"
+        ],
+        "correct_answers": [
+            "B. the external transition only"
+        ]
+    },
+    {
+        "question": "Question. 46 Which two statements are true about use-case driven processes? (Choose two.)",
+        "answers": [
+            "A. Use-cases are concise, simple, and able to be understood by a wide range of stakeholders.",
+            "B. Use-cases help synchronize the content of different models.",
+            "C. Use-cases are a complete list of functional requirements.",
+            "D. Use-cases specify how the system behavior is to be implemented."
+        ],
+        "correct_answers": [
+            "A. Use-cases are concise, simple, and able to be understood by a wide range of stakeholders.",
+            "B. Use-cases help synchronize the content of different models."
+        ]
+    },
+    {
+        "question": "Question. 47 Which is the primary function of entity classes?",
+        "answers": [
+            "A. store and manage information in the system",
+            "B. act as a surrogate or proxy for the actors in a system",
+            "C. wrap data access calls to a systems relational database",
+            "D. marshal information between the tiers in a system"
+        ],
+        "correct_answers": [
+            "A. store and manage information in the system"
+        ]
+    },
+    {
+        "question": "Question. 48 Which is a UML general-purpose mechanism for organizing elements into groups?",
+        "answers": [
+            "A. a class diagram",
+            "B. an activity",
+            "C. a package",
+            "D. a composite diagram"
+        ],
+        "correct_answers": [
+            "C. a package"
+        ]
+    },
+    {
+        "question": "Question. 49 During Use Case Analysis, how many interaction diagrams (sequence or communication) should be drawn for each use-case?",
+        "answers": [
+            "A. enough of each type to ensure that all responsibilities of participating classes are identified and that most of the flows of events are examined",
+            "B. one for the main flow and one for each alternate flow of events in the use-case",
+            "C. one of each type for the main flow and one of each type for each alternate flow of events in the use-case",
+            "D. one of each type per use-case, with each alternate flow of events shown as an interaction occurrence"
+        ],
+        "correct_answers": [
+            "A. enough of each type to ensure that all responsibilities of participating classes are identified and that most of the flows of events are examined"
+        ]
+    },
+    {
+        "question": "Question. 50 In Use Case Analysis, what is the function of boundary classes?",
+        "answers": [
+            "A. to insulate external forces from internal mechanisms and vice versa",
+            "B. to represent the screens in the user interface",
+            "C. to define the service interfaces exposed by the Business layer",
+            "D. to define entry points or roots into the core Object Data Model"
+        ],
+        "correct_answers": [
+            "A. to insulate external forces from internal mechanisms and vice versa"
+        ]
+    },
+    {
+        "question": "Question 51. Which two statements are NOT true about polymorphism? (Choose two)",
+        "answers": [
+            "A. Polymorphism is the ability to hide many different implementations behind a single interface.",
+            "B. Polymorphism means that a class can have many instances.",
+            "C. Polymorphism can be realized by using interfaces.",
+            "D. Polymorphism means that a class can implement many interfaces."
+        ],
+        "correct_answers": [
+            "B. Polymorphism means that a class can have many instances.",
+            "D. Polymorphism means that a class can implement many interfaces."
+        ]
+    },
+    {
+        "question": "Question 52. An interaction diagram is used for:",
+        "answers": [
+            "A. Model interactions between users and the system.",
+            "B. Model interactions between analysis class for each use-case flow of events.",
+            "C. Model interactions between only boundary classes.",
+            "D. Model interactions between only control classes."
+        ],
+        "correct_answers": [
+            "B. Model interactions between analysis class for each use-case flow of events."
+        ]
+    },
+    {
+        "question": "Questions 53. Which three view is in the RUP 4+1 View Model",
+        "answers": [
+            "A. Logical View.",
+            "B. Component View.",
+            "C. Deployment View",
+            "D. Implementation View"
+        ],
+        "correct_answers": [
+            "A. Logical View.",
+            "C. Deployment View",
+            "D. Implementation View"
+        ]
+    },
+    {
+        "question": "Question 54. NOT true about interfaces?",
+        "answers": [
+            "A. There are three kinds of interfaces: provide interface, required interfaces and provided-required (dual) interfaces"
+        ],
+        "correct_answers": [
+            "A. There are three kinds of interfaces: provide interface, required interfaces and provided-required (dual) interfaces"
+        ]
+    },
+    {
+        "question": "Question 55. The output of Analysis and Design are:",
+        "answers": [
+            "A. Analysis model and design model + implementation model."
+        ],
+        "correct_answers": [
+            "A. Analysis model and design model + implementation model."
+        ]
+    },
+    {
+        "question": "Question 56. Four basic principles of Object-Orientation:",
+        "answers": [
+            "A. Hierarchy, Encapsulation, Modularity, Abstraction."
+        ],
+        "correct_answers": [
+            "A. Hierarchy, Encapsulation, Modularity, Abstraction."
+        ]
+    },
+    {
+        "question": "Question 57. What is NOT a step in Use Case Design",
+        "answers": [
+            "A. Create the flow of events for each use case"
+        ],
+        "correct_answers": [
+            "A. Create the flow of events for each use case"
+        ]
+    },
+    {
+        "question": "Question 58. Which two statements are true about process and thread? (choose 2)",
+        "answers": [
+            "A. Process provides heavyweight flow of control while thread provides lightweight flow of control",
+            "B. Thread runs in the context of an enclosing process"
+        ],
+        "correct_answers": [
+            "A. Process provides heavyweight flow of control while thread provides lightweight flow of control",
+            "B. Thread runs in the context of an enclosing process"
+        ]
+    },
+    {
+        "question": "Question 59. Which is NOT an input of Class Design?",
+        "answers": [
+            "A. Implementation model"
+        ],
+        "correct_answers": [
+            "A. Implementation model"
+        ]
+    },
+    {
+        "question": "Question 1 Which statement is true about elements within the subsystem and public visibility?",
+        "answers": [
+            "A. Only the subset of elements that define the subsystems API should have public visibility.",
+            "B. Only the subsystem proxy class should have public visibility.",
+            "C. No elements inside the subsystem should have public visibility.",
+            "D. Only the elements that reference external classes should have public visibility."
+        ],
+        "correct_answers": [
+            "C. No elements inside the subsystem should have public visibility."
+        ]
+    },
+    {
+        "question": "Question 2 What are the two types of dependency that can be used from a subsystem? (Choose two.)",
+        "answers": [
+            "A. <<uses>> dependency to a subsystem interface",
+            "B. an <<import>> dependency to a package containing used classes",
+            "C. a <<manifest>> relationship to a node in the Deployment model",
+            "D. a <<realize>> relationship to one or more collaboration occurrences"
+        ],
+        "correct_answers": [
+            "A. <<uses>> dependency to a subsystem interface",
+            "B. an <<import>> dependency to a package containing used classes"
+        ]
+    },
+    {
+        "question": "Question 3 Which task is performed during use-case realization refinement?",
+        "answers": [
+            "A. identify participating classes",
+            "B. allocate responsibilities among classes",
+            "C. model messages between classes",
+            "D. model associated class relationships"
+        ],
+        "correct_answers": [
+            "D. model associated class relationships"
+        ]
+    },
+    {
+        "question": "Question 4 Which statement is true about design subsystems?",
+        "answers": [
+            "A. They partially encapsulate behavior.",
+            "B. They represent an independent capability with clear interfaces.",
+            "C. They model a single implementation variant.",
+            "D. They can only contain design classes."
+        ],
+        "correct_answers": [
+            "B. They represent an independent capability with clear interfaces."
+        ]
+    },
+    {
+        "question": "Question 5 Given the following configuration: Package A, which contains class aClass is in the presentation layer. Package B, which contains a class bClass and an interface bInterface is in the business layer. Package C, which contains cClass is in the data layer. Which is a poor practice?",
+        "answers": [
+            "A. aClass calls a method in bClass.",
+            "B. aClass has an attribute of type cClass.",
+            "C. aClass realizes bInterface.",
+            "D. bClass realizes bInterface."
+        ],
+        "correct_answers": [
+            "B. aClass has an attribute of type cClass."
+        ]
+    },
+    {
+        "question": "Question 6 Which process document describes design mechanisms, any mappings between design mechanisms, and the details regarding their use?",
+        "answers": [
+            "A. Software Architecture Document",
+            "B. Design Guidelines",
+            "C. Vision Document",
+            "D. Software Development Plan"
+        ],
+        "correct_answers": [
+            "C. Vision Document"
+        ]
+    },
+    {
+        "question": "Question 7 In the state of a state machine, a behavior can be defined ______.",
+        "answers": [
+            "A. before reaching a state",
+            "B. upon reaching a state",
+            "C. upon leaving a state",
+            "D. inside a state"
+        ],
+        "correct_answers": [
+            "B. upon reaching a state",
+            "C. upon leaving a state",
+            "D. inside a state"
+        ]
+    },
+    {
+        "question": "Question 8 What is a gate?",
+        "answers": [
+            "A. a parameter that represents a message that crosses the boundary of an interaction or interaction fragment",
+            "B. a defined protocol for accessing the internals of a subsystem",
+            "C. a decision point in a state machine that has more than two alternatives",
+            "D. a set of checkpoints each subsystem design must satisfy before it can be assigned for  implementation"
+        ],
+        "correct_answers": [
+            "A. a parameter that represents a message that crosses the boundary of an interaction or interaction fragment"
+        ]
+    },
+    {
+        "question": "Question 9 When identifying design elements, a simple analysis class will map to a(n) .",
+        "answers": [
+            "A. active class",
+            "B. interface",
+            "C. design class",
+            "D. subsystem"
+        ],
+        "correct_answers": [
+            "C. design class"
+        ]
+    },
+    {
+        "question": "Question 10 In which OOAD activity is the distribution mechanism identified?",
+        "answers": [
+            "A. Identify Design Elements",
+            "B. Identify Design Mechanisms",
+            "C. Class Design",
+            "D. Architectural Analysis"
+        ],
+        "correct_answers": [
+            "B. Identify Design Mechanisms"
+        ]
+    },
+    {
+        "question": "Question 11 In the diagram, what is E?",
+        "answers": [
+            "A. fork",
+            "B. initial state",
+            "C. decision",
+            "D. transition",
+            "E. final state",
+            "F. event",
+            "G. state",
+            "H. guard condition"
+        ],
+        "correct_answers": [
+            "H. guard condition"
+        ],
+        "image": "01.png"
+    },
+    {
+        "question": "Question 12 Identify Design Elements is part of which workflow detail?",
+        "answers": [
+            "A. Define a Candidate Architecture",
+            "B. Design Components",
+            "C. Perform Architectural",
+            "D. Refine the Architecture"
+        ],
+        "correct_answers": [
+            "D. Refine the Architecture"
+        ]
+    },
+    {
+        "question": "Question 13 In the diagram, what is H?",
+        "answers": [
+            "A. fork",
+            "B. initial state",
+            "C. decision",
+            "D. transition E. final state F. event",
+            "G. state",
+            "H. guard condition"
+        ],
+        "correct_answers": [
+            "A. fork"
+        ],
+        "image": "02.png"
+    },
+    {
+        "question": "Question 14 What is the relationship between operation and method?",
+        "answers": [
+            "A. The terms are synonymous.",
+            "B. An operation describes how a method is implemented.",
+            "C. A method describes how an operation is implemented.",
+            "D. There is no relationship."
+        ],
+        "correct_answers": [
+            "C. A method describes how an operation is implemented."
+        ]
+    },
+    {
+        "question": "Question 15 Why would you use subsystem interfaces rather than subsystem instances on sequence  diagrams?",
+        "answers": [
+            "A. to make it easier to model subsystems during Subsystem Design",
+            "B. to make use-case realizations easier to change",
+            "C. to ease sequence diagram maintenance when message signatures change",
+            "D. to reduce the number of classes needed to implement the subsystem"
+        ],
+        "correct_answers": [
+            "B. to make use-case realizations easier to change"
+        ]
+    },
+    {
+        "question": "Question 16 Which is an input artifact to the Identify Design Elements activity?",
+        "answers": [
+            "A. Deployment Model",
+            "B. Implementation Model",
+            "C. Reference Architecture",
+            "D. Software Architecture Document"
+        ],
+        "correct_answers": [
+            "D. Software Architecture Document"
+        ]
+    },
+    {
+        "question": "Question 17 What is an important consideration when allocating processes to nodes?",
+        "answers": [
+            "A. minimizing network traffic",
+            "B. minimizing power consumption",
+            "C. utilizing all available nodes",
+            "D. physical distance between nodes"
+        ],
+        "correct_answers": [
+            "A. minimizing network traffic"
+        ]
+    },
+    {
+        "question": "Question 18 Which type of mechanism is a connector on a deployment diagram?",
+        "answers": [
+            "A. backup",
+            "B. communication",
+            "C. transaction",
+            "D. computation"
+        ],
+        "correct_answers": [
+            "B. communication"
+        ]
+    },
+    {
+        "question": "Question 19 A design mechanism _______.",
+        "answers": [
+            "A. captures the key aspects of a solution in a way that is implementation-independent",
+            "B. specifies the exact implementation of the mechanism and is bound to a certain technology, implementation language, or vendor",
+            "C. is the same as a design pattern",
+            "D. assumes some details of the implementation environment, but is not tied to a specific implementation"
+        ],
+        "correct_answers": [
+            "D. assumes some details of the implementation environment, but is not tied to a specific implementation"
+        ]
+    },
+    {
+        "question": "Question 20 When identifying interfaces during the Identify Design Elements activity, which  statement is true?",
+        "answers": [
+            "A. Classes should not realize an interface.",
+            "B. Each subsystem realizes only one interface.",
+            "C. Interfaces should be identified before subsystems are created.",
+            "D. Interfaces should be packaged separately from the elements that realize them."
+        ],
+        "correct_answers": [
+            "D. Interfaces should be packaged separately from the elements that realize them."
+        ]
+    },
+    {
+        "question": "Question 21 Additional subsystems can be discovered during Use Case Design by noting _______.",
+        "answers": [
+            "A. common subflows between objects on several sequence diagrams",
+            "B. similar objects on several sequence diagrams",
+            "C. a consistent series of state transitions for multiple classes involved in a use-case realization",
+            "D. the same design classes involved in more than one use-case realization"
+        ],
+        "correct_answers": [
+            "A. common subflows between objects on several sequence diagrams"
+        ]
+    },
+    {
+        "question": "Question 22 Which activities are performed during Use Case Design?",
+        "answers": [
+            "A. converting analysis classes into design classes and design subsystems",
+            "B. describing persistence-related behavior",
+            "C. describing object interactions that implement interface operations",
+            "D. simplifying sequence diagrams using design classes"
+        ],
+        "correct_answers": [
+            "B. describing persistence-related behavior"
+        ]
+    },
+    {
+        "question": "Question 23 On a sequence diagram, what is used to represent a specific subsystem?",
+        "answers": [
+            "A. an interface that the subsystem realizes",
+            "B. a subsystem proxy",
+            "C. a subsystem component",
+            "D. a subsystem class"
+        ],
+        "correct_answers": [
+            "C. a subsystem component"
+        ]
+    },
+    {
+        "question": "Question 24 Which UML elements are used to describe the physical architecture of a system?",
+        "answers": [
+            "A. classes and relationships",
+            "B. objects and messages",
+            "C. subsystems and dependencies",
+            "D. nodes and connectors"
+        ],
+        "correct_answers": [
+            "D. nodes and connectors"
+        ]
+    },
+    {
+        "question": "Question 25 Which artifact is used to describe use-case realizations?",
+        "answers": [
+            "A. textual use-case descriptions",
+            "B. communication diagrams",
+            "C. state charts",
+            "D. activity diagrams"
+        ],
+        "correct_answers": [
+            "B. communication diagrams"
+        ]
+    },
+    {
+        "question": "Question 26 What defines a subsystems responsibilities?",
+        "answers": [
+            "A. its internal class behavior",
+            "B. the operations of the interfaces it implements",
+            "C. the use-case realizations in which the subsystem appears",
+            "D. the operations on a class contained within the subsystem"
+        ],
+        "correct_answers": [
+            "B. the operations of the interfaces it implements"
+        ]
+    },
+    {
+        "question": "Question 27 Which is a design mechanism?",
+        "answers": [
+            "A. Persistency",
+            "B. ObjectStore Object-oriented Database",
+            "C. Distribution",
+            "D. Remote Method Invocation"
+        ],
+        "correct_answers": [
+            "D. Remote Method Invocation"
+        ]
+    },
+    {
+        "question": "Question 28 To begin identifying design mechanisms, you start by categorizing analysis mechanisms. What are three steps in the process of Categorizing Analysis Mechanisms? (Choose three.)",
+        "answers": [
+            "A. identify characteristic profiles for each analysis mechanism",
+            "B. identify the clients of each analysis mechanism",
+            "C. assign a vendor implementation to each analysis mechanism",
+            "D. group clients according to their use of characteristic profiles"
+        ],
+        "correct_answers": [
+            "A. identify characteristic profiles for each analysis mechanism",
+            "B. identify the clients of each analysis mechanism",
+            "D. group clients according to their use of characteristic profiles"
+        ]
+    },
+    {
+        "question": "Question 29 In Subsystem Design, what happens in the step, Distribute Subsystem Responsibilities?",
+        "answers": [
+            "A. The subsystems responsibilities are allocated to its internal design elements.",
+            "B. Each subsystem is checked to ensure it has a consistent set of responsibilities and inconsistent responsibilities are reassigned to other subsystems.",
+            "C. Libraries and external APIs are identified to realize the subsystem behavior.",
+            "D. Distribution mechanisms are detailed for exposing subsystem interfaces."
+        ],
+        "correct_answers": [
+            "A. The subsystems responsibilities are allocated to its internal design elements."
+        ]
+    },
+    {
+        "question": "Question 30 Which entity has a well-defined boundary and identity that encapsulates state and  behavior?",
+        "answers": [
+            "A. class",
+            "B. object",
+            "C. component",
+            "D. package"
+        ],
+        "correct_answers": [
+            "B. object"
+        ]
+    },
+    {
+        "question": "Question 31 What is the purpose of the Identify Design Mechanisms activity?",
+        "answers": [
+            "A. to refine the analysis mechanisms and specify the exact implementation of the mechanism",
+            "B. to provide a conceptual set of services that is used by analysis objects",
+            "C. to refine analysis mechanisms into design mechanisms, based on the constraints imposed by the implementation environment",
+            "D. to define design placeholders in the architecture so the architecting effort remains focused and is less likely to become sidetracked"
+        ],
+        "correct_answers": [
+            "C. to refine analysis mechanisms into design mechanisms, based on the constraints imposed by the implementation environment"
+        ]
+    },
+    {
+        "question": "Question 32 In a dependency, through what reference does the client class gain visibility to the supplier?",
+        "answers": [
+            "A. local reference",
+            "B. parameter reference",
+            "C. global reference",
+            "D. field reference"
+        ],
+        "correct_answers": [
+            "A. local reference",
+            "B. parameter reference",
+            "C. global reference"
+        ]
+    },
+    {
+        "question": "Question 32 In a dependency, which reference means that the supplier object is a data member in the client object?",
+        "answers": [
+            "A. local reference",
+            "B. parameter reference",
+            "C. global reference",
+            "D. field reference"
+        ],
+        "correct_answers": [
+            "D. field reference"
+        ]
+    },
+    {
+        "question": "Question 33 In which Analysis and Design activity are subsystems mapped to analysis classes?",
+        "answers": [
+            "A. Architectural Analysis",
+            "B. Identify Design Elements",
+            "C. Identify Subsystems",
+            "D. Incorporate Existing Design Elements"
+        ],
+        "correct_answers": [
+            "B. Identify Design Elements"
+        ]
+    },
+    {
+        "question": "Question 34 Which design element is used to represent a concurrent object?",
+        "answers": [
+            "A. active class",
+            "B. capsule",
+            "C. design class",
+            "D. event"
+        ],
+        "correct_answers": [
+            "A. active class"
+        ]
+    },
+    {
+        "question": "Question 35 The Describe Distribution activity is where the processes defined in the Describe the Run-time Architecture activity are allocated to ________.",
+        "answers": [
+            "A. physical nodes",
+            "B. components",
+            "C. classes",
+            "D. activities"
+        ],
+        "correct_answers": [
+            "A. physical nodes"
+        ]
+    },
+    {
+        "question": "Question 36 During Subsystem Design, how many interaction diagrams (sequence or communication) should be created?",
+        "answers": [
+            "A. at least one interaction diagram per interface operation",
+            "B. one interaction diagram per interface realization",
+            "C. at least one interaction diagram for each use of an external interface",
+            "D. one interaction diagram for each realizing class"
+        ],
+        "correct_answers": [
+            "A. at least one interaction diagram per interface operation"
+        ]
+    },
+    {
+        "question": "Question 37 A directed graph of nodes connected by transitions is a diagram.",
+        "answers": [
+            "A. communication",
+            "B. sequence",
+            "C. component",
+            "D. state machine"
+        ],
+        "correct_answers": [
+            "D. state machine"
+        ]
+    },
+    {
+        "question": "Question 38 In the diagram, what is F?",
+        "answers": [
+            "A. fork",
+            "B. initial state",
+            "C. decision D. transition",
+            "E. final state",
+            "F. event",
+            "G. state",
+            "H. guard condition"
+        ],
+        "correct_answers": [
+            "F. event"
+        ],
+        "image": "03.png"
+    },
+    {
+        "question": "Question 39 Use Case Design is part of which workflow detail?",
+        "answers": [
+            "A. Design Use Cases",
+            "B. Analyze Behavior",
+            "C. Design Components",
+            "D. Design Classes and Subsystems"
+        ],
+        "correct_answers": [
+            "C. Design Components"
+        ]
+    },
+    {
+        "question": "Question 40 When does an analysis class map directly to a design class?",
+        "answers": [
+            "A. when the analysis class uses the <entity> stereotype",
+            "B. when the analysis class represents a single logical abstraction",
+            "C. when the modeling tool supports transformation of Analysis Models to Design",
+            "D. when an analyst has strong design skills"
+        ],
+        "correct_answers": [
+            "B. when the analysis class represents a single logical abstraction"
+        ]
+    },
+    {
+        "question": "Question 41 What is a design subsystems primary purpose?",
+        "answers": [
+            "A. provides configuration management and model organization",
+            "B. encapsulates behavior",
+            "C. packages similar design classes together",
+            "D. represents external systems"
+        ],
+        "correct_answers": [
+            "B. encapsulates behavior"
+        ]
+    },
+    {
+        "question": "Question 42 What is the purpose of subsystem design?",
+        "answers": [
+            "A. finalizes the details of each interface implemented by the subsystems in an application",
+            "B. breaks the system up into subsystems in order to allocate subsystems to development teams",
+            "C. defines the behaviors specified in the subsystem's interfaces in terms of collaborations of contained design elements",
+            "D. defines on which tier each subsystem will be implemented and the communication mechanisms used between them"
+        ],
+        "correct_answers": [
+            "C. defines the behaviors specified in the subsystem's interfaces in terms of collaborations of contained design elements"
+        ]
+    },
+    {
+        "question": "Question 43 In the diagram, what are C1 and C2?",
+        "answers": [
+            "A. forks",
+            "B. initial states",
+            "C. decisions",
+            "D. transitions",
+            "E. final states",
+            "F. events",
+            "G. states",
+            "H. guard conditions"
+        ],
+        "correct_answers": [
+            "G. states"
+        ],
+        "image": "04.png"
+    },
+    {
+        "question": "Question 44 Defining the network configuration is the step of the Describe the Distribution activity.",
+        "answers": [
+            "A. final",
+            "B. first",
+            "C. second",
+            "D. fifth"
+        ],
+        "correct_answers": [
+            "B. first"
+        ]
+    },
+    {
+        "question": "Question 45 In the diagram, what is B?",
+        "answers": [
+            "A. fork",
+            "B. initial state",
+            "C. decision",
+            "D. transition E. final state F. event",
+            "G. state",
+            "H. guard condition"
+        ],
+        "correct_answers": [
+            "B. initial state"
+        ],
+        "image": "05.png"
+    },
+    {
+        "question": "Question 46 Which statement is true about packages and subsystems?",
+        "answers": [
+            "A. A package cannot contain a subsystem.",
+            "B. A package provides behavior.",
+            "C. A subsystem provides behavior.",
+            "D. You use a package when you need to encapsulate behavior."
+        ],
+        "correct_answers": [
+            "C. A subsystem provides behavior."
+        ]
+    },
+    {
+        "question": "Question 47 How many physical nodes should be identified in order to perform the Describe Distribution activity?",
+        "answers": [
+            "A. zero nodes only",
+            "B. one node only",
+            "C. zero nodes or one node",
+            "D. more than one node"
+        ],
+        "correct_answers": [
+            "D. more than one node"
+        ]
+    },
+    {
+        "question": "Question 48 Supplemental sequence diagram documentation, in the form of notes and scripts, is commonly used for ______. (Choose three.)",
+        "answers": [
+            "A. describing required timing between messages",
+            "B. providing details about conditional behavior",
+            "C. specifying the attributes for objects that appear in the diagram",
+            "D. correlating extension points in the use case with specific locations in the sequence diagrams"
+        ],
+        "correct_answers": [
+            "A. describing required timing between messages",
+            "B. providing details about conditional behavior",
+            "D. correlating extension points in the use case with specific locations in the sequence diagrams"
+        ]
+    },
+    {
+        "question": "Question 49 What is used to describe the process of applying a distribution mechanism during implementation?",
+        "answers": [
+            "A. activity diagram",
+            "B. flowchart",
+            "C. UML pattern and written steps",
+            "D. use-case diagram"
+        ],
+        "correct_answers": [
+            "C. UML pattern and written steps"
+        ]
+    },
+    {
+        "question": "Question 50 Given information provided in the diagram, which statement is true?",
+        "answers": [
+            "A. Lion and Tiger communicate with each other.",
+            "B. Lion and Tiger communicate with Animal.",
+            "C. Animal may not have direct instances.",
+            "D. Instances of Animal communicate differently than instances of Lion or Tiger."
+        ],
+        "correct_answers": [
+            "C. Animal may not have direct instances."
+        ],
+        "image": "06.png"
+    },
+    {
+        "question": "Question 51 What does an underlined attribute indicate?",
+        "answers": [
+            "A. The attribute is read-only.",
+            "B. The attribute is derived from other attributes.",
+            "C. The attribute uniquely identifies instances.",
+            "D. The attribute is defined at the classifier level instead of the instance level."
+        ],
+        "correct_answers": [
+            "D. The attribute is defined at the classifier level instead of the instance level."
+        ]
+    },
+    {
+        "question": "Question 52 In the diagram, the attribute CourseOffering.numberOfStudents is an example of _________.",
+        "answers": [
+            "A. a bad design",
+            "B. a static attribute",
+            "C. a derived attribute",
+            "D. non-standard naming"
+        ],
+        "correct_answers": [
+            "C. a derived attribute"
+        ],
+        "image": "07.png"
+    },
+    {
+        "question": "Question 53 In the diagram, what is A?",
+        "answers": [
+            "A. fork",
+            "B. initial state",
+            "C. decision",
+            "D. transition",
+            "E. final state",
+            "F. event",
+            "G. state",
+            "H. guard condition"
+        ],
+        "correct_answers": [
+            "E. final state"
+        ],
+        "image": "08.png"
+    },
+    {
+        "question": "Question 54 With respect to persistence, what are two functions of transactions? (Choose two.)",
+        "answers": [
+            "A. ensure that a set of operations is performed either in total, or not at all",
+            "B. enable a designer to selectively define operations that will be executed with priority when there is a shortage of system resources",
+            "C. ensure that sets of objects move from one consistent state to another",
+            "D. simplify design work, so that persistence does not need to be explicitly considered during Use Case Design",
+            "E. simply design work, by providing standardized approaches for representing persistent objects in UML"
+        ],
+        "correct_answers": [
+            "A. ensure that a set of operations is performed either in total, or not at all",
+            "C. ensure that sets of objects move from one consistent state to another"
+        ]
+    },
+    {
+        "question": "Question 55 What are three purposes of Use Case Design? (Choose three)",
+        "answers": [
+            "A. to refine use-case realizations in terms of interactions",
+            "B. to ensure the completeness of the View of Participating Classes diagrams for each use-case realization",
+            "C. to refine requirements on the operations of design classes",
+            "D. to refine requirements on the operations of design subsystems and/or their interfaces"
+        ],
+        "correct_answers": [
+            "A. to refine use-case realizations in terms of interactions",
+            "C. to refine requirements on the operations of design classes",
+            "D. to refine requirements on the operations of design subsystems and/or their interfaces"
+        ]
+    },
+    {
+        "question": "Question 56 Which is a Use Case Design output artifact?",
+        "answers": [
+            "A. analysis classes",
+            "B. design classes",
+            "C. interfaces",
+            "D. the Design Model"
+        ],
+        "correct_answers": [
+            "D. the Design Model"
+        ]
+    },
+    {
+        "question": "Question 57 Which is an example of an Execution Environment?",
+        "answers": [
+            "A. Gigabit network switch",
+            "B. virtual private network",
+            "C. J2EE application server",
+            "D. handheld computer"
+        ],
+        "correct_answers": [
+            "C. J2EE application server"
+        ]
+    },
+    {
+        "question": "Question 58 The purpose of Unify Classes and Subsystems is to ensure __________.",
+        "answers": [
+            "A. each subsystem has a corresponding subsystem component",
+            "B. all classes are assigned to at most one subsystem",
+            "C. the responsibilities of design elements do not overlap",
+            "D. each defined interface has a cohesive and coherent API"
+        ],
+        "correct_answers": [
+            "C. the responsibilities of design elements do not overlap"
+        ]
+    },
+    {
+        "question": "Question 59 Which is a guideline for encapsulating subsystem interactions on sequence diagrams?",
+        "answers": [
+            "A. Messages to subsystems should correspond to subsystem interface operations.",
+            "B. Messages from subsystems should correspond to operations of the subsystem component.",
+            "C. During Use Case Design, secondary sequence diagrams should be created to model the interactions within subsystems.",
+            "D. A subsystem should be represented on sequence diagrams using its subsystem component."
+        ],
+        "correct_answers": [
+            "A. Messages to subsystems should correspond to subsystem interface operations."
+        ]
+    },
+    {
+        "question": "Question 60 Which is an example of a connector?",
+        "answers": [
+            "A. SCSI Hard Disk",
+            "B. Uninterruptible Power Supply",
+            "C. HTTP protocol*",
+            "D. JDBC class"
+        ],
+        "correct_answers": [
+            "C. HTTP protocol*"
+        ]
+    },
+    {
+        "question": "Question 71 In the diagram, what is G?",
+        "answers": [
+            "A. fork",
+            "B. initial state",
+            "C. decision",
+            "D. transition",
+            "E. final state",
+            "F. event",
+            "G. state",
+            "H. guard condition",
+            "D. Refine the Architecture"
+        ],
+        "correct_answers": [],
+        "image": "09.png"
+    },
+    {
+        "question": "Question 86 Which is a device?",
+        "answers": [
+            "A. database server",
+            "B. web server",
+            "C. virtual private network",
+            "D. handheld computer"
+        ],
+        "correct_answers": [
+            "C. decision"
+        ]
+    },
+    {
+        "question": "Question 86 Which is a device?",
+        "answers": [
+            "A. database server",
+            "B. web server",
+            "C. virtual private network",
+            "D. handheld computer"
+        ],
+        "correct_answers": [
+            "D. handheld computer"
+        ]
+    },
+    {
+        "question": "Question 88 In the below diagram, what is A?",
+        "answers": [
+            "A. fork",
+            "B. initial state",
+            "C. decision",
+            "D. transition",
+            "E. final state",
+            "F. event",
+            "G. state",
+            "H. guard condition"
+        ],
+        "correct_answers": [
+            "E. final state"
+        ],
+        "image": "10.png"
+    },
+    {
+        "question": "Question 90 Which 4+1 view is the focus of the Describe Distribution activity?",
+        "answers": [
+            "A. Logical View",
+            "B. Deployment View",
+            "C. Use Case View",
+            "D. Implementation View"
+        ],
+        "correct_answers": [
+            "B. Deployment View"
+        ]
+    },
+    {
+        "question": "Question 95 Which three activities are elements of Class Design? (Choose three.)",
+        "answers": [
+            "A. identify classes and relationships that support implementation of an architecture",
+            "B. identify and analyze state transitions in objects of state-controlled classes",
+            "C. identify classes that model the problem domain",
+            "D. refine relationships, operations and attributes"
+        ],
+        "correct_answers": [
+            "C. identify classes that model the problem domain"
+        ]
+    },
+    {
+        "question": "Question 96 In the diagram, what is D?",
+        "answers": [
+            "A. fork",
+            "B. initial state",
+            "C. decision",
+            "D. transition",
+            "E. final state",
+            "F. event",
+            "G. state",
+            "H. guard condition"
+        ],
+        "correct_answers": [
+            "D. transition"
+        ],
+        "image": "11.png"
+    },
+    {
+        "question": "Question 103 Artifacts are entities that _____.",
+        "answers": [
+            "A. host running software",
+            "B. are deployed onto physical nodes",
+            "C. are the result of model transformations",
+            "D. are stored in a browser cach"
+        ],
+        "correct_answers": [
+            "B. are deployed onto physical nodes"
+        ]
+    },
+    {
+        "question": "Question 104 Which two examples are true for analysis mechanism, design mechanism and",
+        "answers": [
+            "A. Persistencey -> RDBMS -> JDBC",
+            "B. Distribution -> Remote Method Invocation (RMI) -> JAVA SE 6 from Sun"
+        ],
+        "correct_answers": [
+            "A. Persistencey -> RDBMS -> JDBC",
+            "B. Distribution -> Remote Method Invocation (RMI) -> JAVA SE 6 from Sun"
+        ]
+    },
+    {
+        "question": "Question 105 Which are the output of Sub-system Design?",
+        "answers": [
+            "A. Design classes + Design Model + Design subsystem and interface"
+        ],
+        "correct_answers": [
+            "A. Design classes + Design Model + Design subsystem and interface"
+        ]
+    },
+    {
+        "question": "Question 106. Design Elements includes",
+        "answers": [
+            "A. Design classes + Subsystems + Packages"
+        ],
+        "correct_answers": [
+            "A. Design classes + Subsystems + Packages"
+        ],
+        "image": ""
+    }
+]
