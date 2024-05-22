@@ -874,7 +874,9 @@
             "A. fork",
             "B. initial state",
             "C. decision",
-            "D. transition E. final state F. event",
+            "D. transition",
+            "E. final state",
+            "F. event",
             "G. state",
             "H. guard condition"
         ],
@@ -1192,7 +1194,8 @@
         "answers": [
             "A. fork",
             "B. initial state",
-            "C. decision D. transition",
+            "C. decision",
+            "D. transition",
             "E. final state",
             "F. event",
             "G. state",
@@ -1286,7 +1289,9 @@
             "A. fork",
             "B. initial state",
             "C. decision",
-            "D. transition E. final state F. event",
+            "D. transition",
+            "E. final state",
+            "F. event",
             "G. state",
             "H. guard condition"
         ],
