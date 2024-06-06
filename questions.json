@@ -1,1636 +1,1944 @@
 [
     {
-        "question": "Question 1: Which statement is true?",
+        "question": "Ảnh kỹ thuật số là gì?",
         "answers": [
-            "A. The UML is a development process for software-intensive systems.",
-            "B. The UML is a process-dependent language used for visualizing software artifacts.",
-            "C. The UML is a modeling language for software blueprints.",
-            "D. The UML is a visual programming language."
+            "Là hàm rời rạc f(x, y) trên không gian hai chiều có miền xác định x, y hữu hạn",
+            "Không có câu trả lời đúng",
+            "Là thể hiện của các bước sóng trong miền nhìn thấy được của mắt người",
+            "Là hàm liên tục f(x, y) trên không gian hai chiều có miền xác định x, y hữu hạn"
         ],
-        "correct_answers": [
-            "C. The UML is a modeling language for software blueprints."
-        ]
+        "correct_answer": 0
     },
     {
-        "question": "Question 2: In which three ways does a structured class differ from a traditional class? (Choose three)",
+        "question": "Xử lý ảnh kỹ thuật số là gì?",
         "answers": [
-            "A. It clearly defines the class boundary via an encapsulation shell.",
-            "B. It brings public interfaces into the class via ports.",
-            "C. It shows the role that the class plays.",
-            "D. It defines messages between itself and other classes."
+            "Đây là một ứng dụng thay đổi video kỹ thuật số",
+            "Đây là một phần mềm cho phép thay đổi hình ảnh kỹ thuật số",
+            "Đây là một hệ thống điều khiển các phương tiện kỹ thuật số",
+            "Đây là một cỗ máy cho phép thay đổi hình ảnh kỹ thuật số"
         ],
-        "correct_answers": [
-            "A. It clearly defines the class boundary via an encapsulation shell.",
-            "B. It brings public interfaces into the class via ports.",
-            "C. It shows the role that the class plays."
-        ]
+        "correct_answer": 1
     },
     {
-        "question": "Question 3: Which is a characteristic of a structured class?",
+        "question": "Ví dụ nào sau đây là ví dụ về Xử lý ảnh kỹ thuật số?",
         "answers": [
-            "A. must have one interface for each role it plays",
-            "B. can play only one role, no matter how many objects transact with it",
-            "C. can play multiple roles that vary on the objects that interact with it",
-            "D. is limited to one role, but can have multiple interfaces"
+            "a. Đồ họa máy tính",
+            "b. Điểm ảnh",
+            "c. Cơ chế máy ảnh",
+            "d. Tất cả những điều đã đề cập"
         ],
-        "correct_answers": [
-            "C. can play multiple roles that vary on the objects that interact with it"
-        ]
+        "correct_answer": 3
     },
     {
-        "question": "Question 4: Which statement is true about an iterative development process?",
+        "question": "Xử lý ảnh kỹ thuật số có những loại nào?",
         "answers": [
-            "A. Testing and integration take place in every iteration.",
-            "B. An iteration focuses on partial completion of selected use-case realizations.",
-            "C. It encourages user feedback in later iterations.",
-            "D. It is based on functional decomposition of a system."
+            "Cải thiện hình ảnh",
+            "Phân loại và phân tích hình ảnh",
+            "Chuyển đổi hình ảnh",
+            "Tất cả những điều đã đề cập"
         ],
-        "correct_answers": [
-            "A. Testing and integration take place in every iteration."
-        ]
+        "correct_answer": 3
     },
     {
-        "question": "Question 5: Which two statements are true about interfaces? (Choose two)",
+        "question": "Phương pháp xử lý ảnh nào sau đây là nhanh nhất, chính xác và linh hoạt nhất?",
         "answers": [
-            "A. The interface should have a clear purpose.",
-            "B. A single interface should include as many possible methods, if not all methods, that may be shared by objects that implement the interface.",
-            "C. An interface should be used to restrict which methods are exposed to a client.",
-            "D. Classes may have multiple interfaces depending on the purpose of each interface it implements."
+            "Ảnh",
+            "Điện tử",
+            "Kỹ thuật số",
+            "Quang học"
         ],
-        "correct_answers": [
-            "A. The interface should have a clear purpose.",
-            "D: Classes may have multiple interfaces depending on the purpose of each interface it implements."
-        ]
+        "correct_answer": 2
     },
     {
-        "question": "Question 6: What is the focus of analysis?",
+        "question": "Trong các chức năng sau đây, chức năng nào có thể được thực hiện bởi xử lí ảnh kỹ thuật số?",
         "answers": [
-            "A. translating functional requirements into code",
-            "B. translating requirements into a system design",
-            "C. translating real-world concepts into solution-oriented objects",
-            "D. translating functional requirements into software concepts"
+            "Lưu trữ và trích xuất ảnh nhanh",
+            "Thu lấy dữ liệu ảnh số trong các điều kiện khác nhau",
+            "Định dạng lại ảnh",
+            "Các câu trả lời trên đều đúng"
         ],
-        "correct_answers": [
-            "C. translating real-world concepts into solution-oriented objects"
-        ]
+        "correct_answer": 3
     },
     {
-        "question": "Question 7: Why is encapsulation important? (Choose two)",
+        "question": "Thứ tự đúng của quy trình xử lý ảnh kỹ thuật số?",
         "answers": [
-            "A. It describes the relationship between two subclasses.",
-            "B. It places operations and attributes in the same object.",
-            "C. It allows other objects to change private operations and attributes of an object.",
-            "D. It prevents other objects from directly changing the attributes of an object."
+            "Thu nhận, Biểu diễn, Lưu trữ, Thao tác trên ảnh",
+            "Biểu diễn, Lưu trữ, Thu nhận, Thao tác trên ảnh",
+            "Lưu trữ, Thao tác, Thu nhận, Biểu diễn trên ảnh",
+            "Thu nhận, Biểu diễn, Thao tác, Lưu trữ trên ảnh"
         ],
-        "correct_answers": [
-            "B. It places operations and attributes in the same object.",
-            "D. It prevents other objects from directly changing the attributes of an object."
-        ]
+        "correct_answer": 0
     },
     {
-        "question": "Question 8: What are analysis classes?",
+        "question": "Quy trình nào sau đây thuộc vào quy trình xử lý ảnh kỹ thuật số?",
         "answers": [
-            "A. early conjectures on the composition of the system that usually change over time, rarely surviving intact into Implementation",
-            "B. incomplete classes that require a programmer to formalize operation signatures and attribute types before they can be implemented",
-            "C. the classes inside a system's Business Object or Domain Model, in UML form",
-            "D. a prototype of a system's user interface, developed during the Analysis Phase, which allows users to define the system's look and feel"
+            "Tăng chất lượng ảnh",
+            "Biến đổi ảnh",
+            "Phân tích ảnh",
+            "Các câu trả lời trên đều đúng"
         ],
-        "correct_answers": [
-            "C: the classes inside a system's Business Object or Domain Model, in UML form"
-        ]
+        "correct_answer": 3
     },
     {
-        "question": "Question. 9 An architect looks at two classes. The first class has the following operations: getName(), getSize(), getTotal(), and findAverage(). The second class has the following operations: getName(),getSize(), findAverage(), findMinimum(), and findMaximum(). The two classes share the same superclass. Which operations are most likely contained in the superclass?",
+        "question": "Bước nào được thực hiện đầu tiên trong xử lí ảnh tín hiệu số?",
         "answers": [
-            "A. getName(), getSize(), and findAverage()",
-            "B. findMaximum(), findMinimum(), getSize(), and getTotal()",
-            "C. getName(), findAverage(), and findMaximum()",
-            "D. getName(), getSize(), getTotal(), and findAverage()"
+            "Khôi phục ảnh",
+            "Phân vùng ảnh",
+            "Thu dữ liệu ảnh",
+            "Tăng chất lượng ảnh"
         ],
-        "correct_answers": [
-            "A. getName(), getSize(), and findAverage()"
-        ]
+        "correct_answer": 2
     },
     {
-        "question": "Question. 10 An architect is responsible for creating an Analysis Model for a system. Which area of focus is essential for the creation of this model?",
+        "question": "Bước nào là bước quan trọng nhất trong xử lí ảnh tín hiệu số?",
         "answers": [
-            "A. hardware on which the system will be deployed",
-            "B. behavior of the objects that comprise the system",
-            "C. evolution of analysis classes into design classes",
-            "D. performance requirements of the system"
+            "Khôi phục ảnh",
+            "Phân vùng ảnh",
+            "Thu dữ liệu ảnh",
+            "Tăng chất lượng ảnh"
         ],
-        "correct_answers": [
-            "B. behavior of the objects that comprise the system"
-        ]
+        "correct_answer": 2
     },
     {
-        "question": "Question. 11 What does a required interface do?",
+        "question": "Chọn yếu tố không đóng vai trò trong thu nhận ảnh?",
         "answers": [
-            "A. exposes services to anonymous requestors",
-            "B. uses the services that a classifier requires to request from anonymous providers",
-            "C. declares the services that a classifier offers to provide anonymous requestors",
-            "D. exposes methods that the requestor must use"
+            "Cảm quang",
+            "Hấp thụ ánh sáng",
+            "Lấy mẫu và lượng từ hóa",
+            "Nguồn sáng"
         ],
-        "correct_answers": [
-            "B. uses the services that a classifier requires to request from anonymous providers"
-        ]
+        "correct_answer": 2
     },
     {
-        "question": "Question. 12 In a sequence diagram, each interaction on the diagram maps to .",
+        "question": "Quá trình lượng tử hóa để thu nhận ảnh số trong các thiết bị chụp ảnh là để _____________",
         "answers": [
-            "A. a choice point on a state diagram",
-            "B. the transition on a state diagram",
-            "C. a state on the diagram",
-            "D. the initial state"
+            "Xác định thời gian cần chụp ảnh để thu nhận ảnh với chất lượng tốt nhất",
+            "Xác định kích thước của ảnh",
+            "Xác định giá trị của trạng thái ô nhớ của một điểm ảnh",
+            "Phát hiện chất lượng của nguồn sáng"
         ],
-        "correct_answers": [
-            "B. the transition on a state diagram"
-        ]
+        "correct_answer": 2
     },
     {
-        "question": "Question. 13 Which two questions does the use of multiplicity on relationships allow you to answer? (Choose two.)",
+        "question": "Đối tượng nghiên cứu của môn xử lý ảnh?",
         "answers": [
-            "A. Is the relationship mandatory or optional?",
-            "B. How many links can an object of one type maintain with objects of another type?",
-            "C. Is an object of a given type permitted to interact with objects of another type?",
-            "D. Is the relationship between objects permanent or temporary"
+            "Cách tạo thành ảnh số",
+            "Các thao tác cơ bản và nâng cao để biến đổi ảnh theo mục đích cho trước",
+            "Trích chọn đặc trưng và thông tin ngữ nghĩa từ ảnh",
+            "Cả a, b, c đều đúng"
         ],
-        "correct_answers": [
-            "A. Is the relationship mandatory or optional?",
-            "B. How many links can an object of one type maintain with objects of another type?"
-        ]
+        "correct_answer": 3
     },
     {
-        "question": "Question. 14 What are two important considerations when diagramming state? (Choose two.)",
+        "question": "Điều nào sau đây đúng với một hình ảnh?",
         "answers": [
-            "A. Any time a message is received; there may be a change of state.",
-            "B. Any time a message is received; there must be a change of state.",
-            "C. Whenever there is a change of state, there is a transition.",
-            "D. Changing state may not change transition."
+            "Ảnh là phép nhân thành phần chiếu sáng và thành phần phản xạ",
+            "Ảnh là phép trừ thành phần phản xạ khỏi thành phần chiếu sáng",
+            "Ảnh là phép trừ thành phần chiếu sáng khỏi thành phần phản xạ",
+            "Ảnh là phép cộng thành phần chiếu sáng và thành phần phản xạ"
         ],
-        "correct_answers": [
-            "A. Any time a message is received; there may be a change of state.",
-            "C. Whenever there is a change of state, there is a transition."
-        ]
+        "correct_answer": 0
     },
     {
-        "question": "Question. 15 Which statement is true about circular dependencies?",
+        "question": "Yếu tố nào quyết định chất lượng ảnh?",
         "answers": [
-            "A. They do not matter.",
-            "B. They are prohibited.",
-            "C. They must be avoided.",
-            "D. When there are more than two packages, they are irrelevant."
+            "Số giá trị cấp độ sáng của ảnh",
+            "Số lượng điểm lấy mẫu",
+            "Số giá trị cấp độ sáng của ảnh và số lượng điểm lấy mẫu",
+            "Không có câu trả lời đúng"
         ],
-        "correct_answers": [
-            "C. They must be avoided."
-        ]
+        "correct_answer": 2
     },
     {
-        "question": "Question. 16 What is the purpose of Architectural Analysis?",
+        "question": "Sự hình thành hình ảnh trong mắt khác với sự hình thành hình ảnh trong máy ảnh như thế nào?",
         "answers": [
-            "A. to detail the design of the system",
-            "B. to review the architecture of the system",
-            "C. to define a candidate architecture for the system",
-            "D. to define the layers of the architecture"
+            "Tiêu cự cố định",
+            "Khoảng cách khác nhau giữa thấu kính và mặt phẳng tạo ảnh",
+            "Không có sự khác biệt",
+            "Tiêu cự thay đổi"
         ],
-        "correct_answers": [
-            "C. to define a candidate architecture for the system"
-        ]
+        "correct_answer": 3
     },
     {
-        "question": "Question. 17 When the interfaces between two classes have been defined from a sequence",
+        "question": "Tham số trong của máy ảnh bao gồm yếu tố nào sau đây?",
         "answers": [
-            "A. interface",
-            "B. operations the class performs",
-            "C. user of the system",
-            "D. attributes passed in the sequence diagram"
+            "Kích thước điểm ảnh so với kích thước thật",
+            "Vector thể hiện góc nhìn của máy ảnh trong hệ tọa độ thế giới",
+            "Tọa độ của máy ảnh trong hệ tọa độ thế giới.",
+            "Không có câu trả lời đúng"
         ],
-        "correct_answers": [
-            "A. interface"
-        ]
+        "correct_answer": 0
     },
     {
-        "question": "Question. 18 Which statement is true about attributes?",
+        "question": "Tham số ngoài của máy ảnh bao gồm yếu tố nào sau đây?",
         "answers": [
-            "A. They cannot change once the object is instantiated.",
-            "B. They change value from object to object of the same class.",
-            "C. They can only be primitives.",
-            "D. They are required for every class."
+            "Kích thước điểm ảnh so với kích thước thật",
+            "Vector thể hiện góc nhìn của máy ảnh",
+            "Tiêu cự của máy ảnh",
+            "Không có câu trả lời đúng"
         ],
-        "correct_answers": [
-            "B. They change value from object to object of the same class."
-        ]
+        "correct_answer": 3
     },
     {
-        "question": "Question. 19 What are the three purposes of Analysis and Design? (Choose three.)",
+        "question": "Nơi nào trong mắt người chứa tập trung nhiều tế bào nhạy sáng nhất, giúp chúng ta nhìn rõ nhất vào ban đêm?",
         "answers": [
-            "A. to provide an organizational context for the system",
-            "B. to transform the requirements into a design of the to-be system",
-            "C. to evolve a robust architecture for the system",
-            "D. to scope the system to be built and describe what it must do",
-            "E. to adapt the design to match the implementation environment"
+            "Giác mạc",
+            "Trống mắt",
+            "Thủy tinh thể",
+            "Retina"
         ],
-        "correct_answers": [
-            "B. to transform the requirements into a design of the to-be system",
-            "C. to evolve a robust architecture for the system",
-            "E. to adapt the design to match the implementation environment"
-        ]
+        "correct_answer": 3
     },
     {
-        "question": "Question. 20 Objects that are polymorphic _______.",
+        "question": "Lớp màng trong cùng của mắt người là ______________a. Điểm mù",
         "answers": [
-            "A. must have the same attributes",
-            "B. share all the same operations, and the operations perform the same",
-            "C. can only be implemented through interfaces",
-            "D. may have the same operation names but the operations perform differently"
+            "Củng mạc",
+            "Màng mạch",
+            "Võng mạc"
         ],
-        "correct_answers": [
-            "D. may have the same operation names but the operations perform differently"
-        ]
+        "correct_answer": 2
     },
     {
-        "question": "Question. 21 Which is a best practice for nesting structured classes?",
+        "question": "Mắt người có thể cảm nhận được màu sắc thông qua?",
         "answers": [
-            "A. should limit the nesting of structured classes to two levels per diagram",
-            "B. should display all substructured classes of a structured class in a single to show the depth of interactions",
-            "C. should be limited to one level of depth, thereby allowing the user to navigate from diagram to",
-            "D. should be determined by the architect during the design phase"
+            "Tế bào thần kinh trong võng mạc",
+            "Tế bào hình nón (Cones)",
+            "Tế bào thần kinh trong não",
+            "Tế bào hình que (Rods)"
         ],
-        "correct_answers": [
-            "A. should limit the nesting of structured classes to two levels per diagram"
-        ]
+        "correct_answer": 1
     },
     {
-        "question": "Question. 22 During Architectural Analysis, a Software Architect wants to reduce the complexity of the system at work and improve its consistency. What should the Software Architect define to accomplish this?",
+        "question": "Người có khả năng phân biệt cường độ sáng tốt hơn nhiều so với khả năng phân biệt màu sắc, nguyên nhân do __________________",
         "answers": [
-            "A. coding rules",
-            "B. use-case realizations",
-            "C. analysis mechanisms",
-            "D. design mechanisms"
+            "Não người phân tích kênh độ sáng tốt hơn kênh màu sắc",
+            "Mật độ tế bào hình que (Rods) lớn hơn mật độ tế bào hình nón (Cones)",
+            "Ánh sáng trắng bị hấp thụ nhiều hơn ánh sáng màu khi đi qua nhãn cầu",
+            "Số loại tế bào hình nón nhiều số loại tế bào hình que"
         ],
-        "correct_answers": [
-            "C. analysis mechanisms"
-        ]
+        "correct_answer": 1
     },
     {
-        "question": "Question. 23 Which two characteristics do all objects have? (Choose two.)",
+        "question": "Pixel là gì?",
         "answers": [
-            "A. primitives",
-            "B. state and behavior",
-            "C. interfaces",
-            "D. a unique identity"
+            "Pixel là các phần tử của ảnh kỹ thuật số",
+            "Pixel là các phần tử của ảnh analog",
+            "Pixel là cụm của ảnh kỹ thuật số",
+            "Pixel là cụm của ảnh analog"
         ],
-        "correct_answers": [
-            "B. state and behavior",
-            "D. a unique identity"
-        ]
+        "correct_answer": 0
     },
     {
-        "question": "Question. 24 Analysis classes evolve into _____. (Choose two.)",
+        "question": "Số giá trị pixel là lũy thừa nguyên của ______",
         "answers": [
-            "A. design classes",
-            "B. subsystems",
-            "C. use-case realizations",
-            "D. design packages",
-            "E. architecture"
+            "4",
+            "2",
+            "8",
+            "1"
         ],
-        "correct_answers": [
-            "A. design classes",
-            "B. subsystems"
-        ]
+        "correct_answer": 1
     },
     {
-        "question": "Question. 25 What happens when a superclass is changed?",
+        "question": "Quy trình được thực hiện trên một hình ảnh kỹ thuật số để thay đổi giá trị của từng pixel riêng lẻ được gọi là gì?",
         "answers": [
-            "A. All subclasses inherit the change.",
-            "B. The operations of the subclass must be changed.",
-            "C. Additional operations in the subclass that are not associated with the superclass must change.",
-            "D. Only the operations of the superclass are inherited."
+            "Biến đổi không gian hình học",
+            "Thao tác pixel đơn",
+            "Đăng ký hình ảnh",
+            "Thao tác lân cận"
         ],
-        "correct_answers": [
-            "A. All subclasses inherit the change."
-        ]
+        "correct_answer": 1
     },
     {
-        "question": "Question. 26 Which two statements are true about use-case realization? (Choose two.)",
+        "question": "Một pixel p (x, y) có hai điểm lân cận theo chiều dọc và hai điểm lân cận theo chiều ngang. Những điểm lân cận của p (x, y) là _____________",
         "answers": [
-            "A. It lists the different steps performed by a use-case.",
-            "B. It provides traceability from Analysis and Design back to requirements.",
-            "C. It is created by the System Analyst.",
-            "D. It describes the use-case in terms of collaborating objects."
+            "(x+1, y+1), (x-1, y-1), (x+1, y-1), (x-1, y+1)",
+            "(x+1, y), (x-1, y+1), (x-1, y-1), (x, y-1)",
+            "(x, y), (x-1, y-1), (x+1, y+1), (x+1, y-1)",
+            "(x+1, y), (x-1, y), (x, y+1), (x, y-1)"
         ],
-        "correct_answers": [
-            "B. It provides traceability from Analysis and Design back to requirements.",
-            "D. It describes the use-case in terms of collaborating objects."
-        ]
+        "correct_answer": 3
     },
     {
-        "question": "Question. 27 Which state does NOT contain another state?",
+        "question": "Một pixel p (x, y) có 4 đường chéo lân cận. Các đường chéo lân cận của p (x, y) là_____________",
         "answers": [
-            "A. Top State",
-            "B. Composite State",
-            "C. Simple State",
-            "D. Bottom State"
+            "(x+1, y+1), (x+1, y-1), (x-1, y+1), (x-1, y-1)",
+            "(x+1, y), (x-1, y+1), (x-1, y-1), (x, y-1)",
+            "(x, y), (x- 1, y-1), (x+1, y+1), (x+1, y-1)",
+            "(x+1, y), (x-1, y), (x, y+1), (x, y-1)"
         ],
-        "correct_answers": [
-            "C. Simple State"
-        ]
+        "correct_answer": 0
     },
     {
-        "question": "Question. 28 Which statement is true about grouping elements into a package?",
+        "question": "Cách đo khoảng cách nào sau đây là đúng?",
         "answers": [
-            "A. Elements in a package should share a logical, common grouping.",
-            "B. Packages should contain a small number of elements to avoid confusion.",
-            "C. Packages should only be used on large projects requiring a large number of elements.",
-            "D. Packages should not contain other packages."
+            "D8(p, q) = max [(xs)^2 + (yt)^2]",
+            "De (p, q) = |xs| + |yt|",
+            "D4 (p, q) = |xs| + |yt|",
+            "D4(p, q) = [(xs)^2 + (yt)^2]"
         ],
-        "correct_answers": [
-            "A. Elements in a package should share a logical, common grouping."
-        ]
+        "correct_answer": 2
     },
     {
-        "question": "Question. 29 What are three architectural mechanism categories? (Choose three.)",
+        "question": "Cách đo khoảng cách nào sau đây là đúng?",
         "answers": [
-            "A. analysis mechanisms",
-            "B. requirement mechanisms",
-            "C. implementation mechanisms",
-            "D. design mechanisms"
+            "De (p, q) = sqrt [(xs)^2 + (yt)^2]",
+            "De (p, q) = |xs| + |yt|",
+            "D4(p, q) = max (|xs|, |yt|)",
+            "D8(p, q) = |xs| + |yt|"
         ],
-        "correct_answers": [
-            "A. analysis mechanisms",
-            "B. requirement mechanisms",
-            "D. design mechanisms"
-        ]
+        "correct_answer": 0
     },
     {
-        "question": "Question. 30 In a sequence diagram, what can be defined by the interactions between",
+        "question": "Điều nào sau đây thể hiện khái niệm cường độ màu sắc?",
         "answers": [
-            "A. only services provided by an interface",
-            "B. only services required by an interface",
-            "C. both provided and required services for interfaces",
-            "D. the name of the interface"
+            "Độ chói",
+            "Độ sáng",
+            "Tần số",
+            "Bức xạ"
         ],
-        "correct_answers": [
-            "C. both provided and required services for interfaces"
-        ]
+        "correct_answer": 1
     },
     {
-        "question": "Question. 31 Which view focuses on the physical realization of the system?",
+        "question": "Bước sóng và tần số có liên hệ với nhau như thế nào?",
         "answers": [
-            "A. Logical View",
-            "B. Implementation View",
-            "C. Process View",
-            "D. Use-Case View"
+            "c = bước sóng / tần số",
+            "tần số = bước sóng / c",
+            "bước sóng = c * tần số",
+            "c = bước sóng * tần số (c = tốc độ ánh sáng)"
         ],
-        "correct_answers": [
-            "B. Implementation View"
-        ]
+        "correct_answer": 3
     },
     {
-        "question": "Question. 32 Which statement is true about an active object?",
+        "question": "Trong quang phổ nhìn thấy được, màu ______ có bước sóng tối đa.",
         "answers": [
-            "A. It is an independent object that can communicate with other active objects asynchronously.",
-            "B. It does not contain state.",
-            "C. It is dependent on the overall system execution.",
-            "D. It is unstructured to allow the class to be manipulated easily."
+            "Tím",
+            "Xanh lam",
+            "Đỏ",
+            "Vàng"
         ],
-        "correct_answers": [
-            "A. It is an independent object that can communicate with other active objects asynchronously."
-        ]
+        "correct_answer": 2
     },
     {
-        "question": "Question. 33 During Use Case Analysis, what is generally allocated to control classes?",
+        "question": "Đại lượng cơ bản nào được sử dụng để mô tả chất lượng của một nguồn sáng màu?",
         "answers": [
-            "A. behavior specific to a use-case or part of a very important flow of events",
-            "B. behavior that involves the data encapsulated within the abstraction",
-            "C. behavior that involves communication with an actor",
-            "D. behavior specific to business rule enforcement or workflow"
+            "Độ bức xạ, độ sáng và bước sóng",
+            "Độ sáng và độ chói",
+            "Độ bức xạ, độ sáng và độ chói",
+            "Độ chói và độ chói"
         ],
-        "correct_answers": [
-            "A. behavior specific to a use-case or part of a very important flow of events"
-        ]
+        "correct_answer": 2
     },
     {
-        "question": "Question. 34 What are three sources for Key Abstractions identification? (Choose three.)",
+        "question": "Bạn hiểu gì khi nói về giá trị ba kích thích?a. Đó là lượng màu đỏ, xanh lá cây và vàng cần thiết để tạo thành bất kỳ màu cụ thể nào",
         "answers": [
-            "A. domain knowledge",
-            "B. requirements",
-            "C. design classes",
-            "D. glossary"
+            "Đó là lượng màu đỏ, xanh lục và chàm cần thiết để tạo thành bất kỳ màu cụ thể nào",
+            "Đó là lượng màu đỏ, vàng và xanh lam cần thiết để tạo thành bất kỳ màu cụ thể nào",
+            "Đó là lượng màu đỏ, xanh lá cây và xanh lam cần thiết để tạo thành bất kỳ màu cụ thể nào"
         ],
-        "correct_answers": [
-            "A. domain knowledge",
-            "B. requirements",
-            "D. glossary"
-        ]
+        "correct_answer": 2
     },
     {
-        "question": "Question. 35 What is a named object in UML?",
+        "question": "Tổng của ba hệ số ba màu thu được giá trị bao nhiêu?",
         "answers": [
-            "A. Matt:Employee",
-            "B. :Employee",
-            "C. Matt::Employee",
-            "D. ::employee"
+            "0",
+            "-1",
+            "1",
+            "Không xác định"
         ],
-        "correct_answers": [
-            "A. Matt:Employee"
-        ]
+        "correct_answer": 2
     },
     {
-        "question": "Question. 36 During Use Case Analysis, an attribute should be used instead of a class when",
+        "question": "Từ khoá nào không phải là tên gọi một không gian màu?",
         "answers": [
-            "A. is accessed by operations that only get, set, or perform simple transformations",
-            "B. is related to entities in the Business or Domain Model",
-            "C. needs to be hidden from other parts of the Analysis Model and not shared",
-            "D. is referred to and used multiple times throughout the use-case realization"
+            "HSI",
+            "RGB",
+            "CMYK",
+            "RCB"
         ],
-        "correct_answers": [
-            "A. is accessed by operations that only get, set, or perform simple transformations"
-        ]
+        "correct_answer": 3
     },
     {
-        "question": "Question. 37 Which view is NOT part of the RUP 4+1 View Model?",
+        "question": "Từ khoá nào sau đây là tên gọi một không gian màu?",
         "answers": [
-            "A. Logical View",
-            "B. Distribution View",
-            "C. Use-Case View",
-            "D. Process View"
+            "HSV",
+            "SEO",
+            "Python",
+            "Computer"
         ],
-        "correct_answers": [
-            "B. Distribution View"
-        ]
+        "correct_answer": 0
     },
     {
-        "question": "Question. 38 What are two functions of visual modeling? (Choose two.)",
+        "question": "Câu nào sau đây mô tả thuật ngữ độ sâu pixel?",
         "answers": [
-            "A. produces a single model that represents all views of the system",
-            "B. improves communication and comprehension among team members",
-            "C. documents important design decisions in the code",
-            "D. documents system behavior and structure before coding the system"
+            "Đó là số đơn vị được sử dụng để biểu thị từng pixel trong không gian RGB",
+            "Đó là số mm được sử dụng để biểu thị từng pixel trong không gian RGB",
+            "Đó là số byte được sử dụng để biểu thị mỗi pixel trong không gian RGB",
+            "Đó là số bit được sử dụng để biểu thị từng pixel trong không gian RGB"
         ],
-        "correct_answers": [
-            "B. improves communication and comprehension among team members",
-            "D. documents system behavior and structure before coding the system"
-        ]
+        "correct_answer": 3
     },
     {
-        "question": "Question. 39 During Use Case Analysis, why are analysis mechanisms used?",
+        "question": "Tại sao kênh màu RGB được dùng phổ biến?a. Vì đây là các kênh màu bao gồm các màu cơ bản",
         "answers": [
-            "A. to reduce complexity and improve consistency by providing a shorthand representation for complex behavior",
-            "B. to simplify the task of creating use-case realizations by providing convenient shorthand for repetitive tasks",
-            "C. to gather common tasks into one place, in order to more easily assign them to developers for implementation",
-            "D. to verify that designers have performed the analysis task correctly, according to the architects recommendations"
+            "Vì đây là các kênh màu tương thích với khả năng cảm nhận của mắt người",
+            "Kênh màu RGB dễ lưu trữ và không tốn bộ nhớ",
+            "Không có câu trả lời đúng"
         ],
-        "correct_answers": [
-            "A. to reduce complexity and improve consistency by providing a shorthand representation for complex behavior"
-        ]
+        "correct_answer": 0
     },
     {
-        "question": "Question. 40 Which statement is true about patterns?",
+        "question": "Mô hình màu RGB (Red, Green, Blue) thường được sử dụng trong trường hợp nào (chọn đáp án đúng nhất)?",
         "answers": [
-            "A. Patterns only exist at the Design level.",
-            "B. Patterns provide a common solution to a common problem.",
-            "C. Patterns only exist at the Architectural level.",
-            "D. Patterns are only used during the Elaboration Phase."
+            "Trong các thiết bị thu nhận và hiển thị hình ảnh",
+            "Trong các ứng dụng soạn thảo và chỉnh sửa ảnh",
+            "Trong các kỹ thuật nén ảnh và video",
+            "Trong các hệ thống in ảnh màu"
         ],
-        "correct_answers": [
-            "B. Patterns provide a common solution to a common problem."
-        ]
+        "correct_answer": 0
     },
     {
-        "question": "Question. 41 During Use Case Analysis, why is it sometimes necessary to supplement the",
+        "question": "Màu sắc trong mô hình màu CMYK có thể được biểu diễn thông qua bao nhiêu thành phần màu cơ bản?",
         "answers": [
-            "A. The description of each use-case is not always sufficient for finding analysis classes and their objects.",
-            "B. The flow of events in the use-case is sometimes too complex to be implemented.",
-            "C. Designers need to know which use-case flows are being developed in the current iteration.",
-            "D. The architect may need to adjust incorrect requirements before giving them to the designers."
+            "4.",
+            "3.",
+            "2.",
+            "5."
         ],
-        "correct_answers": [
-            "A. The description of each use-case is not always sufficient for finding analysis classes and their objects."
-        ]
+        "correct_answer": 0
     },
     {
-        "question": "Question. 42 In Use Case Analysis, what is the purpose of the Unify Analysis Classes step?",
+        "question": "Mô hình màu CMYK thường được sử dụng trong trường hợp nào (chọn đáp án đúng nhất)?",
         "answers": [
-            "A. to ensure that each analysis class represents a single well-defined concept, with no overlapping responsibilities",
-            "B. to gather the analysis classes from each use-case realization and bring them into the Design Model",
-            "C. to make sure the responsibilities of each class are consistent and that the class has a well defined single purpose",
-            "D. to create initial class families by using inheritance to group related classes into tree structures"
+            "Trong các kỹ thuật nén ảnh và video",
+            "Trong các hệ thống in màu",
+            "Trong các ứng dụng soạn thảo và chỉnh sửa ảnh",
+            "Trong các thiết bị thu nhận và hiển thị hình ảnh"
         ],
-        "correct_answers": [
-            "A. to ensure that each analysis class represents a single well-defined concept, with no overlapping responsibilities"
-        ]
+        "correct_answer": 1
     },
     {
-        "question": "Question. 43 Which three processes are best suited for UML? (Choose three.)",
+        "question": "Mô hình màu CMYK thường được sử dụng trong lĩnh vực nào?a. Nhiếp ảnhb. Hiển thị màu trên màn hình máy tính",
         "answers": [
-            "A. use-case driven",
-            "B. waterfall development-based",
-            "C. iterative and incremental",
-            "D. architecture-centric",
-            "E. requirements-centric"
+            "In ấn và xuất bản",
+            "Thiết kế đồ hoạ"
         ],
-        "correct_answers": [
-            "A. use-case driven",
-            "C. iterative and incremental",
-            "D. architecture-centric"
-        ]
+        "correct_answer": 0
     },
     {
-        "question": "Question. 44 Architectural layers are commonly modeled in UML using a .",
+        "question": "Mô hình màu HSV thường được sử dụng trong trường hợp nào (chọn đáp án đúng nhất)?",
         "answers": [
-            "A. package stereotyped <<Layer>>",
-            "B. subsystem stereotyped <<Layer>>",
-            "C. composite class stereotyped <<Layer>>",
-            "D. class diagram entitled Layer"
+            "Trong các thiết bị thu nhận và hiển thị hình ảnh",
+            "Trong các ứng dụng soạn thảo và chỉnh sửa ảnh",
+            "Trong các hệ thống in ảnh màu",
+            "Trong các kỹ thuật nén ảnh và video"
         ],
-        "correct_answers": [
-            "A. package stereotyped <<Layer>>"
-        ]
+        "correct_answer": 1
     },
     {
-        "question": "Question. 45 In a state diagram, a state has two transitions. One of the transitions is an internal transition and the other is an external transition. Which state(s) can perform an exit action?",
+        "question": "Ứng dụng chính của kênh màu YCbCr là ____________",
         "answers": [
-            "A. the internal transition only",
-            "B. the external transition only",
-            "C. neither the internal nor the external transition",
-            "D. both the internal and external transitions"
+            "Dùng trong nén ảnh",
+            "Tập trung thông tin của ảnh về kênh màu Cr",
+            "Dùng trong máy in để tiết kiệm mực",
+            "Dễ tính toán hơn kênh màu RGB"
         ],
-        "correct_answers": [
-            "B. the external transition only"
-        ]
+        "correct_answer": 0
     },
     {
-        "question": "Question. 46 Which two statements are true about use-case driven processes? (Choose two.)",
+        "question": "Mô hình màu YCbCr và YUV thường được sử dụng trong trường hợp nào (chọn đáp án đúng nhất)?",
         "answers": [
-            "A. Use-cases are concise, simple, and able to be understood by a wide range of stakeholders.",
-            "B. Use-cases help synchronize the content of different models.",
-            "C. Use-cases are a complete list of functional requirements.",
-            "D. Use-cases specify how the system behavior is to be implemented."
+            "Trong các thiết bị thu nhận và hiển thị hình ảnh",
+            "Trong các hệ thống in ảnh màu",
+            "Trong các ứng dụng soạn thảo và chỉnh sửa ảnh",
+            "Trong các kỹ thuật nén ảnh và video"
         ],
-        "correct_answers": [
-            "A. Use-cases are concise, simple, and able to be understood by a wide range of stakeholders.",
-            "B. Use-cases help synchronize the content of different models."
-        ]
+        "correct_answer": 3
     },
     {
-        "question": "Question. 47 Which is the primary function of entity classes?",
+        "question": "Mô hình màu XYZ là mô hình màu được sử dụng trong lĩnh vực nào?",
         "answers": [
-            "A. store and manage information in the system",
-            "B. act as a surrogate or proxy for the actors in a system",
-            "C. wrap data access calls to a systems relational database",
-            "D. marshal information between the tiers in a system"
+            "Nghiên cứu khoa học về màu sắc",
+            "In ấn và xuất bản",
+            "Nghệ thuật và thiết kế đồ hoạ",
+            "Màn hình máy tính và web"
         ],
-        "correct_answers": [
-            "A. store and manage information in the system"
-        ]
+        "correct_answer": 0
     },
     {
-        "question": "Question. 48 Which is a UML general-purpose mechanism for organizing elements into groups?",
+        "question": "Phát biểu nào về lược đồ xám (Histogram của ảnh) là sai?",
         "answers": [
-            "A. a class diagram",
-            "B. an activity",
-            "C. a package",
-            "D. a composite diagram"
+            "Khi cân bằng lược đồ xám ta có thể thấy được các chi tiết của một số vùng trong ảnh",
+            "Việc tính toán lược đồ xám là dễ dàng và đơn giản",
+            "Có thể sử dụng lược đồ xám để phát hiện mức độ tương phản của ảnh",
+            "Lược đồ xám là tập hợp các giá trị tần số của ảnh"
         ],
-        "correct_answers": [
-            "C. a package"
-        ]
+        "correct_answer": 0
     },
     {
-        "question": "Question. 49 During Use Case Analysis, how many interaction diagrams (sequence or communication) should be drawn for each use-case?",
+        "question": "Thuật toán cân bằng được đồ xám (Histogram equalization) được dùng để _____________a. Thu hẹp độ tương phản của ảnh",
         "answers": [
-            "A. enough of each type to ensure that all responsibilities of participating classes are identified and that most of the flows of events are examined",
-            "B. one for the main flow and one for each alternate flow of events in the use-case",
-            "C. one of each type for the main flow and one of each type for each alternate flow of events in the use-case",
-            "D. one of each type per use-case, with each alternate flow of events shown as an interaction occurrence"
+            "Thay đổi kích thước ảnh",
+            "Loại bỏ nhiễu và làm mượt ảnh",
+            "Làm cho độ sáng của ảnh được trải đều trên miền giá trị sáng (từ 0 đến 255)"
         ],
-        "correct_answers": [
-            "A. enough of each type to ensure that all responsibilities of participating classes are identified and that most of the flows of events are examined"
-        ]
+        "correct_answer": 2
     },
     {
-        "question": "Question. 50 In Use Case Analysis, what is the function of boundary classes?",
+        "question": "Trong ảnh tối, các thành phần của biểu đồ tập trung ở phía nào của thang màu xám?",
         "answers": [
-            "A. to insulate external forces from internal mechanisms and vice versa",
-            "B. to represent the screens in the user interface",
-            "C. to define the service interfaces exposed by the Business layer",
-            "D. to define entry points or roots into the core Object Data Model"
+            "Cao",
+            "Trung bình",
+            "Thấp",
+            "Phân bố đều"
         ],
-        "correct_answers": [
-            "A. to insulate external forces from internal mechanisms and vice versa"
-        ]
+        "correct_answer": 2
     },
     {
-        "question": "Question 51. Which two statements are NOT true about polymorphism? (Choose two)",
+        "question": "Trong ảnh sáng, các thành phần của biểu đồ tập trung ở phía nào của thang màu xám?",
         "answers": [
-            "A. Polymorphism is the ability to hide many different implementations behind a single interface.",
-            "B. Polymorphism means that a class can have many instances.",
-            "C. Polymorphism can be realized by using interfaces.",
-            "D. Polymorphism means that a class can implement many interfaces."
+            "Cao",
+            "Trung bình",
+            "Thấp",
+            "Phân bố đều"
         ],
-        "correct_answers": [
-            "B. Polymorphism means that a class can have many instances.",
-            "D. Polymorphism means that a class can implement many interfaces."
-        ]
+        "correct_answer": 0
     },
     {
-        "question": "Question 52. An interaction diagram is used for:",
+        "question": "Trong ảnh tương phản cao, các thành phần của biểu đồ tập trung ở phía nào của thang màu xám?",
         "answers": [
-            "A. Model interactions between users and the system.",
-            "B. Model interactions between analysis class for each use-case flow of events.",
-            "C. Model interactions between only boundary classes.",
-            "D. Model interactions between only control classes."
+            "Cao",
+            "Trung bình",
+            "Thấp",
+            "Phân bố đều"
         ],
-        "correct_answers": [
-            "B. Model interactions between analysis class for each use-case flow of events."
-        ]
+        "correct_answer": 3
     },
     {
-        "question": "Questions 53. Which three view is in the RUP 4+1 View Model",
+        "question": "Trong ảnh tương phản thấp, các thành phần của biểu đồ phân bố đều trên thang màu xám.",
         "answers": [
-            "A. Logical View.",
-            "B. Component View.",
-            "C. Deployment View",
-            "D. Implementation View"
+            "Đúng",
+            "Sai"
         ],
-        "correct_answers": [
-            "A. Logical View.",
-            "C. Deployment View",
-            "D. Implementation View"
-        ]
+        "correct_answer": 1,
+        "explanation": ""
     },
     {
-        "question": "Question 54. NOT true about interfaces?",
+        "question": "Giá trị histogram H(i) của ảnh cấp độ xám là _____________",
         "answers": [
-            "A. There are three kinds of interfaces: provide interface, required interfaces and provided-required (dual) interfaces"
+            "Xác suất để một điểm ảnh có giá trị bằng i",
+            "Số lượng các ô có giá trị cấp độ xám là i",
+            "Xác suất để một điểm ảnh có giá trị lớn hơn i",
+            "Xác suất để một điểm ảnh có giá trị nhỏ hơn i"
         ],
-        "correct_answers": [
-            "A. There are three kinds of interfaces: provide interface, required interfaces and provided-required (dual) interfaces"
-        ]
+        "correct_answer": 1
     },
     {
-        "question": "Question 55. The output of Analysis and Design are:",
+        "question": "Cho ảnh cấp độ xám có kích thước 25x25, với mỗi điểm ảnh nhận giá trị từ 0 đến 255, giá trị lớn nhất có thể của histogram H(i) với i là một cấp độ xám trong khoảng cho phép là _______",
         "answers": [
-            "A. Analysis model and design model + implementation model."
+            "25",
+            "256",
+            "625",
+            "Không xác định được"
         ],
-        "correct_answers": [
-            "A. Analysis model and design model + implementation model."
-        ]
+        "correct_answer": 2
     },
     {
-        "question": "Question 56. Four basic principles of Object-Orientation:",
+        "question": "Cho ảnh I cấp độ xám có kích thước 4x4 sau, tìm khẳng định sai?",
         "answers": [
-            "A. Hierarchy, Encapsulation, Modularity, Abstraction."
+            "H (0) = 4",
+            "H (1) = 2",
+            "H (2) = 5",
+            "H (3) = 2"
         ],
-        "correct_answers": [
-            "A. Hierarchy, Encapsulation, Modularity, Abstraction."
-        ]
+        "correct_answer": 0,
+        "image": "image4.jpeg"
     },
     {
-        "question": "Question 57. What is NOT a step in Use Case Design",
+        "question": "Mục đích chính của khôi phục ảnh là ________________________",
         "answers": [
-            "A. Create the flow of events for each use case"
+            "Đưa giá trị điểm ảnh về giá trị ban đầu",
+            "Làm giảm chất lượng ảnh",
+            "Trà về toạ độ chính xác",
+            "Khôi phục ảnh ban đầu"
         ],
-        "correct_answers": [
-            "A. Create the flow of events for each use case"
-        ]
+        "correct_answer": 3
     },
     {
-        "question": "Question 58. Which two statements are true about process and thread? (choose 2)",
+        "question": "Khôi phục ảnh nhằm mục đích Khôi phục ảnh ban đầu.",
         "answers": [
-            "A. Process provides heavyweight flow of control while thread provides lightweight flow of control",
-            "B. Thread runs in the context of an enclosing process"
+            "Đúng",
+            "Sai"
         ],
-        "correct_answers": [
-            "A. Process provides heavyweight flow of control while thread provides lightweight flow of control",
-            "B. Thread runs in the context of an enclosing process"
-        ]
+        "correct_answer": 0
     },
     {
-        "question": "Question 59. Which is NOT an input of Class Design?",
+        "question": "Khôi phục chất lượng ảnh được sử dụng trong quá trình nén ảnh để lưu trữ và truyền ảnh qua mạng.",
         "answers": [
-            "A. Implementation model"
+            "Đúng",
+            "Sai"
         ],
-        "correct_answers": [
-            "A. Implementation model"
-        ]
+        "correct_answer": 1
     },
     {
-        "question": "Question 1 Which statement is true about elements within the subsystem and public visibility?",
+        "question": "Ảnh bị suy giảm chất lượng có thể là do đâu?",
         "answers": [
-            "A. Only the subset of elements that define the subsystems API should have public visibility.",
-            "B. Only the subsystem proxy class should have public visibility.",
-            "C. No elements inside the subsystem should have public visibility.",
-            "D. Only the elements that reference external classes should have public visibility."
+            "Nhoè",
+            "Nhiễu",
+            "Các biến dạng trong không gian ảnh",
+            "Tất cả các điều trên"
         ],
-        "correct_answers": [
-            "C. No elements inside the subsystem should have public visibility."
-        ]
+        "correct_answer": 3
     },
     {
-        "question": "Question 2 What are the two types of dependency that can be used from a subsystem? (Choose two.)",
+        "question": "Có thể sử dụng các kỹ thuật như khử nhiễu, khử nhòe, biến đổi hình học để Khôi phục ảnh.",
         "answers": [
-            "A. <<uses>> dependency to a subsystem interface",
-            "B. an <<import>> dependency to a package containing used classes",
-            "C. a <<manifest>> relationship to a node in the Deployment model",
-            "D. a <<realize>> relationship to one or more collaboration occurrences"
+            "Đúng",
+            "Sai"
         ],
-        "correct_answers": [
-            "A. <<uses>> dependency to a subsystem interface",
-            "B. an <<import>> dependency to a package containing used classes"
-        ]
+        "correct_answer": 0
     },
     {
-        "question": "Question 3 Which task is performed during use-case realization refinement?",
+        "question": "Ứng dụng của phép biến đổi cân bằng sắc xám là?",
         "answers": [
-            "A. identify participating classes",
-            "B. allocate responsibilities among classes",
-            "C. model messages between classes",
-            "D. model associated class relationships"
+            "Làm mờ ảnh",
+            "Làm giảm độ tương phản của ảnh",
+            "Tăng cường chất lượng ảnh",
+            "Tất cả các câu trả lời trên đều đúng"
         ],
-        "correct_answers": [
-            "D. model associated class relationships"
-        ]
+        "correct_answer": 2
     },
     {
-        "question": "Question 4 Which statement is true about design subsystems?",
+        "question": "Phép toán nào được sử dụng để tính toán mức độ sắc nét của ảnh?",
         "answers": [
-            "A. They partially encapsulate behavior.",
-            "B. They represent an independent capability with clear interfaces.",
-            "C. They model a single implementation variant.",
-            "D. They can only contain design classes."
+            "Phép lấy đạo hàm",
+            "Pháp tích phân",
+            "Phép lấy trung bình",
+            "Phép lấy trung vị"
         ],
-        "correct_answers": [
-            "B. They represent an independent capability with clear interfaces."
-        ]
+        "correct_answer": 0
     },
     {
-        "question": "Question 5 Given the following configuration: Package A, which contains class aClass is in the presentation layer. Package B, which contains a class bClass and an interface bInterface is in the business layer. Package C, which contains cClass is in the data layer. Which is a poor practice?",
+        "question": "\"Convolution\" là quá trình gì trong linear filtering?",
         "answers": [
-            "A. aClass calls a method in bClass.",
-            "B. aClass has an attribute of type cClass.",
-            "C. aClass realizes bInterface.",
-            "D. bClass realizes bInterface."
+            "Sự lọc màu sắc.",
+            "Sự tăng độ tương phản.",
+            "Tích chập giữa kernel và hình ảnh.",
+            "Loại bỏ nhiễu."
         ],
-        "correct_answers": [
-            "B. aClass has an attribute of type cClass."
-        ]
+        "correct_answer": 2
     },
     {
-        "question": "Question 6 Which process document describes design mechanisms, any mappings between design mechanisms, and the details regarding their use?",
+        "question": "Nhân chập trên miền không gian là phép nhân trên miền nào?",
         "answers": [
-            "A. Software Architecture Document",
-            "B. Design Guidelines",
-            "C. Vision Document",
-            "D. Software Development Plan"
+            "Miền không - thời gian",
+            "Miền thời gian",
+            "Miền tần số",
+            "Miền không gian"
         ],
-        "correct_answers": [
-            "C. Vision Document"
-        ]
+        "correct_answer": 2
     },
     {
-        "question": "Question 7 In the state of a state machine, a behavior can be defined ______.",
+        "question": "Cho phép nhân chập với ảnh đầu vào có kích thước 5x5 và nhân g có kích thước 3x3, điều kiện lấy biên đầy đủ (full), kết quả thu được là ảnh với kích thước _____________",
         "answers": [
-            "A. before reaching a state",
-            "B. upon reaching a state",
-            "C. upon leaving a state",
-            "D. inside a state"
+            "5x5",
+            "9x9",
+            "1x1",
+            "7x7"
         ],
-        "correct_answers": [
-            "B. upon reaching a state",
-            "C. upon leaving a state",
-            "D. inside a state"
-        ]
+        "correct_answer": 3
     },
     {
-        "question": "Question 8 What is a gate?",
+        "question": "Cho phép nhân chập với ảnh đầu vào có kích thước 5x5 và nhân g có kích thước 3x3, điều kiện lấy biên giữ nguyên (same), kết quả thu được là ảnh với kích thước ____________",
         "answers": [
-            "A. a parameter that represents a message that crosses the boundary of an interaction or interaction fragment",
-            "B. a defined protocol for accessing the internals of a subsystem",
-            "C. a decision point in a state machine that has more than two alternatives",
-            "D. a set of checkpoints each subsystem design must satisfy before it can be assigned for  implementation"
+            "Không xác định",
+            "5x5",
+            "1x1",
+            "9x9"
         ],
-        "correct_answers": [
-            "A. a parameter that represents a message that crosses the boundary of an interaction or interaction fragment"
-        ]
+        "correct_answer": 1
     },
     {
-        "question": "Question 9 When identifying design elements, a simple analysis class will map to a(n) .",
+        "question": "Cho phép nhân chập với ảnh đầu vào có kích thước 5x5 và nhân g có kích thước 3x3, điều kiện lấy biên đầy đúng (valid), kết quả thu được là ảnh với kích thước _______________",
         "answers": [
-            "A. active class",
-            "B. interface",
-            "C. design class",
-            "D. subsystem"
+            "5x5",
+            "7x7",
+            "3x3",
+            "Không xác định"
         ],
-        "correct_answers": [
-            "C. design class"
-        ]
+        "correct_answer": 2
     },
     {
-        "question": "Question 10 In which OOAD activity is the distribution mechanism identified?",
+        "question": "Cho phép nhân chập với ảnh đầu vào có kích thước 3x3 và nhân g có kích thước 5x5, điều kiện lấy biên đầy đúng (valid), kết quả thu được là ảnh với kích thước _______________",
         "answers": [
-            "A. Identify Design Elements",
-            "B. Identify Design Mechanisms",
-            "C. Class Design",
-            "D. Architectural Analysis"
+            "5x5",
+            "7x7",
+            "3x3",
+            "Không xác định"
         ],
-        "correct_answers": [
-            "B. Identify Design Mechanisms"
-        ]
+        "correct_answer": 3
     },
     {
-        "question": "Question 11 In the diagram, what is E?",
+        "question": "Biểu thức nào thu được bằng cách thực hiện phép biến đổi âm trên âm bản của hình ảnh có mức xám trong phạm vi [0,L-1] ?",
         "answers": [
-            "A. fork",
-            "B. initial state",
-            "C. decision",
-            "D. transition",
-            "E. final state",
-            "F. event",
-            "G. state",
-            "H. guard condition"
+            "s=L+1-r",
+            "s=L+1+r",
+            "s=L-1-r",
+            "s=L-1+r"
         ],
-        "correct_answers": [
-            "H. guard condition"
+        "correct_answer": 2
+    },
+    {
+        "question": "Đặc tuyến trong hình sau biến đổi ảnh như thế nào?",
+        "answers": [
+            "Tăng độ tương phản của ảnh",
+            "Tăng độ chói của ảnh",
+            "Ảnh kết quả là âm bản của ảnh gốc",
+            "Ảnh kết quả đối xứng với ảnh gốc"
+        ],
+        "correct_answer": 2,
+        "image": "image5.jpeg"
+    },
+    {
+        "question": "Thao tác nào liên quan đến quá trình phóng to, thu nhỏ hoặc xoay ảnh?",
+        "answers": [
+            "Nội suy ảnh",
+            "Lọc ảnh",
+            "Làm mịn ảnh",
+            "Lấy mẫu"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "question": "Nội suy ảnh có thể được dùng khi nào?",
+        "answers": [
+            "Thay đổi kích thước ảnh",
+            "Lọc nhiễu ảnh",
+            "Suy diễn thông tin trong ảnh",
+            "Tăng cường độ sáng cho ảnh"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "question": "Hiệu chỉnh gamma được định nghĩa là ________________________",
+        "answers": [
+            "Sự thay đổi độ sáng của ánh sáng",
+            "Hiện tượng phản ứng theo định luật lũy thừa",
+            "Đường cong cường độ đảo ngược",
+            "Không có điều nào được đề cập"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "question": "Cho phép biến đổi trên kênh màu xám y = r ^ gamma với r là giá trị cấp độ xám đầu vào nhận giá trị trong khoảng [0 ... 1] và y là giá trị cấp độ xám đầu ra. Tìm giá trị của gamma để tăng độ tương phản các vùng sáng và giảm độ tương phản các vùng tối? ",
+        "answers": [
+            "gamma = 0.2",
+            "gamma = 1",
+            "gamma = 5",
+            "Không có đáp án đúng"
+        ],
+        "correct_answer": 2,
+        "explanation": ""
+    },
+    {
+        "question": "Các phương pháp tác dụng trực tiếp vào ảnh là các phương xử lý trên miền nào?",
+        "answers": [
+            "Miền không gian",
+            "Miền biến đổi nghịch đảo",
+            "Miền biến đổi",
+            "Không có câu trả lời đúng"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "question": "Phát biểu nào về bộ lọc không gian (Spatial filter) là sai?",
+        "answers": [
+            "Bộ lọc không gian được thực hiện trên miền điểm ảnh",
+            "Bộ lọc trung bình là một loại lọc không gian",
+            "Bộ lọc không gian có thể được sử dụng để làm mượt ảnh",
+            "Bộ lọc không gian chỉ được sử dụng để làm mượt ảnh"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "question": "Lọc ảnh cửa sổ trượt là ____________________________",
+        "answers": [
+            "Mỗi giá trị điểm ảnh đầu ra phụ thuộc vào chỉ một điểm ảnh đầu vào",
+            "Mỗi giá trị điểm ảnh đầu ra phụ thuộc vào một số điểm ảnh ở vị trí lân cận với điểm ảnh đầu ra",
+            "Mỗi điểm ảnh đầu ra phụ thuộc vào giá trị của toàn bộ các điểm ảnh của ảnh đầu vào",
+            "Cả 3 lựa chọn đều đúng"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "question": "Những phần nào của ảnh sau đây có thể được loại bỏ bằng các bộ lọc làm mịn ảnh?",
+        "answers": [
+            "Các đoạn chuyển giao sắc nét ở miền sắc xám",
+            "Các đoạn chuyển giao liên tục miễn sắc xám",
+            "Các đoạn chuyển giao sắc nét ở miền có độ sáng lớn",
+            "Các đoạn chuyển giao liên tục ở miền có độ sáng lớn"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "question": "Giảm nhiễu có được bằng cách làm mờ hình ảnh bằng bộ lọc làm mịn.",
+        "answers": [
+            "Đúng",
+            "Sai"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "question": "Điều nào sau đây là nhược điểm của việc sử dụng bộ lọc làm mịn?",
+        "answers": [
+            "Làm mờ các cạnh",
+            "Làm mờ các pixel bên trong",
+            "Loại bỏ các chuyển tiếp sắc nét",
+            "Các cạnh sắc nét"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "question": "Bộ lọc hộp (Box filter) là một loại bộ lọc làm mịn.",
+        "answers": [
+            "Đúng",
+            "Sai"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "question": "Bộ lọc nào sau đây dựa trên sắp xếp giá trị của điểm ảnh?",
+        "answers": [
+            "Bộ lọc sắc cạnh",
+            "Bộ lọc làm mịn tuyến tính",
+            "Bộ lọc làm mịn không tuyến tính",
+            "Bộ lọc hình học"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "question": "Bộ lọc lấy trung bình theo không gian trong đó tất cả các hệ số đều bằng nhau được gọi là______________________________.",
+        "answers": [
+            "Bộ lọc vuông",
+            "Vùng lân cận",
+            "Bộ lọc hộp",
+            "Bộ lọc 0"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "question": "Các bộ lọc không gian phi tuyến tính có phản hồi dựa trên thứ tự của các pixel được gọi là_______________________________.",
+        "answers": [
+            "Bộ lọc hộp",
+            "Bộ lọc vuông",
+            "Bộ lọc Gaussian",
+            "Bộ lọc thống kê thứ tự"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "question": "Nhiễu xung trong bộ lọc thống kê thứ tự còn được gọi là ________________________a. Nhiễu trung bình",
+        "answers": [
+            "Nhiễu song tuyến tính",
+            "Nhiễu muối và hạt tiêu",
+            "Không có cái nào được đề cập"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "question": "Ví dụ tốt nhất cho bộ lọc thống kê thứ tự là _____________________________",
+        "answers": [
+            "Bộ lọc xung",
+            "Bộ lọc trung bình",
+            "Bộ lọc trung vị",
+            "Không có bộ lọc nào được đề cập"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "question": "Một cách tiếp cận khác để lọc trung vị là ___________________________",
+        "answers": [
+            "Sử dụng mặt nạ",
+            "Bộ lọc Gaussian",
+            "Làm sắc nét",
+            "Bộ lọc Laplacian"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "question": "Bộ lọc tuyến tính làm mịn còn được gọi là bộ lọc trung vị.",
+        "answers": [
+            "Đúng",
+            "Sai"
+        ],
+        "correct_answer": 1,
+        "explanation": "Bộ lọc không tuyến tính làm mịn còn được gọi là bộ lọc trung vị."
+    },
+    {
+        "question": "Bộ lọc trung vị lọc được nhiễu xung.",
+        "answers": [
+            "Đúng",
+            "Sai"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "question": "Bộ lọc nào sau đây phù hợp nhất để khử nhiễu muối tiêu?",
+        "answers": [
+            "Bộ lọc trung bình",
+            "Bộ lọc hộp",
+            "Bộ lọc tối đa",
+            "Bộ lọc trung vị"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "question": "Đâu là tên gọi khác của bộ lọc trung bình?",
+        "answers": [
+            "Bộ lọc dài",
+            "Bộ lọc thông thấp",
+            "Bộ lọc thông cao",
+            "Không có câu trả lời đúng"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "question": "Phát biểu nào về bộ lọc trung bình đúng?",
+        "answers": [
+            "Bộ lọc trung bình được sử dụng để lọc nhiễu",
+            "Bộ lọc trung bình làm mượt ảnh",
+            "Bộ lọc trung bình gây ra các hiệu ứng phụ khi lọc ảnh",
+            "Cả 3 lựa chọn đều đúng"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "question": "Hiệu ứng nào không xảy ra khi áp dụng bộ lọc trung bình?",
+        "answers": [
+            "Có thể loại bỏ một số loại nhiễu",
+            "Đồng thời làm mờ và loại bỏ một số loại nhiễu",
+            "Tăng độ sáng của ảnh",
+            "Làm mờ các cạnh của ảnh"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "question": "Tác dụng phụ không mong muốn của bộ lọc trung bình là gì?",
+        "answers": [
+            "Không có tác dụng phụ",
+            "Hình ảnh mờ",
+            "Các cạnh bị mờ",
+            "Mất các chuyển tiếp sắc nét"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "question": "Mục đích chính của việc làm sắc nét ảnh là gì?",
+        "answers": [
+            "Làm mờ ảnh",
+            "Tăng độ sáng của ảnh",
+            "Giảm độ sáng của ảnh",
+            "Tăng chất lượng chi tiết của ảnh"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "question": "Mục tiêu của việc làm sắc nét các bộ lọc không gian là gì?",
+        "answers": [
+            "Làm nổi bật chi tiết đẹp trong ảnh",
+            "Cải thiện chi tiết bị mờ do một số lỗi",
+            "Cải thiện chi tiết bị mờ do hiệu ứng tự nhiên của một số phương pháp thu nhận hình ảnh",
+            "Tất cả những điều đã đề cập"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "question": "Quá trình làm sắc nét hình ảnh được ứng dụng trong in ấn điện tử.",
+        "answers": [
+            "Đúng",
+            "Sai"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "question": "Điều nào là đúng đối với đạo hàm bậc nhất của hàm số?a. Phải khác 0 trong các vùng có giá trị xám không đổi",
+        "answers": [
+            "Phải bằng 0 khi bắt đầu bước mức xám hoặc các điểm gián đoạn của đoạn đường nối",
+            "Phải khác 0 dọc theo các đường dốc mức xám",
+            "Không có điều nào được đề cập"
+        ],
+        "correct_answer": 1,
+        "explanation": ""
+    },
+    {
+        "question": "Toán tử nào sau đây là toán tử đạo hàm bậc hai?",
+        "answers": [
+            "Biểu đồ",
+            "Laplacian",
+            "Gaussian",
+            "Không có toán tử nào được đề cập"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "question": "Điều nào là đúng đối với đạo hàm bậc hai của hàm số?",
+        "answers": [
+            "Phải bằng 0 trong các vùng bằng phẳng",
+            "Phải khác 0 khi bắt đầu và kết thúc bước mức xám hoặc các điểm gián đoạn của đoạn đường nối",
+            "Phải bằng 0 dọc theo các đường dốc có độ dốc không đổi",
+            "Tất cả các điều đã đề cập"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "question": "Đạo hàm bậc nhất có thể làm tăng độ chi tiết của ảnh tốt hơn so với Đạo hàm bậc hai.",
+        "answers": [
+            "Đúng",
+            "Sai"
+        ],
+        "correct_answer": 1,
+        "explanation": ""
+    },
+    {
+        "question": "Mặt nạ trong hình dưới đây thuộc loại bộ lọc nào?",
+        "answers": [
+            "Bộ lọc không gian làm sắc nét",
+            "Bộ lọc trung vị",
+            "Bộ lọc tần số làm sắc nét",
+            "Bộ lọc không gian làm mịn"
+        ],
+        "correct_answer": 3,
+        "image": "image6.jpeg"
+    },
+    {
+        "question": "Mặt nạ trong hình dưới đây thuộc loại bộ lọc nào?",
+        "answers": [
+            "Bộ lọc không gian làm sắc nét",
+            "Bộ lọc trung vị",
+            "Bộ lọc không gian làm mịn",
+            "Bộ lọc tần số làm sắc nét"
+        ],
+        "correct_answer": 2,
+        "image": "image7.jpeg"
+    },
+    {
+        "question": "Bộ lọc Gauss dùng để làm gì?a. Nén ảnh",
+        "answers": [
+            "Làm sắc nét ảnh",
+            "Tính gradient của ảnh theo các chiều xác định",
+            "Khử nhiễu"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "question": "Bộ lọc Sobel dùng để làm gì?",
+        "answers": [
+            "Khử nhiễu",
+            "Làm sắc nét ảnh",
+            "Làm mịn ảnh",
+            "Tính gradient của ảnh theo các chiều xác định"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "question": "Bộ lọc min (min filters) có thể được sử dụng để loại bỏ nhiễu nào?a. Nhiễu gaussianb. Nhiễu tiêu đen (pepper noise)",
+        "answers": [
+            "Nhiễu muối trắng (salt noise)",
+            "Cả 3 loại nhiễu"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "question": "Bộ lọc max (max filters) có thể được sử dụng để loại bỏ nhiễu nào?",
+        "answers": [
+            "Nhiễu gaussian",
+            "Nhiễu tiêu đen (pepper noise)",
+            "Nhiễu muối trắng (salt noise)",
+            "Cả 3 loại nhiễu"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "question": "Nêu tác dụng của bộ lọc 3x3 sau đây?",
+        "answers": [
+            "Dịch ảnh sang phải 1 đơn vị",
+            "Khử nhiễu",
+            "Dịch ảnh sang trái 1 đơn vị",
+            "Không có câu trả lời đúng"
+        ],
+        "correct_answer": 0,
+        "image": "image10.jpeg"
+    },
+    {
+        "question": "Nêu tác dụng của bộ lọc 3x3 sau đây?",
+        "answers": [
+            "Dịch ảnh sang trái 1 đơn vị",
+            "Khử nhiễu",
+            "Dịch ảnh sang phải 1 đơn vị",
+            "Làm sắc nét ảnh"
+        ],
+        "correct_answer": 3,
+        "image": "image11.jpeg"
+    },
+    {
+        "question": "Chọn nhận đúng về bộ lọc thông cao?",
+        "answers": [
+            "Bộ lọc thông cao được cài đặt sử dụng kỹ thuật cửa sổ trượt",
+            "Bộ lọc thông cao tác động vào ảnh giống như bộ lọc trung bình",
+            "Bộ lọc thông cao giúp làm mờ cạnh",
+            "Bộ lọc thông cao giữ lại các thành phần ảnh có tần số cao"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "question": "Chọn nhận định sai về bộ lọc thông cao?",
+        "answers": [
+            "Bộ lọc thông cao chỉ giữ lại các thành phần ảnh có tần số cao",
+            "Bộ lọc thông cao được thực hiện trong miền tần số",
+            "Bộ lọc thông cao được sử dụng để tách cạnh",
+            "Bộ lọc thông cao chỉ giữ lại các thành phần ảnh có các tần số thấp"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "question": "Bộ lọc thông cao được sử dụng để làm mịn hình ảnh.",
+        "answers": [
+            "Đúng",
+            "Sai"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "question": "Bộ lọc thông cao được sử dụng để làm sắc nét hình ảnh.",
+        "answers": [
+            "Đúng",
+            "Sai"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "question": "Chọn nhận định sai về bộ lọc thông thấp?",
+        "answers": [
+            "Bộ lọc thông thấp được áp dụng trên miền tần số của ảnh",
+            "Bộ lọc thông thấp được sử dụng để tách cạnh",
+            "Bộ lọc thông thấp chỉ giữ lại các thành phần ảnh có tần số thấp",
+            "Bộ lọc thông thấp làm mờ ảnh"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "question": "Chọn nhận định sai về bộ lọc thông thấp?",
+        "answers": [
+            "Bộ lọc thông thấp loại bỏ các thành phần ảnh có tần số thấp",
+            "Bộ lọc thông thấp có thể lọc được nhiều loại nhiễu",
+            "Bộ lọc thông thấp loại bỏ các thành phần ảnh có tần số cao",
+            "Bộ lọc thông thấp làm mờ các cạnh của ảnh"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "question": "Bộ lọc thông thấp được sử dụng để làm mịn hình ảnh.",
+        "answers": [
+            "Đúng",
+            "Sai"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "question": "Bộ lọc thông thấp được sử dụng để làm sắc nét hình ảnh.",
+        "answers": [
+            "Đúng",
+            "Sai"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "question": "Tại sao bộ lọc thông thấp Gaussian hay được sử dụng hơn các loại bộ lọc thông thấp khác?",
+        "answers": [
+            "Bộ lọc thông thấp Gaussian dễ dàng được cài đặt với thuật toán đơn giản",
+            "Bộ lọc thông thấp Gaussian không gây ra các hiệu ứng phụ",
+            "Bộ lọc thông thấp Gaussian có thể lọc các nhiễu xung",
+            "Bộ lọc thông thấp Gaussian có thể loại bỏ tất cả các loại nhiễu của ảnh"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "question": "Chọn nhận định đúng về bộ lọc thông dải?",
+        "answers": [
+            "Bộ lọc thông dải loại bỏ các thành phần ảnh có tần số rất thấp và các thành phần ảnh có tần số rất cao, chỉ giữ lại các thành phần ảnh ở dải tần số vừa phải",
+            "Bộ lọc thông dải giữ lại các thành phần ảnh có tần số rất thấp và các thành phần ảnh có tần số rất cao",
+            "Bộ lọc thông dải giữ lại các thành phần ảnh có tần số cao",
+            "Bộ lọc thông dải giữ lại các thành phần ảnh có tần số thấp"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "question": "Bộ lọc thông dải được sử dụng để tăng cường các cạnh đồng thời giảm nhiễu.",
+        "answers": [
+            "Đúng",
+            "Sai"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "question": "Bộ lọc thông dải không giữ lại các thành phần ảnh ở dải tần số vừa phải.",
+        "answers": [
+            "Đúng",
+            "Sai"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "question": "Trong Phân đoạn ảnh, làm thế nào để xác định đối tượng trong một hình ảnh?",
+        "answers": [
+            "Áp dụng mặt nạ để che đi phần không quan trọng của hình ảnh",
+            "Phát hiện biên của đối tượng",
+            "Phát hiện và nhóm các pixel có tính năng tương đồng",
+            "Phân loại các pixel thành các nhóm dựa trên giá trị màu sắc"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "question": "Chọn nhận định về cạnh (edge) của ảnh là sai?",
+        "answers": [
+            "Các điểm có đột biến về độ sáng thường tập hợp thành một hình dạng mà ta gọi là cạnh",
+            "Cạnh của ảnh thường ở điểm có vector gradient lớn",
+            "Cạnh của ảnh thưởng tập trung ở những vùng ảnh bị mờ (blur)",
+            "Cạnh của ảnh thưởng tập trung ở những vùng ảnh có nhiều chi tiết"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "question": "Các yếu tố để tạo thành cạnh trên ảnh có thể là?",
+        "answers": [
+            "Sự không liên tục về chi tiết",
+            "Sự không liên tục về màu sắc",
+            "Sự không liên tục về độ sâu",
+            "Câu trả lời a, b, c đều đúng"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "question": "Các yếu tố để tạo thành cạnh trên ảnh có thể là?",
+        "answers": [
+            "Sự không liên tục về ánh sáng",
+            "Do ảnh bị nhiễu gauss khi chụp trong vùng thiếu ánh sáng",
+            "Câu trả lời a và b đều đúng",
+            "Câu trả lời a và b đều sai"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "question": "Các phương pháp nào có thể được sử dụng để phát hiện cạnh?",
+        "answers": [
+            "Phương pháp Sobel",
+            "Phương pháp Canny",
+            "Phương pháp Laplacian of Gaussian (LoG)",
+            "Tất cả các phương pháp trên"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "question": "Phương pháp nào sau đây thường được sử dụng để phát hiện cạnh trong hình ảnh? a. Median filtering",
+        "answers": [
+            "Convolution",
+            "Thresholding",
+            "Blurring"
         ],
-        "image": "01.png"
+        "correct_answer": 0
     },
     {
-        "question": "Question 12 Identify Design Elements is part of which workflow detail?",
+        "question": "Trong Phát hiện cạnh, \"Gradient\" của hình ảnh làm gì?",
         "answers": [
-            "A. Define a Candidate Architecture",
-            "B. Design Components",
-            "C. Perform Architectural",
-            "D. Refine the Architecture"
+            "Xác định đối tượng trong ảnh",
+            "Làm mờ hình ảnh",
+            "Xác định cạnh của hình ảnh",
+            "Làm tăng cường độ sắc nét"
         ],
-        "correct_answers": [
-            "D. Refine the Architecture"
-        ]
+        "correct_answer": 2
     },
     {
-        "question": "Question 13 In the diagram, what is H?",
+        "question": "Trong Phát hiện cạnh, \"Hysteresis thresholding\" thường được sử dụng để làm gì?",
         "answers": [
-            "A. fork",
-            "B. initial state",
-            "C. decision",
-            "D. transition",
-            "E. final state",
-            "F. event",
-            "G. state",
-            "H. guard condition"
+            "Phát hiện cạnh",
+            "Kết hợp các cạnh liên kết",
+            "Làm mờ hình ảnh",
+            "Loại bỏ nhiễu"
         ],
-        "correct_answers": [
-            "A. fork"
+        "correct_answer": 1
+    },
+    {
+        "question": "Trong Phát hiện cạnh, \"Non - maximum suppression\" làm gì?",
+        "answers": [
+            "Loại bỏ giá trị nhỏ nhất trong khu vực cạnh",
+            "Giữ lại giá trị lớn nhất trong khu vực cạnh",
+            "Tăng cường độ tương phản",
+            "Lọc nhiễu khỏi ảnh"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "question": "Điều gì xác định độ mạnh của cạnh trong \"Canny edge detector\"?",
+        "answers": [
+            "Ngưỡng trên và ngưỡng dưới",
+            "Giá trị gradient",
+            "Non - maximum suppression",
+            "Gaussian blur"
         ],
-        "image": "02.png"
+        "correct_answer": 1
     },
     {
-        "question": "Question 14 What is the relationship between operation and method?",
+        "question": "Trong \"Canny edge detector\", bước nào được sử dụng để làm mờ hình ảnh?",
         "answers": [
-            "A. The terms are synonymous.",
-            "B. An operation describes how a method is implemented.",
-            "C. A method describes how an operation is implemented.",
-            "D. There is no relationship."
+            "Gradient",
+            "Non - maximum suppression",
+            "Thresholding",
+            "Gaussian blur"
         ],
-        "correct_answers": [
-            "C. A method describes how an operation is implemented."
-        ]
+        "correct_answer": 3
     },
     {
-        "question": "Question 15 Why would you use subsystem interfaces rather than subsystem instances on sequence  diagrams?",
+        "question": "Phương pháp \"Canny edge detector\" được thiết kế để có ưu điểm gì so với các phương pháp khác?a. Phát hiện cạnh nhanh chóng",
         "answers": [
-            "A. to make it easier to model subsystems during Subsystem Design",
-            "B. to make use-case realizations easier to change",
-            "C. to ease sequence diagram maintenance when message signatures change",
-            "D. to reduce the number of classes needed to implement the subsystem"
+            "Giữ lại tất cả các cạnh",
+            "Tăng cường màu sắc",
+            "Loại bỏ nhiễu hiệu quả"
         ],
-        "correct_answers": [
-            "B. to make use-case realizations easier to change"
-        ]
+        "correct_answer": 2
     },
     {
-        "question": "Question 16 Which is an input artifact to the Identify Design Elements activity?",
+        "question": "Biến đổi Hough có thể được sử dụng để nhận diện các đường thẳng có hình dạng như thế nào?",
         "answers": [
-            "A. Deployment Model",
-            "B. Implementation Model",
-            "C. Reference Architecture",
-            "D. Software Architecture Document"
+            "Các đường thẳng tùy ý",
+            "Chỉ các đường chéo",
+            "Chỉ các đường thẳng dọc",
+            "Chỉ các đường thẳng ngang"
         ],
-        "correct_answers": [
-            "D. Software Architecture Document"
-        ]
+        "correct_answer": 0
     },
     {
-        "question": "Question 17 What is an important consideration when allocating processes to nodes?",
+        "question": "Tại sao trong biến đổi Hough, tìm đường thẳng trong ảnh, chúng ta lại sử dụng tọa độ cực?",
         "answers": [
-            "A. minimizing network traffic",
-            "B. minimizing power consumption",
-            "C. utilizing all available nodes",
-            "D. physical distance between nodes"
+            "Để tìm được nhiều đường thẳng hơn",
+            "Để loại các điểm nhiễu",
+            "Tránh các trường hợp đường thẳng suy biến",
+            "Để phân biệt giữa cạnh thẳng và cạnh không thẳng"
         ],
-        "correct_answers": [
-            "A. minimizing network traffic"
-        ]
+        "correct_answer": 2
     },
     {
-        "question": "Question 18 Which type of mechanism is a connector on a deployment diagram?",
+        "question": "Trong biến đổi Hough, làm thế nào để giảm thiểu ảnh hưởng của nhiễu (noise) và đối tượng không mong muốn?",
         "answers": [
-            "A. backup",
-            "B. communication",
-            "C. transaction",
-            "D. computation"
+            "Tăng ngưỡng threshold",
+            "Tăng số chiều không gian",
+            "Giảm ngưỡng threshold",
+            "Sử dụng bộ lọc"
         ],
-        "correct_answers": [
-            "B. communication"
-        ]
+        "correct_answer": 3
     },
     {
-        "question": "Question 19 A design mechanism _______.",
+        "question": "Thành phần “ρ” (Rho) trong biến đổi Hough đại diện cho điều gì?",
         "answers": [
-            "A. captures the key aspects of a solution in a way that is implementation-independent",
-            "B. specifies the exact implementation of the mechanism and is bound to a certain technology, implementation language, or vendor",
-            "C. is the same as a design pattern",
-            "D. assumes some details of the implementation environment, but is not tied to a specific implementation"
+            "Khoảng cách từ gốc tọa độ đến đường thẳng",
+            "Góc nghiêng của đường thẳng",
+            "Độ mạnh của đường thẳng",
+            "Tốc độ"
         ],
-        "correct_answers": [
-            "D. assumes some details of the implementation environment, but is not tied to a specific implementation"
-        ]
+        "correct_answer": 0
     },
     {
-        "question": "Question 20 When identifying interfaces during the Identify Design Elements activity, which  statement is true?",
+        "question": "Biến đổi Hough có thể được sử dụng để nhận diện các đường thẳng, đường tròn, đường elip.",
         "answers": [
-            "A. Classes should not realize an interface.",
-            "B. Each subsystem realizes only one interface.",
-            "C. Interfaces should be identified before subsystems are created.",
-            "D. Interfaces should be packaged separately from the elements that realize them."
+            "Đúng",
+            "Sai"
         ],
-        "correct_answers": [
-            "D. Interfaces should be packaged separately from the elements that realize them."
-        ]
+        "correct_answer": 0
     },
     {
-        "question": "Question 21 Additional subsystems can be discovered during Use Case Design by noting _______.",
+        "question": "Biến đổi Fourier được sử dụng để làm gì?",
         "answers": [
-            "A. common subflows between objects on several sequence diagrams",
-            "B. similar objects on several sequence diagrams",
-            "C. a consistent series of state transitions for multiple classes involved in a use-case realization",
-            "D. the same design classes involved in more than one use-case realization"
+            "Chuyển đổi ảnh sang miền tần số",
+            "Giúp phát hiện mức độ chi tiết của ảnh",
+            "Xây dựng các kỹ thuật lọc ảnh trên miền tần số",
+            "Chuyển đổi ảnh sang miền thời gian"
         ],
-        "correct_answers": [
-            "A. common subflows between objects on several sequence diagrams"
-        ]
+        "correct_answer": 0
     },
     {
-        "question": "Question 22 Which activities are performed during Use Case Design?",
+        "question": "Biến đổi Fourier được sử dụng để chuyển đổi ảnh từ miền tần số sang miền thời gian.",
         "answers": [
-            "A. converting analysis classes into design classes and design subsystems",
-            "B. describing persistence-related behavior",
-            "C. describing object interactions that implement interface operations",
-            "D. simplifying sequence diagrams using design classes"
+            "Đúng",
+            "Sai"
         ],
-        "correct_answers": [
-            "B. describing persistence-related behavior"
-        ]
+        "correct_answer": 1
     },
     {
-        "question": "Question 23 On a sequence diagram, what is used to represent a specific subsystem?",
+        "question": "Các vùng nào trên ảnh được đánh giá là có tần số thay đổi lớn trong phép biến đổi Fourier rời rạc?",
         "answers": [
-            "A. an interface that the subsystem realizes",
-            "B. a subsystem proxy",
-            "C. a subsystem component",
-            "D. a subsystem class"
+            "Các vùng chứa nhiều cạnh, chi tiết",
+            "Các vùng có màu sắc giống nhau",
+            "Các vùng có độ sáng tương đồng",
+            "Các vùng có ít chi tiết và không có cạnh"
         ],
-        "correct_answers": [
-            "C. a subsystem component"
-        ]
+        "correct_answer": 0
     },
     {
-        "question": "Question 24 Which UML elements are used to describe the physical architecture of a system?",
+        "question": "Cho ảnh 2 chiều cấp độ sáng đầu vào là hàm phân bố Gauss. Biến đổi Fourier rời rạc của ảnh này ___________________",
         "answers": [
-            "A. classes and relationships",
-            "B. objects and messages",
-            "C. subsystems and dependencies",
-            "D. nodes and connectors"
+            "Là một hàm phân bố Gauss khác",
+            "Là các sọc dòng xen kẽ nhau",
+            "Là hằng số",
+            "Là các sọc ngang xen kẽ nhau"
         ],
-        "correct_answers": [
-            "D. nodes and connectors"
-        ]
+        "correct_answer": 0
     },
     {
-        "question": "Question 25 Which artifact is used to describe use-case realizations?",
+        "question": "Cho ảnh 2 chiều cấp độ sáng đầu vào là một chấm sáng có độ rộng là một đơn vị kích thước ảnh (1 pixel), các vùng còn lại đều là màu đen. Biến đổi Fourier rời rạc của ảnh này là một ảnh",
         "answers": [
-            "A. textual use-case descriptions",
-            "B. communication diagrams",
-            "C. state charts",
-            "D. activity diagrams"
+            "chiều có dạng ________________________",
+            "Là hằng số",
+            "Là các sọc dọc xen kẽ nhau",
+            "Là các sọc ngang xen kẽ nhau",
+            "Không xác định"
         ],
-        "correct_answers": [
-            "B. communication diagrams"
-        ]
+        "correct_answer": 4
     },
     {
-        "question": "Question 26 What defines a subsystems responsibilities?",
+        "question": "Phép biến đổi không gian trên ảnh là một phép biến đổi hình học chuyển đổi hệ tọa độ ảnh.",
         "answers": [
-            "A. its internal class behavior",
-            "B. the operations of the interfaces it implements",
-            "C. the use-case realizations in which the subsystem appears",
-            "D. the operations on a class contained within the subsystem"
+            "Đúng",
+            "Sai"
         ],
-        "correct_answers": [
-            "B. the operations of the interfaces it implements"
-        ]
+        "correct_answer": 0
     },
     {
-        "question": "Question 27 Which is a design mechanism?",
+        "question": "Phép biến đổi affine bảo toàn tính chất nào?",
         "answers": [
-            "A. Persistency",
-            "B. ObjectStore Object-oriented Database",
-            "C. Distribution",
-            "D. Remote Method Invocation"
+            "Tuyến tính (tất cả các điểm nằm trên một đường thẳng ban đầu vẫn nằm trên một đường thẳng sau khi biến đổi)",
+            "Tỉ số khoảng cách (trung điểm của một đoạn thẳng vẫn là trung điểm của đoạn thẳng sau khi biến đổi)",
+            "Tất cả các tính chất trên",
+            "Không có tính chất nào trong các tính chất trên"
         ],
-        "correct_answers": [
-            "D. Remote Method Invocation"
-        ]
+        "correct_answer": 2
     },
     {
-        "question": "Question 28 To begin identifying design mechanisms, you start by categorizing analysis mechanisms. What are three steps in the process of Categorizing Analysis Mechanisms? (Choose three.)",
+        "question": "Phép biến đổi affine bao gồm phép quay, phép tịnh tiến, phép co dãn, phép cắt.",
         "answers": [
-            "A. identify characteristic profiles for each analysis mechanism",
-            "B. identify the clients of each analysis mechanism",
-            "C. assign a vendor implementation to each analysis mechanism",
-            "D. group clients according to their use of characteristic profiles"
+            "Đúng",
+            "Sai"
         ],
-        "correct_answers": [
-            "A. identify characteristic profiles for each analysis mechanism",
-            "B. identify the clients of each analysis mechanism",
-            "D. group clients according to their use of characteristic profiles"
-        ]
+        "correct_answer": 0
     },
     {
-        "question": "Question 29 In Subsystem Design, what happens in the step, Distribute Subsystem Responsibilities?",
+        "question": "Mô tả đặc trưng là quá trình biểu diễn các đặc điểm cục bộ của một vùng trong ảnh.",
         "answers": [
-            "A. The subsystems responsibilities are allocated to its internal design elements.",
-            "B. Each subsystem is checked to ensure it has a consistent set of responsibilities and inconsistent responsibilities are reassigned to other subsystems.",
-            "C. Libraries and external APIs are identified to realize the subsystem behavior.",
-            "D. Distribution mechanisms are detailed for exposing subsystem interfaces."
+            "Đúng",
+            "Sai"
         ],
-        "correct_answers": [
-            "A. The subsystems responsibilities are allocated to its internal design elements."
-        ]
+        "correct_answer": 0
     },
     {
-        "question": "Question 30 Which entity has a well-defined boundary and identity that encapsulates state and  behavior?",
+        "question": "Các ứng dụng của mô tả đặc trưng bao gồm?",
         "answers": [
-            "A. class",
-            "B. object",
-            "C. component",
-            "D. package"
+            "Nhận dạng đối tượng",
+            "Theo dõi chuyển động",
+            "Điều hướng cho robot",
+            "Tất cả các điều trên"
         ],
-        "correct_answers": [
-            "B. object"
-        ]
+        "correct_answer": 3
     },
     {
-        "question": "Question 31 What is the purpose of the Identify Design Mechanisms activity?",
+        "question": "Có thể sử dụng phương pháp nào để tạo mô tả đặc trưng?",
         "answers": [
-            "A. to refine the analysis mechanisms and specify the exact implementation of the mechanism",
-            "B. to provide a conceptual set of services that is used by analysis objects",
-            "C. to refine analysis mechanisms into design mechanisms, based on the constraints imposed by the implementation environment",
-            "D. to define design placeholders in the architecture so the architecting effort remains focused and is less likely to become sidetracked"
+            "SIFT",
+            "SURF",
+            "Cả a và b đều đúng",
+            "Cả a và b đều sai"
         ],
-        "correct_answers": [
-            "C. to refine analysis mechanisms into design mechanisms, based on the constraints imposed by the implementation environment"
-        ]
+        "correct_answer": 2
     },
     {
-        "question": "Question 32 In a dependency, through what reference does the client class gain visibility to the supplier?",
+        "question": "SIFT là viết tắt của từ gì?",
         "answers": [
-            "A. local reference",
-            "B. parameter reference",
-            "C. global reference",
-            "D. field reference"
+            "Scale-Invariant Feature Test.",
+            "Scale-Invariant Fast Transform.",
+            "Speeded-Up Robust Features.",
+            "Scale-Invariant Feature Transform."
         ],
-        "correct_answers": [
-            "A. local reference",
-            "B. parameter reference",
-            "C. global reference"
-        ]
+        "correct_answer": 3
     },
     {
-        "question": "Question 32 In a dependency, which reference means that the supplier object is a data member in the client object?",
+        "question": "SIFT sử dụng phương pháp nào để xác định mức tỉ lệ không gian (Scale space)?",
         "answers": [
-            "A. local reference",
-            "B. parameter reference",
-            "C. global reference",
-            "D. field reference"
+            "Gaussian Pyramid.",
+            "Fourier Transform.",
+            "Sobel Operator.",
+            "Laplacian Pyramid."
         ],
-        "correct_answers": [
-            "D. field reference"
-        ]
+        "correct_answer": 0
     },
     {
-        "question": "Question 33 In which Analysis and Design activity are subsystems mapped to analysis classes?",
+        "question": "Trong quá trình tính toán, SIFT sử dụng \"Difference of Gaussians\" (DoG) để làm gì?",
         "answers": [
-            "A. Architectural Analysis",
-            "B. Identify Design Elements",
-            "C. Identify Subsystems",
-            "D. Incorporate Existing Design Elements"
+            "Tìm điểm đặc trưng",
+            "Phát hiện cạnh",
+            "Làm mờ hình ảnh",
+            "Tính toán gradient"
         ],
-        "correct_answers": [
-            "B. Identify Design Elements"
-        ]
+        "correct_answer": 0
     },
     {
-        "question": "Question 34 Which design element is used to represent a concurrent object?",
+        "question": "Ta có thể kết hợp các hình ảnh bằng cách sử dụng mô tả đặc trưng cục bộ.",
         "answers": [
-            "A. active class",
-            "B. capsule",
-            "C. design class",
-            "D. event"
+            "Đúng",
+            "Sai"
         ],
-        "correct_answers": [
-            "A. active class"
-        ]
+        "correct_answer": 0
     },
     {
-        "question": "Question 35 The Describe Distribution activity is where the processes defined in the Describe the Run-time Architecture activity are allocated to ________.",
+        "question": "Khi kết hợp hình ảnh dựa trên mô tả đặc trưng, ta có thể thực hiện theo các bước:Phát hiện đặc trưng, Mô tả các đặc trưng, Tìm kiếm điểm tương đương, Ghép hình ảnh.",
         "answers": [
-            "A. physical nodes",
-            "B. components",
-            "C. classes",
-            "D. activities"
+            "Đúng",
+            "Sai"
         ],
-        "correct_answers": [
-            "A. physical nodes"
-        ]
+        "correct_answer": 0
     },
     {
-        "question": "Question 36 During Subsystem Design, how many interaction diagrams (sequence or communication) should be created?",
+        "question": "Trong chuyển đổi 3D, \"Rotation Matrix\" được sử dụng để làm gì?",
         "answers": [
-            "A. at least one interaction diagram per interface operation",
-            "B. one interaction diagram per interface realization",
-            "C. at least one interaction diagram for each use of an external interface",
-            "D. one interaction diagram for each realizing class"
+            "Thay đổi kích thước của đối tượng",
+            "Di chuyển đối tượng",
+            "Xoay đối tượng xung quanh một điểm",
+            "Quay đối tượng xung quanh một trục"
         ],
-        "correct_answers": [
-            "A. at least one interaction diagram per interface operation"
-        ]
+        "correct_answer": 3
     },
     {
-        "question": "Question 37 A directed graph of nodes connected by transitions is a diagram.",
+        "question": "Trong chuyển đổi 3D, Phép biến đổi affine bao gồm những phép biến đổi nào? a. Phép quay và Phép co dãn",
         "answers": [
-            "A. communication",
-            "B. sequence",
-            "C. component",
-            "D. state machine"
+            "Phép chiếu và Phép cắt",
+            "Phép tịnh tiến và Phép co dãn",
+            "Phép tịnh tiến, Phép quay và Phép co dãn"
         ],
-        "correct_answers": [
-            "D. state machine"
-        ]
+        "correct_answer": 2
     },
     {
-        "question": "Question 38 In the diagram, what is F?",
+        "question": "Phép biến đổi theo hình thái (image morphology) sử dụng lý thuyết nào sau đây?",
         "answers": [
-            "A. fork",
-            "B. initial state",
-            "C. decision",
-            "D. transition",
-            "E. final state",
-            "F. event",
-            "G. state",
-            "H. guard condition"
+            "Giải tích",
+            "Đại số tuyến tính",
+            "Lý thuyết tập hợp",
+            "Nhân chập"
         ],
-        "correct_answers": [
-            "F. event"
+        "correct_answer": 2
+    },
+    {
+        "question": "Phép Erosion có công thức định nghĩa là",
+        "answers": [
+            "Đúng",
+            "Sai"
         ],
-        "image": "03.png"
+        "correct_answer": 0,
+        "image": "image13.jpeg"
     },
     {
-        "question": "Question 39 Use Case Design is part of which workflow detail?",
+        "question": "Phép Dilation có công thức định nghĩa là",
         "answers": [
-            "A. Design Use Cases",
-            "B. Analyze Behavior",
-            "C. Design Components",
-            "D. Design Classes and Subsystems"
+            "Đúng",
+            "Sai"
         ],
-        "correct_answers": [
-            "C. Design Components"
-        ]
+        "correct_answer": 0,
+        "image": "image14.jpeg"
     },
     {
-        "question": "Question 40 When does an analysis class map directly to a design class?",
+        "question": "Phép toán nào sau đây làm thu nhỏ ảnh?",
         "answers": [
-            "A. when the analysis class uses the <entity> stereotype",
-            "B. when the analysis class represents a single logical abstraction",
-            "C. when the modeling tool supports transformation of Analysis Models to Design",
-            "D. when an analyst has strong design skills"
+            "Phép dịch",
+            "Phép phản chiếu",
+            "Phép Erosion",
+            "Phép Dialtion"
         ],
-        "correct_answers": [
-            "B. when the analysis class represents a single logical abstraction"
-        ]
+        "correct_answer": 2
     },
     {
-        "question": "Question 41 What is a design subsystems primary purpose?",
+        "question": "Opening = __________ next __________",
         "answers": [
-            "A. provides configuration management and model organization",
-            "B. encapsulates behavior",
-            "C. packages similar design classes together",
-            "D. represents external systems"
+            "Erosion, Dilation",
+            "Dilation, Erosion",
+            "Translation, Dilation",
+            "Translation, Erosion"
         ],
-        "correct_answers": [
-            "B. encapsulates behavior"
-        ]
+        "correct_answer": 0
     },
     {
-        "question": "Question 42 What is the purpose of subsystem design?",
+        "question": "Cho ảnh A, phần tử cấu trúc B và ảnh C như hình vẽCẢnh C là kết quả của phép toán nào giữa ảnh A và phần tử cấu trúc B?",
         "answers": [
-            "A. finalizes the details of each interface implemented by the subsystems in an application",
-            "B. breaks the system up into subsystems in order to allocate subsystems to development teams",
-            "C. defines the behaviors specified in the subsystem's interfaces in terms of collaborations of contained design elements",
-            "D. defines on which tier each subsystem will be implemented and the communication mechanisms used between them"
+            "Phép Dilation",
+            "Phép Erosion",
+            "Phép Opening",
+            "Phép Closing"
         ],
-        "correct_answers": [
-            "C. defines the behaviors specified in the subsystem's interfaces in terms of collaborations of contained design elements"
-        ]
+        "correct_answer": 0,
+        "image": "image15.jpeg"
     },
     {
-        "question": "Question 43 In the diagram, what are C1 and C2?",
+        "question": "Ta có thể áp dụng các phép biến đổi hình thái để Tìm đường biên, Điền đầy vùng, Gán nhãn các tập điểm liên thông trên ảnh.",
         "answers": [
-            "A. forks",
-            "B. initial states",
-            "C. decisions",
-            "D. transitions",
-            "E. final states",
-            "F. events",
-            "G. states",
-            "H. guard conditions"
+            "Đúng",
+            "Sai"
         ],
-        "correct_answers": [
-            "G. states"
+        "correct_answer": 0
+    },
+    {
+        "question": "Nén ảnh được sử dụng để làm gì (chọn đáp án sai)?",
+        "answers": [
+            "Để giảm kích thước ảnh",
+            "Để tăng cường chất lượng ảnh",
+            "Truyền ảnh qua mạng dễ dàng hơn",
+            "Lưu trữ ảnh dễ dàng hơn"
         ],
-        "image": "04.png"
+        "correct_answer": 1
     },
     {
-        "question": "Question 44 Defining the network configuration is the step of the Describe the Distribution activity.",
+        "question": "Ảnh nén có thể được khôi phục lại bằng kỹ thuật ______________",
         "answers": [
-            "A. final",
-            "B. first",
-            "C. second",
-            "D. fifth"
+            "Biến đổi ảnh",
+            "Giải nén ảnh",
+            "Tăng cường chất lượng ảnh",
+            "Tăng cường độ tương phản"
         ],
-        "correct_answers": [
-            "B. first"
-        ]
+        "correct_answer": 1
     },
     {
-        "question": "Question 45 In the diagram, what is B?",
+        "question": "Quá trình nào gây mất mát thông tin khi nén ảnh?",
         "answers": [
-            "A. fork",
-            "B. initial state",
-            "C. decision",
-            "D. transition",
-            "E. final state",
-            "F. event",
-            "G. state",
-            "H. guard condition"
+            "Lượng tử hóa",
+            "Chuyển đổi sang miền DCT",
+            "Nén Entropy",
+            "Cả 3 quá trình"
         ],
-        "correct_answers": [
-            "B. initial state"
+        "correct_answer": 0
+    },
+    {
+        "question": "Nén ảnh có thể áp dụng trong",
+        "answers": [
+            "HDTV",
+            "Phim",
+            "Lưu trữ ảnh",
+            "Truyền thông mạng",
+            "Tất cả những điều trên"
         ],
-        "image": "05.png"
+        "correct_answer": 4
     },
     {
-        "question": "Question 46 Which statement is true about packages and subsystems?",
+        "question": "Các loại dư thừa với dữ liệu ảnh",
         "answers": [
-            "A. A package cannot contain a subsystem.",
-            "B. A package provides behavior.",
-            "C. A subsystem provides behavior.",
-            "D. You use a package when you need to encapsulate behavior."
+            "Dư thừa mã hóa",
+            "Dư thừa không gian",
+            "Dư thừa thị giác",
+            "Tất cả các loại dư thừa trên"
         ],
-        "correct_answers": [
-            "C. A subsystem provides behavior."
-        ]
+        "correct_answer": 3
     },
     {
-        "question": "Question 47 How many physical nodes should be identified in order to perform the Describe Distribution activity?",
+        "question": "Ta có thể tận dụng các loại dư thừa với dữ liệu ảnh như dư thừa mã hóa, dư thừa không gian, dư thừa thị giác để nén ảnh.",
         "answers": [
-            "A. zero nodes only",
-            "B. one node only",
-            "C. zero nodes or one node",
-            "D. more than one node"
+            "Đúng",
+            "Sai"
         ],
-        "correct_answers": [
-            "D. more than one node"
-        ]
+        "correct_answer": 0
     },
     {
-        "question": "Question 48 Supplemental sequence diagram documentation, in the form of notes and scripts, is commonly used for ______. (Choose three.)",
+        "question": "Mã hoá dư thừa hoạt động trên miền _____________a. điểm ảnh",
         "answers": [
-            "A. describing required timing between messages",
-            "B. providing details about conditional behavior",
-            "C. specifying the attributes for objects that appear in the diagram",
-            "D. correlating extension points in the use case with specific locations in the sequence diagrams"
+            "tọa độ",
+            "cường độ sáng (intensity)",
+            "ma trận"
         ],
-        "correct_answers": [
-            "A. describing required timing between messages",
-            "B. providing details about conditional behavior",
-            "D. correlating extension points in the use case with specific locations in the sequence diagrams"
-        ]
+        "correct_answer": 1
     },
     {
-        "question": "Question 49 What is used to describe the process of applying a distribution mechanism during implementation?",
+        "question": "Cho một nguồn X gồm các kí hiệu a, b, c, d. Tính Entropy H(X) của nguồn X.Biết tỉ lệ xuất hiện các kí hiệu p(a) = 0.5, p(b) = 0.25, p(c) = 0.125, p(d) = 0.125.",
         "answers": [
-            "A. activity diagram",
-            "B. flowchart",
-            "C. UML pattern and written steps",
-            "D. use-case diagram"
+            "1.75",
+            "2.0",
+            "2.5",
+            "1.5"
         ],
-        "correct_answers": [
-            "C. UML pattern and written steps"
-        ]
+        "correct_answer": 0,
+        "image": "image18.jpeg",
+        "explanation": ""
     },
     {
-        "question": "Question 50 Given information provided in the diagram, which statement is true?",
+        "question": "Các phương pháp nén không mất mát thông dụng",
         "answers": [
-            "A. Lion and Tiger communicate with each other.",
-            "B. Lion and Tiger communicate with Animal.",
-            "C. Animal may not have direct instances.",
-            "D. Instances of Animal communicate differently than instances of Lion or Tiger."
+            "Mã hóa Huffman",
+            "Mã hóa số học",
+            "Mã hóa run - length",
+            "Tất cả các phương pháp trên"
         ],
-        "correct_answers": [
-            "C. Animal may not have direct instances."
+        "correct_answer": 3
+    },
+    {
+        "question": "Trong Mã hóa Huffman, mỗi ký hiệu nguồn được biểu diễn bởi một chuỗi bit (0 và 1) có độ dài tỉ lệ thuận với xác suất xuất hiện của nó.",
+        "answers": [
+            "Đúng",
+            "Sai"
         ],
-        "image": "06.png"
+        "correct_answer": 1,
+        "explanation": ""
     },
     {
-        "question": "Question 51 What does an underlined attribute indicate?",
+        "question": "Trong Mã hóa Huffman, mã có độ dài biến đổi được định nghĩa sao cho không có từ mã nào là tiền tố của một từ mã khác.",
         "answers": [
-            "A. The attribute is read-only.",
-            "B. The attribute is derived from other attributes.",
-            "C. The attribute uniquely identifies instances.",
-            "D. The attribute is defined at the classifier level instead of the instance level."
+            "Đúng",
+            "Sai"
         ],
-        "correct_answers": [
-            "D. The attribute is defined at the classifier level instead of the instance level."
-        ]
+        "correct_answer": 0
     },
     {
-        "question": "Question 52 In the diagram, the attribute CourseOffering.numberOfStudents is an example of _________.",
+        "question": "Cho tỉ lệ xuất hiện các kí hiệu p(a) = 0.5, p(b) = 0.25, p(c) = 0.125, p(d) = 0.125.Tính số lượng bit trung bình để mã hóa một kí hiệu nếu sử dụng mã hóa Huffman.",
         "answers": [
-            "A. a bad design",
-            "B. a static attribute",
-            "C. a derived attribute",
-            "D. non-standard naming"
+            "1.75",
+            "2.0",
+            "2.5",
+            "1.5"
         ],
-        "correct_answers": [
-            "C. a derived attribute"
+        "correct_answer": 0,
+        "explanation": ""
+    },
+    {
+        "question": "Cho tỉ lệ xuất hiện các kí hiệu p(a) = 0.5, p(b) = 0.25, p(c) = 0.125, p(d) = 0.125.Tính số lượng bit dùng để mã hóa chuỗi thông tin S = abcabd nếu sử dụng mã hóa Huffman.",
+        "answers": [
+            "12",
+            "15",
+            "14",
+            "10"
         ],
-        "image": "07.png"
+        "correct_answer": 0
     },
     {
-        "question": "Question 53 In the diagram, what is A?",
+        "question": "Cho tỉ lệ xuất hiện các kí hiệu p(a) = 0.5, p(b) = 0.25, p(c) = 0.125, p(d) = 0.125.Tính số lượng bit dùng để mã hóa chuỗi thông tin S = abcadbc nếu sử dụng mã hóa Huffman.",
         "answers": [
-            "A. fork",
-            "B. initial state",
-            "C. decision",
-            "D. transition",
-            "E. final state",
-            "F. event",
-            "G. state",
-            "H. guard condition"
+            "10",
+            "12",
+            "15",
+            "14"
         ],
-        "correct_answers": [
-            "E. final state"
+        "correct_answer": 2
+    },
+    {
+        "question": "Nguyên lý của Mã hóa số học là: Toàn bộ một chuỗi ký hiệu nguồn được gán một từ mã duy nhất biểu diễn một giá trị thực trong khoảng [ 0 , 1 ].",
+        "answers": [
+            "Đúng",
+            "Sai"
         ],
-        "image": "08.png"
+        "correct_answer": 0
     },
     {
-        "question": "Question 54 With respect to persistence, what are two functions of transactions? (Choose two.)",
+        "question": "Phương pháp Mã hóa số học gặp phải vấn đề: Khi giải mã, giải thuật không biết dừng ở đâu nếu không biết trước độ dài của chuỗi ký hiệu. Giải pháp nào sau đây có thể áp dụng cho vấn đề này?",
         "answers": [
-            "A. ensure that a set of operations is performed either in total, or not at all",
-            "B. enable a designer to selectively define operations that will be executed with priority when there is a shortage of system resources",
-            "C. ensure that sets of objects move from one consistent state to another",
-            "D. simplify design work, so that persistence does not need to be explicitly considered during Use Case Design",
-            "E. simply design work, by providing standardized approaches for representing persistent objects in UML"
+            "Sử dụng 1 ký hiệu kết thúc chuỗi",
+            "Gửi kèm theo chuỗi mã hóa giá trị độ dài của chuỗi ban đầu",
+            "Cố định độ dài các chuỗi được mã hóa",
+            "Tất cả các giải pháp trên đều có thể áp dụng được"
         ],
-        "correct_answers": [
-            "A. ensure that a set of operations is performed either in total, or not at all",
-            "C. ensure that sets of objects move from one consistent state to another"
-        ]
+        "correct_answer": 3
     },
     {
-        "question": "Question 55 What are three purposes of Use Case Design? (Choose three)",
+        "question": "Cho chuỗi ban đầu aaaabbbddaaddcccccccaSử dụng phương pháp Mã hóa run-length, ta được chuỗi kết quả là ____________",
         "answers": [
-            "A. to refine use-case realizations in terms of interactions",
-            "B. to ensure the completeness of the View of Participating Classes diagrams for each use-case realization",
-            "C. to refine requirements on the operations of design classes",
-            "D. to refine requirements on the operations of design subsystems and/or their interfaces"
+            "4a3b2d2a2d7c1a",
+            "3a3b2d1a2d7c1a",
+            "4a4b2d2a2d8c1a",
+            "4a3b5d2a2d7c2a"
         ],
-        "correct_answers": [
-            "A. to refine use-case realizations in terms of interactions",
-            "C. to refine requirements on the operations of design classes",
-            "D. to refine requirements on the operations of design subsystems and/or their interfaces"
-        ]
+        "correct_answer": 0
     },
     {
-        "question": "Question 56 Which is a Use Case Design output artifact?",
+        "question": "Nén không mất mát cho tỉ số nén cao hơn so với Nén có mất mát.",
         "answers": [
-            "A. analysis classes",
-            "B. design classes",
-            "C. interfaces",
-            "D. the Design Model"
+            "Đúng",
+            "Sai"
         ],
-        "correct_answers": [
-            "D. the Design Model"
-        ]
+        "correct_answer": 1,
+        "explanation": "Nén có mất mát cho tỉ số nén cao hơn so với Nén không mất mát."
     },
     {
-        "question": "Question 57 Which is an example of an Execution Environment?",
+        "question": "Trong quy trình nén ảnh, các phương pháp nén có mất mát thường được sử dụng trong pha đầu tiên và các phương pháp nén không mất mát thường được sử dụng trong pha cuối cùng.",
         "answers": [
-            "A. Gigabit network switch",
-            "B. virtual private network",
-            "C. J2EE application server",
-            "D. handheld computer"
+            "Đúng",
+            "Sai"
         ],
-        "correct_answers": [
-            "C. J2EE application server"
-        ]
+        "correct_answer": 0
     },
     {
-        "question": "Question 58 The purpose of Unify Classes and Subsystems is to ensure __________.",
+        "question": "JPEG là viết tắt của từ nào?",
         "answers": [
-            "A. each subsystem has a corresponding subsystem component",
-            "B. all classes are assigned to at most one subsystem",
-            "C. the responsibilities of design elements do not overlap",
-            "D. each defined interface has a cohesive and coherent API"
+            "a. Join Photographic Expanded Group",
+            "b. Joint Photographs Expansion Group",
+            "c. Joint Photograph Expansion Group",
+            "d. Joint Photographic Experts Group"
         ],
-        "correct_answers": [
-            "C. the responsibilities of design elements do not overlap"
-        ]
+        "correct_answer": 3
     },
     {
-        "question": "Question 59 Which is a guideline for encapsulating subsystem interactions on sequence diagrams?",
+        "question": "Ưu điểm chính của chuẩn nén ảnh JPEG là gì?",
         "answers": [
-            "A. Messages to subsystems should correspond to subsystem interface operations.",
-            "B. Messages from subsystems should correspond to operations of the subsystem component.",
-            "C. During Use Case Design, secondary sequence diagrams should be created to model the interactions within subsystems.",
-            "D. A subsystem should be represented on sequence diagrams using its subsystem component."
+            "Không có câu trả lời đúng",
+            "Có thể giải nén theo tiến trình (progressive decoding)",
+            "Có hiệu suất nén thông tin cao",
+            "Có thể nén không mất mát thông tin"
         ],
-        "correct_answers": [
-            "A. Messages to subsystems should correspond to subsystem interface operations."
-        ]
+        "correct_answer": 2
     },
     {
-        "question": "Question 60 Which is an example of a connector?",
+        "question": "Các bước nào trong quy trình nén JPEG làm mất mát thông tin?",
         "answers": [
-            "A. SCSI Hard Disk",
-            "B. Uninterruptible Power Supply",
-            "C. HTTP protocol*",
-            "D. JDBC class"
+            "Mã hóa run-length theo đường ziczac",
+            "Sử dụng biến đổi cosin rời rạc (DCT)",
+            "Đổi kênh màu RGB về kênh màu YUV",
+            "Lượng tử hóa"
         ],
-        "correct_answers": [
-            "C. HTTP protocol*"
-        ]
+        "correct_answer": 3
     },
     {
-        "question": "Question 71 In the diagram, what is G?",
+        "question": "Các bước nào trong quy trình nén JPEG không làm mất mát thông tin?",
         "answers": [
-            "A. fork",
-            "B. initial state",
-            "C. decision",
-            "D. transition",
-            "E. final state",
-            "F. event",
-            "G. state",
-            "H. guard condition",
-            "D. Refine the Architecture"
+            "Sử dụng biến đổi cosine rời rạc (DCT)",
+            "Lấy mẫu theo từng kênh màu tỉ lệ 4:1:1",
+            "Không có câu trả lời đúng",
+            "Lượng tử hóa"
         ],
-        "correct_answers": [],
-        "image": "09.png"
+        "correct_answer": 0
     },
     {
-        "question": "Question 86 Which is a device?",
+        "question": "Tại sao trong quy trình nén JPEG, người ta không nén trực tiếp trên kênh màu RGB?",
         "answers": [
-            "A. database server",
-            "B. web server",
-            "C. virtual private network",
-            "D. handheld computer"
+            "Ảnh bị mất thông tin và không thể khôi phục lại được",
+            "Thông tin chính của bức ảnh bị phân tán trên nhiều kênh màu dẫn đến hiệu suất nén thông tin không tốt",
+            "Không có câu trả lời đúng",
+            "Mất nhiều thời gian để nén và giải nén"
         ],
-        "correct_answers": [
-            "C. decision"
-        ]
+        "correct_answer": 1
     },
     {
-        "question": "Question 86 Which is a device?",
+        "question": "Phương pháp Lượng tử hóa làm giảm entropy của tập dữ liệu bằng cách làm giảm số lượng ký hiệu có thể được sử dụng.",
         "answers": [
-            "A. database server",
-            "B. web server",
-            "C. virtual private network",
-            "D. handheld computer"
+            "Đúng",
+            "Sai"
         ],
-        "correct_answers": [
-            "D. handheld computer"
-        ]
+        "correct_answer": 0
     },
     {
-        "question": "Question 88 In the below diagram, what is A?",
+        "question": "Tập các ký hiệu sau Lượng tử hóa lớn hơn so với Tập các ký hiệu đầu vào.",
         "answers": [
-            "A. fork",
-            "B. initial state",
-            "C. decision",
-            "D. transition",
-            "E. final state",
-            "F. event",
-            "G. state",
-            "H. guard condition"
+            "Đúng",
+            "Sai"
         ],
-        "correct_answers": [
-            "E. final state"
+        "correct_answer": 1,
+        "explanation": ""
+    },
+    {
+        "question": "Tại sao phép biến đổi DCT lại được sử dụng trong chuẩn nén JPEG?",
+        "answers": [
+            "Làm ảnh mịn hơn",
+            "Chạy nhanh hơn DFT",
+            "Làm ảnh sắc nét hơn.",
+            "Tập trung thông tin chính trên ảnh về một vùng thông tin nhất định"
         ],
-        "image": "10.png"
+        "correct_answer": 3
     },
     {
-        "question": "Question 90 Which 4+1 view is the focus of the Describe Distribution activity?",
+        "question": "Sau bước lượng tử hóa, sử dụng mã hóa run-length ta thu được chuỗi mã hóa một khối 8x8 cóthông số:DC=26AC = (0, 1) (2, -1) (3, 1) (5, 2) (0, -1) (1, 2) (1, -2) (0, 0).Tìm giá trị ở vị trí dòng 1 cột 1 của khối 8x8 ban đầu (các chỉ số đánh số từ 1)?",
         "answers": [
-            "A. Logical View",
-            "B. Deployment View",
-            "C. Use Case View",
-            "D. Implementation View"
+            "26",
+            "1",
+            "2",
+            "0"
         ],
-        "correct_answers": [
-            "B. Deployment View"
-        ]
+        "correct_answer": 0,
+        "explanation": "Giá trị ở vị trí dòng 1 cột 1 của khối 8x8 ban đầu = DC = 26"
     },
     {
-        "question": "Question 95 Which three activities are elements of Class Design? (Choose three.)",
+        "question": "Để tạo ra một hình ảnh trắng đen mới với kích thước và giá trị pixel mặc định trong OpenCV, bạn sử dụng hàm nào?",
         "answers": [
-            "A. identify classes and relationships that support implementation of an architecture",
-            "B. identify and analyze state transitions in objects of state-controlled classes",
-            "C. identify classes that model the problem domain",
-            "D. refine relationships, operations and attributes"
+            "cv.zeros()",
+            "cv.blackImage()",
+            "cv.createImage()",
+            "cv.newImage()"
         ],
-        "correct_answers": [
-            "C. identify classes that model the problem domain"
-        ]
+        "correct_answer": 0
     },
     {
-        "question": "Question 96 In the diagram, what is D?",
+        "question": "Để đọc một hình ảnh từ tệp tin trong OpenCV, bạn sử dụng hàm nào?",
         "answers": [
-            "A. fork",
-            "B. initial state",
-            "C. decision",
-            "D. transition",
-            "E. final state",
-            "F. event",
-            "G. state",
-            "H. guard condition"
+            "cv.load()",
+            "cv.imread()",
+            "cv.readImage()",
+            "cv.loadImage()"
         ],
-        "correct_answers": [
-            "D. transition"
+        "correct_answer": 1
+    },
+    {
+        "question": "Hàm nào được sử dụng để hiển thị hình ảnh trong OpenCV?",
+        "answers": [
+            "cv.display()",
+            "cv.imshow()",
+            "cv.displayImage()",
+            "cv.showImage()"
         ],
-        "image": "11.png"
+        "correct_answer": 1
     },
     {
-        "question": "Question 103 Artifacts are entities that _____.",
+        "question": "Trong OpenCV, hàm nào được sử dụng để làm mờ hình ảnh bằng bộ lọc trung bình?",
         "answers": [
-            "A. host running software",
-            "B. are deployed onto physical nodes",
-            "C. are the result of model transformations",
-            "D. are stored in a browser cach"
+            "cv.blur()",
+            "cv.averageBlur()",
+            "cv.boxFilter()",
+            "cv.meanBlur()"
         ],
-        "correct_answers": [
-            "B. are deployed onto physical nodes"
-        ]
+        "correct_answer": 0
     },
     {
-        "question": "Question 104 Which two examples are true for analysis mechanism, design mechanism and",
+        "question": "Để thực hiện phép biến đổi affine (tịnh tiến, xoay, co giãn) trên một hình ảnh trong OpenCV, bạn sử dụng hàm nào?",
         "answers": [
-            "A. Persistencey -> RDBMS -> JDBC",
-            "B. Distribution -> Remote Method Invocation (RMI) -> JAVA SE 6 from Sun"
+            "cv.affineTransform()",
+            "cv.transformAffine()",
+            "cv.affineTransform()",
+            "cv.warpAffine()"
         ],
-        "correct_answers": [
-            "A. Persistencey -> RDBMS -> JDBC",
-            "B. Distribution -> Remote Method Invocation (RMI) -> JAVA SE 6 from Sun"
-        ]
+        "correct_answer": 3
     },
     {
-        "question": "Question 105 Which are the output of Sub-system Design?",
+        "question": "Để thực hiện phép biến đổi affine tự do (freeform affine transformation) trên một hình ảnh trong OpenCV, bạn sử dụng hàm nào?",
         "answers": [
-            "A. Design classes + Design Model + Design subsystem and interface"
+            "cv.getPerspectiveTransform()",
+            "cv.freeformTransform()",
+            "cv.transformFreeform()",
+            "cv.warpFreeform()"
         ],
-        "correct_answers": [
-            "A. Design classes + Design Model + Design subsystem and interface"
-        ]
+        "correct_answer": 0
     },
     {
-        "question": "Question 106. Design Elements includes",
+        "question": "Trong thư viện opencv2, để đọc ra ảnh ở kênh màu cấp độ sáng (gray), sử dụng lệnh nào sau đây?",
         "answers": [
-            "A. Design classes + Subsystems + Packages"
+            "cv2.imread(filename)",
+            "cv2.imread(filename, 0)",
+            "cv2.imread(filename, 1)",
+            "Không có câu trả lời đúng"
         ],
-        "correct_answers": [
-            "A. Design classes + Subsystems + Packages"
+        "correct_answer": 1
+    },
+    {
+        "question": "Trong thư viện opencv2, kết quả trả về của lệnh cv2.imread(path) có thể trả về các giá trị nào?",
+        "answers": [
+            "Ma trận 3 chiều",
+            "Đối tượng rỗng",
+            "Ma trận 2 chiều",
+            "a và b đúng",
+            "a và c đúng",
+            "Không có câu trả lời đúng"
         ],
-        "image": ""
+        "correct_answer": 3
     }
 ]
