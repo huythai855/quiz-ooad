@@ -1,4 +1,4 @@
-# Quiz Image Processing
+# Image Processing Quiz
 Quiz trắc nghiệm **200** câu môn **Xử lý ảnh** cho người người nhà nhà cùng ôn.
 
 Các câu hỏi được lấy từ bộ ngân hàng câu hỏi được soạn bởi sinh viên **Vu Hoang Hanh**. 
