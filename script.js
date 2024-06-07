@@ -1,16 +1,24 @@
 let questions = [];
-let usedQuestions = [];
 let currentQuestionIndex = -1;
+let totalQuestions = 0;
 
 fetch("./questions.json")
   .then((response) => response.json())
   .then((data) => {
     questions = data;
+    totalQuestions = questions.length;
     nextQuestion();
   })
   .catch((error) => console.error("Error loading questions:", error));
 
 function nextQuestion() {
+  usedQuestions = JSON.parse(localStorage.getItem("usedQuestions")) || [];
+
+  if (currentQuestionIndex !== -1) {
+    usedQuestions.push(currentQuestionIndex);
+    localStorage.setItem("usedQuestions", JSON.stringify(usedQuestions));
+  }
+
   if (usedQuestions.length === questions.length) {
     usedQuestions = [];
   }
@@ -21,10 +29,23 @@ function nextQuestion() {
   } while (usedQuestions.includes(newQuestionIndex));
 
   currentQuestionIndex = newQuestionIndex;
-  usedQuestions.push(newQuestionIndex);
 
   const question = questions[newQuestionIndex];
   displayQuestion(question);
+  updateCounter();
+}
+
+function resetQuestions() {
+  currentQuestionIndex = -1;
+  localStorage.setItem("usedQuestions", JSON.stringify([]));
+  nextQuestion();
+}
+
+function updateCounter() {
+  const counterElement = document.getElementById("counter");
+  counterElement.textContent = `${
+    JSON.parse(localStorage.getItem("usedQuestions")).length
+  }/${totalQuestions}`;
 }
 
 function displayQuestion(question) {

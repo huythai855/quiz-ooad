@@ -20,7 +20,11 @@
             <p id="explanation"></p>
         </div>
         <br />
-        <button id="button-next" type="button" onclick="nextQuestion()">Next</button>
+        <div style="display: flex; width: 100%;">
+            <button id="button-next" type="button" onclick="nextQuestion()">Next</button>
+            <button id="button-reset" type="button" onclick="resetQuestions()">Reset</button>
+            <span id="counter"></span>
+        </div>
     </div>
 
     <script src="script.js"></script>
