@@ -1,10 +1,13 @@
-# Image Processing Quiz
-Quiz trắc nghiệm **200** câu môn **Xử lý ảnh** cho người người nhà nhà cùng ôn.
+# Trắc nghiệm UET
 
-Các câu hỏi được lấy từ bộ ngân hàng câu hỏi được soạn bởi sinh viên **Vu Hoang Hanh**. 
+Bao gồm các câu hỏi trắc nghiệm của các khóa học:
+- **Xử lý ảnh** - 200 câu
+- **Nhà nước và pháp luật** - 200 câu
 
-👉 Take the quiz now: [https://ip-quiz.netlify.app](https://ip-quiz.netlify.app).
+👉 Take the quiz now: [https://uet-quiz.netlify.app](https://uet-quiz.netlify.app).
 
-Thank **@huythai855** and **@hongquant.17** for the codebase.
+# Credits
+- Tổng hợp tài liệu xử lý ảnh: **Vu Hoang Hanh**
+- Codebase: **@huythai855**, **@hongquant.17**
 
-> _Built by **@qninhdt** with ❤️_
+_Built by **@qninhdt** with ❤️_
