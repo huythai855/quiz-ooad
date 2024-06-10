@@ -2,12 +2,12 @@ let questions = [];
 let currentQuestionIndex = -1;
 let totalQuestions = 0;
 
-fetch("./questions.json")
+fetch(`./data/${documentName}.json`)
   .then((response) => response.json())
   .then((data) => {
     questions = data;
     totalQuestions = questions.length;
-    nextQuestion();
+    // nextQuestion();
   })
   .catch((error) => console.error("Error loading questions:", error));
 
@@ -21,6 +21,7 @@ function nextQuestion() {
 
   if (usedQuestions.length === questions.length) {
     usedQuestions = [];
+    localStorage.setItem("usedQuestions", JSON.stringify(usedQuestions));
   }
 
   let newQuestionIndex;
@@ -59,7 +60,7 @@ function displayQuestion(question) {
   questionElement.textContent = question.question;
 
   if (question.image) {
-    questionImageElement.src = "./images/" + question.image;
+    questionImageElement.src = question.image;
     questionImageElement.style.display = "block";
   } else {
     questionImageElement.style.display = "none";

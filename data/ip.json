@@ -551,7 +551,7 @@
             "H (3) = 2"
         ],
         "correct_answer": 0,
-        "image": "image4.jpeg"
+        "image": "./images/ip/image4.jpeg"
     },
     {
         "question": "Mục đích chính của khôi phục ảnh là ________________________",
@@ -696,7 +696,7 @@
             "Ảnh kết quả đối xứng với ảnh gốc"
         ],
         "correct_answer": 2,
-        "image": "image5.jpeg"
+        "image": "./images/ip/image5.jpeg"
     },
     {
         "question": "Thao tác nào liên quan đến quá trình phóng to, thu nhỏ hoặc xoay ảnh?",
@@ -1007,7 +1007,7 @@
             "Bộ lọc không gian làm mịn"
         ],
         "correct_answer": 3,
-        "image": "image6.jpeg"
+        "image": "./images/ip/image6.jpeg"
     },
     {
         "question": "Mặt nạ trong hình dưới đây thuộc loại bộ lọc nào?",
@@ -1018,7 +1018,7 @@
             "Bộ lọc tần số làm sắc nét"
         ],
         "correct_answer": 2,
-        "image": "image7.jpeg"
+        "image": "./images/ip/image7.jpeg"
     },
     {
         "question": "Bộ lọc Gauss dùng để làm gì?a. Nén ảnh",
@@ -1066,7 +1066,7 @@
             "Không có câu trả lời đúng"
         ],
         "correct_answer": 0,
-        "image": "image10.jpeg"
+        "image": "./images/ip/image10.jpeg"
     },
     {
         "question": "Nêu tác dụng của bộ lọc 3x3 sau đây?",
@@ -1077,7 +1077,7 @@
             "Làm sắc nét ảnh"
         ],
         "correct_answer": 3,
-        "image": "image11.jpeg"
+        "image": "./images/ip/image11.jpeg"
     },
     {
         "question": "Chọn nhận đúng về bộ lọc thông cao?",
@@ -1538,7 +1538,7 @@
             "Sai"
         ],
         "correct_answer": 0,
-        "image": "image13.jpeg"
+        "image": "./images/ip/image13.jpeg"
     },
     {
         "question": "Phép Dilation có công thức định nghĩa là",
@@ -1547,7 +1547,7 @@
             "Sai"
         ],
         "correct_answer": 0,
-        "image": "image14.jpeg"
+        "image": "./images/ip/image14.jpeg"
     },
     {
         "question": "Phép toán nào sau đây làm thu nhỏ ảnh?",
@@ -1578,7 +1578,7 @@
             "Phép Closing"
         ],
         "correct_answer": 0,
-        "image": "image15.jpeg"
+        "image": "./images/ip/image15.jpeg"
     },
     {
         "question": "Ta có thể áp dụng các phép biến đổi hình thái để Tìm đường biên, Điền đầy vùng, Gán nhãn các tập điểm liên thông trên ảnh.",
@@ -1665,7 +1665,7 @@
             "1.5"
         ],
         "correct_answer": 0,
-        "image": "image18.jpeg",
+        "image": "./images/ip/image18.jpeg",
         "explanation": ""
     },
     {
