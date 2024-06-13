@@ -2865,5 +2865,1962 @@
         ],
         "correct_answer": 2,
         "explanation": "Để xác định số hiệu của Subnet mà host này thuộc vào và host number của nút mạng, chúng ta cần thực hiện các bước sau đây:\n\nXác định số bit 1 trong subnet mask: 255.255.255.240 Subnet mask này có dạng CIDR là /28, vì nó có 28 bit 1 liên tiếp (từ trái qua phải).\n. Xác định địa chỉ IP của subnet. Địa chỉ IP của subnet là địa chỉ mạng của nút mạng, được tính bằng cách thực hiện phép AND giữa địa chỉ IP và subnet mask. Địa chỉ IP: 194.12.2.179 Subnet mask: 255.255.255.240 Kết quả AND: 194.12.2.179 -> 11000010.00001100.00000010.10110011 (địa chỉ IP dưới dạng nhị phân) 255.255.255.240 -> 11111111.11111111.11111111.11110000 (subnet mask dưới dạng nhị phân) Kết quả AND: 11000010.00001100.00000010.10110000 Địa chỉ IP của subnet: 194.12.2.176\nXác định số hiệu của subnet. Để xác định số hiệu của subnet, chúng ta chỉ cần xem giá trị của byte cuối cùng trong địa chỉ IP của subnet. Byte cuối cùng: 10110000 (dưới dạng nhị phân) = 176 (dưới dạng thập phân) Vậy, số hiệu của subnet mà host này thuộc vào là 176.\nXác định host number của nút mạng. Để xác định host number của nút mạng, chúng ta chỉ cần xem giá trị của byte cuối cùng trong địa chỉ IP của nút mạng. Byte cuối cùng: 10110011 (dưới dạng nhị phân) = 179 (dưới dạng thập phân) Vậy, host number của nút mạng là 179.\nTóm lại, số hiệu của subnet mà host này thuộc vào là 176 và host number của nút mạng là 179."
+    },
+    {
+        "question": "Giá trị BER (Bit Error Rate/Ratio = Số bít lỗi/Tổng số bíttruyền) phản ánh đặc trưng nào sau đây của đường truyền?",
+        "answers": [
+            "Tốc độ truyền tin tối đa",
+            "Thông lượng",
+            "Độ tin cậy",
+            "Độ suy hao tín hiệu",
+            "Độ trễ"
+        ],
+        "correct_answer": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ],
+        "explanation": "a.Số bit tối đa truyền được trong 1 giây (bps-bit per second)\nb.Tốc độ truyền dữ liệu qua 1 điểm nó trong mạng tại thời điểm quan sát \n(bps)\nd. Mức độ suy giảm năng lượng\ne. Thời gian truyền dữ liệu từ nguồn tới đích (s)"
+    },
+    {
+        "question": "Thông số RTT(Round Trip Time) trong quá trình truyền tin chobiết điều gì?",
+        "answers": [
+            "Trễ hàng đợi trên các thiết bị chuyển tiếp",
+            "Thời gian chọn đường trên bộ định tuyến (router)",
+            "Trễ lan truyền tín hiệu trên đường truyền",
+            "Trễ 2 chiều giữa nút nguồn"
+        ],
+        "correct_answer": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "explanation": "và nút đích \nTrễ truyền dữ liệu từ nguồn tới đích: tổng 4 thành phần trễ\n-\nTrễ truyền tin: thời gian truyền hết dữ liệu (từ khi truyền bit đầu tiên \ntới bit cuối cùng ra khỏi nút nguồn)\n-\nTrễ truyền dẫn: thời gian lan truyền tín hiệu từ nguồn tới đích\n-\nTrễ xử lý tại nút chuyển tiếp(nút trung gian)\n-\nTrễ hàng đợi: thời gian dữ liệu chờ trong hàng đợi\nRTT: thời gian từ khi nút nguồn gửi dữ liệu đi, tới khi nhận được dữ liệu trả lời \ncủa nút đích\nNút nguồn\nNút đích\nDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)\nlOMoARcPSD|43338792\nRTT = t1 – t0\nDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)\nlOMoARcPSD|43338792\nA\n   \nB"
+    },
+    {
+        "question": "Giả sử đường đi từ nút A đến nút B qua 3 liên kết với băngthông lần lượt là 4Mbps, 1Mbps và 2 Mbps. Thời gian để A truyền đến B một file có kích thước 10 MB là bao nhiêu. Giả sử các kết nốikhông truyền dữ liệu nào khác, trễ lan truyền và trễ tại các nút trung gian là không đáng kể?",
+        "answers": [
+            "80 s",
+            "20 s",
+            "40 s",
+            "140 s",
+            "Xấp xỉ "
+        ],
+        "correct_answer": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ],
+        "explanation": "11.4 s \nRtrên toàn tuyến = 1 Mbps \n t = Kích thước dữ liệu cần truyền / Tốc \n\nđộ truyền\n \n\nt = 10 MB x 8 / 1 Mbps = 80 (s)"
+    },
+    {
+        "question": "Đặc điểm của cơ chế truyền “best-effort” là gì?",
+        "answers": [
+            "Chỉ gửi dữ liệu 1 lần, không phát lại",
+            "Thiết lập liên kết trước khi truyền",
+            "Sử dụng báo nhận"
+        ],
+        "correct_answer": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "question": "Tại sao đường truyền phải có giá trị MTU(MaximumTransmission Unit) để giới hạn kích thước của gói tin được truyền?",
+        "answers": [
+            "Giảm xác suất đụng độ",
+            "Giảm tỉ lệ lỗi bit (BER – Bit Error Rate)",
+            "Giảm xác suất phải truyền lại dữ liệu",
+            "Tăng tốc độ truyền tinBER = Số bit lỗi / Tổng số bit truyền"
+        ],
+        "correct_answer": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "question": "Tại sao phải đặt giá trị MTU (Maximum Transmission Unit) chođường truyền?",
+        "answers": [
+            "Giảm tỉ lệ phải truyền lại do lỗi bit trên gói tin",
+            "Giảm trễ hàng đợi",
+            "Tăng hiệu suất sử dụng đường truyền",
+            "Tránh tắc nghẽn"
+        ],
+        "correct_answer": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "question": "Thông số nào sau đây được sử dụng để đánh giá độ tincậy của đường truyền? (Chọn 2 đáp án)Downloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792",
+        "answers": [
+            "Băng thông",
+            "Độ trễ",
+            "Độ suy hao",
+            "Tỉ lệ lỗi bit (BER)",
+            "Tỉ lệ mất gói tin"
+        ],
+        "correct_answer": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "question": "Phát biểu nào sau đây là SAI về giao thức truyền thông?",
+        "answers": [
+            "Quy định khuôn dạng dữ liệu khi truyền",
+            "Quy định cách thức xử lý dữ liệu ở mỗi bên",
+            "Quy định thứ tự các thông điệp khi truyền",
+            "Độc lập với các giao thức khác"
+        ],
+        "correct_answer": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "question": "Mô tả nào sau đây là đúng về kiến trúc phân tầng trong hệthống truyền thông? (chọn 2 đáp án)",
+        "answers": [
+            "Thứ tự các tầng có thể thay đổi linh hoạt khi triển khai",
+            "Tầng trên quyết định cách thức cung cấp dịch vụ của tầng dưới",
+            "Tầng dưới cung cấp dịch vụ cho tầng trên qua điểm truy cậpdịch vụ (SAP-Service Access Point)",
+            "Một số tầng không cần triển khai trên tất cả các nút mạng",
+            "Giao thức của mỗi tầng độc lập với nhau"
+        ],
+        "correct_answer": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "question": "Trong kiến trúc phân tầng của hệ thống truyền thông,phát biểu nào sau đây là đúng? (Chọn 2 đáp án)",
+        "answers": [
+            "Tại mỗi tầng, hai bên tham gia quá trình truyền tin phải sử dụnggiao thức giống nhau",
+            "Quá trình đóng gói dữ liệu tại bên gửi được thực hiện từ tầng trênxuống tầng dưới",
+            "Mỗi mô hình phân tầng chọn một giao thức mạng để điều khiển hoạt động tất cả các tầng",
+            "Hoạt động của mỗi tầng không phụ thuộc vào các tầng khác"
+        ],
+        "correct_answer": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "question": "Khái niệm PDU(Protocol Data Unit) trong kiến trúc phân tầnglà gì?",
+        "answers": [
+            "Một giao thức truyền thông",
+            "Một tầng trong mô hình OSI",
+            "Đơn vị dữ liệu được đóng gói theo giao thức của mỗi tầng trongkiến trúc phân tầng",
+            "Điểm truy cập dịch vụ của mỗi tầng cung cấp cho tầng trên"
+        ],
+        "correct_answer": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "question": "Trong kiến trúc phân tầng, khi nhận được dữ liệu từ tầng caohơn chuyển xuống, tầng dưới xử lý như thế nào?",
+        "answers": [
+            "Sửa thông tin phần tiêu đề",
+            "Loại bỏ phần tiêu đề của gói tin",
+            "Thêm tiêu đề cho gói tinDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792",
+            "Thay thế tiêu đề của gói tin bằng tiêu đề mớiDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792"
+        ],
+        "correct_answer": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "question": "Đóng gói dữ liệu(encapsulation) trong kiến trúc phân tầngđược thực hiện như thế nào?",
+        "answers": [
+            "Thêm phần tiêu đề mới vào gói tin nhận được ở tầng trên",
+            "Thay thế tiêu đề của gói tin tầng trên bằng tiêu đề mới",
+            "Nén phần dữ liệu trong gói tin nhận được từ tầng trên",
+            "Chỉ thực hiện thêm phần tiêu đề ở tầng dưới cùng"
+        ],
+        "correct_answer": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "question": "Tính trong suốt trong kiến trúc phân tầng thể hiện như thếnào?",
+        "answers": [
+            "Tầng trên sử dụng dịch vụ của tầng dưới qua điểm truy cập dịchvụ (SAP) mà không cần quan tâm cách thức tầng dưới thực hiện",
+            "Mỗi tầng cung cấp nhiều dịch vụ khác nhau",
+            "Dữ liệu được đóng gói theo giao thức điều khiển",
+            "Chức năng trên mỗi tầng là khác nhau",
+            "Hai tầng trên liên kết phải sử dụng giao thức giống nhau"
+        ],
+        "correct_answer": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "question": "Trong mô hình TCP/IP, tầng nào thực hiện chức năng điều khiển truyền dữ liệu trên liên kết vật lý?",
+        "answers": [
+            "Tầng vật lý",
+            "Tầng liên kết dữ liệu",
+            "Tầng mạng",
+            "Tầng giao vận"
+        ],
+        "correct_answer": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "question": "Trong quá trình truyền dữ liệu, chức năng của tầng nàotrong mô hình TCP/IP chỉ thực hiện trên các hệ thống đầu cuối? (chọn 2 đáp án)",
+        "answers": [
+            "Tầng ứng dụng",
+            "Tầng giao vận",
+            "Tầng mạng",
+            "Tầng liên kết dữ liệu",
+            "Tầng vật lý"
+        ],
+        "correct_answer": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "question": "Tầng ứng dụng của mô hình TCP/IP đảm nhận chức năngnhững tầng nào khi tham chiếu tới mô hình OSI?",
+        "answers": [
+            "Tầng dụng, tầng phiên",
+            "Tầng ứng dụng, tầng trình diễn",
+            "Tầng ứng dụng, tầng phiên, tầng trình diễn",
+            "Tầng ứng dụng, tầng giao vận, tầng mạng",
+            "Tầng ứng dụng, tầng giao vận, tầng mạng"
+        ],
+        "correct_answer": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "question": "Chức năng của tầng nào dưới đây chỉ thực hiện trên các nútmạng đầu cuối?Downloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792",
+        "answers": [
+            "Tầng giao vận",
+            "Tầng mạng",
+            "Tầng liên kết dữ liệu",
+            "Tầng vật lý"
+        ],
+        "correct_answer": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "question": "Phát biểu nào sau đây là SAI?(Chọn 2 đáp án)",
+        "answers": [
+            "Mạng chuyển mạch kênh cung cấp dịch vụ theo mô hình hướng kết nối (connection- oriented)",
+            "Trong mạng chuyển mạch gói, dữ liệu của các liên kết khác nhau đượctruyền trên cùng một đường truyền vật lý",
+            "Chuyển tiếp dữ liệu trên mạng chuyển mạch kênh chậm hơn trên mạng chuyển mạch gói",
+            "Khi chuyển tiếp dữ liệu trong mạng chuyển mạch gói, có thể thiết lập độ ưu tiên cho các gói tin khi xử lý hàng đợi",
+            "Trong chuyển mạch kênh, tài nguyên của mỗi cuộc hội thoại được xác định trong giai đoạn thiết lập kênh và không đổi trong suốt quá trình truyền dữ liệu"
+        ],
+        "correct_answer": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "question": "Phát biểu nào sau đây là đúng về chuyển mạch kênh?(Chọn 2đáp án)",
+        "answers": [
+            "Tài nguyên của mỗi kênh là như nhau với mọi liên kết, không phụ thuộc vào yêu cầu chất lượng dịch vụ.",
+            "Trong mạng chuyển mạch kênh, do trước khi truyền dữ liệu, kênh truyền đã được thiết lập nên các giao thức tầng trên luôn là giao thức hướng không kết nối (connectionless).",
+            "Tài nguyên của mỗi kênh được xác định trong giai đoạn thiết lậpkênh và không đổi trong suốt quá trình truyền dữ liệu.",
+            "Để tăng độ tin cậy khi truyền tải dữ liệu, một kênh làm việc và một kênh dự phòng sẽ được thiết lập cho mỗi liên kết.",
+            "Kênh sẽ được giải phóng khi một trong hai bên bất kỳ ngắt liênkết."
+        ],
+        "correct_answer": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "question": "Ưu điểm của kỹ thuật chuyển mạch gói so với chuyểnmạch kênh là gì?(Chọn 2 đáp án)",
+        "answers": [
+            "Thời gian chuyển tiếp dữ liệu ngắn hơn",
+            "Hiệu suất sử dụng đường truyền cao hơn",
+            "Không xảy ra tắc nghẽn",
+            "Đảm bảo chất lượng dịch vụ",
+            "Không mất thời gian thiết lập kênh truyền"
+        ],
+        "correct_answer": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "question": "Những phát biểu nào là SAI về hoạt động của kỹ thuậtchuyển mạch gói? (Chọn 2 đáp án)",
+        "answers": [
+            "Gói tin của các liên kết khác nhau được truyền trên cùng một đường truyềnvật lýDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792",
+            "Độ trễ trong mạng không phụ thuộc vào tải",
+            "Trên cùng một liên kết vật lý, tất cả các gói tin đều được truyền với tốc độ như nhau.Downloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792",
+            "Các gói tin tới cùng một đích luôn được truyền theo cùng tuyếnđường đi",
+            "Cho phép thiết lập độ ưu tiên cho các gói tin khi xử lý hàng đợi"
+        ],
+        "correct_answer": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "question": "Các giao thức nào sau đây sử dụng giao thức TCP của tầnggiao vận? (Chọn 2 đáp án)",
+        "answers": [
+            "DNS",
+            "DHCP",
+            "FTP",
+            "POP",
+            "IP",
+            "OSPFDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792Chương 6: Tầng ứng dụng"
+        ],
+        "correct_answer": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "question": "Một người dùng trong mạng LANsử dụng dịch vụ Web đểtải một file lên máy chủ. Theo mô hình TCP/IP, dữ liệu của ngườidùng có thể được đóng gói lần lượt bằng các giao thức nào?",
+        "answers": [
+            "FTP, UDP, IP, Ethernet",
+            "HTTP, UDP, IP, Ethernet",
+            "HTTP, TCP, IP, Ethernet",
+            "Ethernet, IP, TCP, HTTP",
+            "Ethernet, IP, TCP, FTP"
+        ],
+        "correct_answer": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ],
+        "explanation": "a.FTP là giao thức điều khiển dịch vụ truyền file, không phải dành cho Web\nb.Sai vì giao thức đóng gói kế tiếp HTTP không phải là UDP\nc.Đúng\nd.Sai vì không đúng thứ tự đóng gói theo chồng giao thức TCP/IP\ne.Sai vì không đúng thứ tự đóng gói theo chồng giao thức TCP/IP\nDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)\nlOMoARcPSD|43338792"
+    },
+    {
+        "question": "Đâu là một thứ tự sử dụng các giao thức đóng gói dữ liệutrong mạng TCP/IP?",
+        "answers": [
+            "HTTP, TCP, Ethernet, IP",
+            "Ethernet, IP, TCP, FTP",
+            "SMTP, UDP, IP, Ethernet",
+            "DNS, UDP, IP, EthernetGợi ýa.Sai. Vì Ethernet trước IP là không đúng thứ tựb.Sai vì không đúng thứ tự đóng gói theo chồng giao thức TCP/IPc.Sai. Vì giao thức đóng gói kế tiếp SMTP(giao thức điều khiển dịch vụ truyền email trên tầng ứng dụng) không phải là UDPd.Đúng"
+        ],
+        "correct_answer": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "question": "Những giao thức tầng ứng dụng nào sau đây là cần thiết khimột người dùng sử dụng web mail để gửi email từ địa chỉ user@gmail.com    tới user@yahoo.com  ?(Chọn   3 đáp án)",
+        "answers": [
+            "SMTP",
+            "POP",
+            "IMAP",
+            "DNS",
+            "HTTP",
+            "TCP"
+        ],
+        "correct_answer": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "explanation": "e. Cứ dịch vụ web chọn ngay http\nd. Máy tính thì không dùng tên miền để trao đổi giữ liệu nên cần dùng giao \nthức DNS để phân giải tên miền\na. SMTP là giao thức truyền email từ người dùng đến máy chủ email hoặc \ntruyền từ máy chủ email này đến máy chủ email khác. Ở đây gửi từ gmail sang\nyahoo là từ server này sang server khác nên cần giao thức SMTP"
+    },
+    {
+        "question": "Những giao thức tầng ứng dụng nào sau đây là cần thiếtkhi một người dùng sử dụng web mail để gửi email từ địa chỉ user@gmail.com tới user@yahoo.com?(Chọn 2 đáp án)",
+        "answers": [
+            "SMTP",
+            "POP",
+            "IMAP",
+            "DNS",
+            "HTTP",
+            "TCP"
+        ],
+        "correct_answer": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "question": "Phát biểu nào sau đây là đúng về hệ thống DNS? (Chọn 2 đáp án)",
+        "answers": [
+            "Mỗi tên miền chỉ ảnh xạ tới một địa chỉ IPDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792",
+            "Mỗi địa chỉ IP có thể ánh xạ tới nhiều tên miền",
+            "Hệ thống máy chủ tên miền gốc lưu trữ thông tin của toàn bộ tên miềntrên Internet",
+            "Quá trình tìm kiếm thông tin tên miền được thực hiện từ gốctới các nút nhánh",
+            "Phân giải đệ quy được sử dụng thay cho phân giải tương tác vì nó tincậy hơn"
+        ],
+        "correct_answer": [
+            1,
+            3
+        ],
+        "explanation": "a. Sai. Một tên miền có thể ánh xạ sang nhiều địa chỉ IP\nb. Đúng. Mỗi địa chỉ IP có thể ánh xạ tới nhiều tên miền\nc. Sai vì máy chủ gốc chỉ quản lý cấu trúc hệ thống tên miền\nd. Đúng\ne. Sai. Vì không có cơ sở so sánh"
+    },
+    {
+        "question": "Giao thức nào cho phép client lấy đồng thời tiêu đề và thân emailtừ server?",
+        "answers": [
+            "HTTP",
+            "SMTP",
+            "POP",
+            "IMAP"
+        ],
+        "correct_answer": 2,
+        "explanation": "a.Sai. Vì HTTP là giao thức điều khiển web\nb.Sai. Vì đây là giao thức gửi mail\nc.Đúng. Giao thức POP cho phép client lấy đồng thời tiêu đề và thân \nemail từ server\nd.Sai. IMAP thực hiện lấy tiêu đề trước.\n        Câu 33: Giả sử một máy chủ Web được chuyển đổi kết nối sáng một \nmạng khác, những thao tác nào sau đây cần thực hiện để người dùng vẫn \ntruy cập được qua tên miền cũ?(Chọn 2 đáp án)\na.Gán địa chỉ IP cho máy chủ theo địa chỉ mạng mới\nb.Cấu hình lại giao thức định tuyến trên bộ định tuyến\nc.Thay đổi ánh xạ tên miền sang địa chỉ IP mới\nd.Cấu hình lại máy chủ DHCP"
+    },
+    {
+        "question": "Phương thức nào được sử dụng trong thông điệp HTTP Requestđể yêu cầu một tài nguyên? (Chọn 2 đáp án)",
+        "answers": [
+            "GETDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792",
+            "POST",
+            "PUT",
+            "HEAD"
+        ],
+        "correct_answer": [
+            0,
+            1
+        ]
+    },
+    {
+        "question": "Có tối thiểu bao nhiêu thông điệp HTTP Request được phát đi khingười dùng truy cập vào một trang web chứa 20 bức ảnh?",
+        "answers": [
+            "1",
+            "2",
+            "20",
+            "21"
+        ],
+        "correct_answer": 3,
+        "explanation": "Đầu tiên nó sẽ gửi request HTML sau đó gửi request 20 bức ảnh =>  tối \nthiểu 21."
+    },
+    {
+        "question": "Một trang web có một đoạn văn bản và 10 ảnh minh họa. File mãnguồn HTML và file ảnh nằm trên 2 máy chủ Web khác nhau. Khi người dùng truy cập vào trang web này, có bao nhiêu kết nối TCP được thiết lập nếugiao thức được sử dụng là HTTP 1.1?",
+        "answers": [
+            "10",
+            "11",
+            "1",
+            "2",
+            "Không xác định"
+        ],
+        "correct_answer": 3,
+        "explanation": "Khi sử dụng phương thức HTTP 1.1 thì dù có tải mấy bức ảnh cũng chỉ có \n1 kết nối."
+    },
+    {
+        "question": "Có bao nhiêu thông điệp được trao đổi giữa trình duyệt và máychủ Web nếu người dùng truy cập vào một trang Web có vài đoạn văn bản và4 bức ảnh?",
+        "answers": [
+            "1 HTTP Request, 1 HTTP Response",
+            "1 HTTP Request, 5 HTTP Response",
+            "5 HTTP Request, 5 HTTP Response",
+            "5 HTTP Request, 1 HTTP Response",
+            "Không xác địnhDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792"
+        ],
+        "correct_answer": 2,
+        "explanation": "Vài đoạn văn bản thì cần 1 Request HTML, 4 ảnh cần 4 Request. Số \nresponse = số request"
+    },
+    {
+        "question": "Giao thức FTP sử dụng số hiệu cổng ứng dụng nào?(Chọn 2 đápán)",
+        "answers": [
+            "20",
+            "21",
+            "22",
+            "25",
+            "53"
+        ],
+        "correct_answer": [
+            0,
+            1
+        ],
+        "explanation": "Giao thức FTP dùng 2 số hiệu cổng ứng dụng là 20 và 21. Trong đó 20 \ndùng để truyền dữ liệu(tệp tin) còn 21 dùng để truyền lệnh (thông điệp điều \nkhiển).\nDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)\nlOMoARcPSD|43338792"
+    },
+    {
+        "question": "Hai kết nối giữa Client và Server trong dịch vụ FTP được sử dụngthế nào?",
+        "answers": [
+            "Một kết nối hoạt động, một kết nối để dự phòng.",
+            "Cả 2 kết nối cùng tải tệp tin lên(upload), hoặc cùng tải xuống(download)",
+            "Một kết nối tải tệp tin lên (upload), kết nối còn lại để tải xuống(download)",
+            "Một kết nối để truyền dữ liệu của tệp tin, một kết nối đểtruyền thông điệp điều khiển"
+        ],
+        "correct_answer": 3,
+        "explanation": "Một kết nối cổng 20 để truyền dữ liệu, một cổng 21 để truyền thông \nđiệp điều khiển như hình trên\nChương 5: Tầng giao vận"
+    },
+    {
+        "question": "Tại bên nhận, dựa vào thông tin nào dữ liệu được chuyển tớiđúng tiến trình trên tầng ứng dụng để xử lý?",
+        "answers": [
+            "Số hiệu cổng ứng dụng nguồn",
+            "Số hiệu cổng ứng dụng đích",
+            "Địa chỉ IP đích",
+            "Giao thức tại tầng giao vận"
+        ],
+        "correct_answer": 1,
+        "explanation": "Các gói tin của tầng giao vận sẽ được đóng gói với các thông số \nsố hiệu cổng ứng dụng nguồn(định danh của tiến trình gửi dữ liệu). Số \nhiệu cổng ứng dụng đích là định danh của tiến trình nhận dữ liệu trên \nnút đích"
+    },
+    {
+        "question": "Giả sử từ trên nút mạng A có hai tiến trình trao đổi dữ liệu vớimột tiến trình trên nút mạng B, điều khiển bởi giao thức UDP. Phát biểu nào sau đây là đúng?(Chọn 2 đáp án)",
+        "answers": [
+            "Hai tiến trình trên nút mạng A sử dụng chung một socket dể trao đổidữ liệu với tiến trình trên nút BDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792",
+            "Tiến trình trên nút B sử dụng hai socket khác nhau để trao đổi dữ liệuvới hai tiến trình của nút A",
+            "Các gói tin gửi từ nút A tới tiến trình trên nút B có cùng sốhiệu cổng đich",
+            "Các gói tin gửi từ nút B tới hai tiến trình trên nút A có cùng số hiệucổng đích",
+            "Hai tiến trình trên nút A đều có thể gửi dữ liệu liên tục với tốc độc cao nhất có thể"
+        ],
+        "correct_answer": 2,
+        "explanation": "a.Sai. Mỗi một socket chỉ phục vụ 1 tiến trình\nb.Sai. Nếu nút B dùng nhiều socket để trao đổi dữ liệu với tiến trình \nkhác thì sẽ gây khó khăn trong quá trình triển khai dịch vụ. B luôn \nsử dụng 1 socket để nhận dữ liệu từ các tiến trình khác\nc.Đúng. 2 tiến trình của A cùng gửi dữ liệu đến một tiến trình của B \nnên dữ liệu từ các tiến trình của A sẽ phải có số hiệu cổng đích \ngiống nhau\nd.Sai. Trên nút A có 2 tiến trình dùng 2 socket khác nhau thì phải \nmang số hiệu cổng dịch vụ khác nhau vì số hiệu cổng dịch vụ là \nđịnh danh cho các tiến trình ứng dụng. Do đó khi B gửi dữ liệu cho \n2 tiến trình của A thì dữ liệu đó không thể cùng số hiệu cổng đích\ne.Đúng. Điều khiển bởi giao thức UDP mà hoạt động của UDP gửi dữ \nliệu theo dạng\nbest-effort (truyền dữ liệu nhanh nhất có thể)"
+    },
+    {
+        "question": "Giao thức UDP nên được sử dụng khi xây dựng các ứng dụngmạng nào dưới đây?(Chọn 2 đáp án)",
+        "answers": [
+            "Truyền dữ liệu từ các trạm quan trắc môi trường về trung tâm dữliệu",
+            "Điều khiển máy tính từ xa",
+            "Kiển tra trạng thái hoạt động giữa các nút mạng",
+            "Truyền dữ liệu video trong hội nghị trực tuyến",
+            "Sao lưu, đồng bộ dữ liệu"
+        ],
+        "correct_answer": [
+            2,
+            3
+        ],
+        "explanation": "-\nĐặc điểm của UDP:\n+ Đơn giản\n+ Truyền dữ liệu nhanh nhất có thể\nDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)\nlOMoARcPSD|43338792\n+ Tốc độ truyền khi điểu khiển bởi UDP sẽ nhanh hơn khi điều khiển \nbởi TCP\n\nUDP phù hợp với những ứng dụng cần tốc độ\n+ Không tin cậy\n\nPhù hợp với các ứng dụng chấp nhận lỗi, chấp nhận mất mát dữ \nliệu\nc. Đúng. Khi dùng để kiểm tra trạng thái hoạt động giữa các nút mạng \nchúng ta không dùng các giao thức hướng liên kết như là TCP vì khi ta dùng \nUDP ta gửi một gói tin tới mà nút mạng đó đang hoạt động thì nó sẽ có gói tin\nphản hồi, nếu nút mạng đó không hoạt động thì sẽ không có gói tin phản hồi.\nNên khi dùng để kiểm tra trạng thái hoạt động giữa các nút mạng ta có thể \ndùng UDP, nó đơn giản hơn rất nhiều so với TCP, không cần thiết phải một \ngiao thức tin cậy như TCP\nd. Khi truyền hình trực tiếp đòi hỏi tốc độ truyền dữ liệu phải cao"
+    },
+    {
+        "question": "Phát biểu nào sau đây là đúng về giao thức UDP?(Chọn 3 đáp án)",
+        "answers": [
+            "Là một giao thức thuộc tầng giao vận",
+            "Truyền dữ liệu theo datagram",
+            "Cung cấp các cơ chế truyền thông tin cậy",
+            "Sử dụng time-out riêng cho mỗi datagram gửi đi",
+            "Gửi liên tục các datagram mà không cần chờ báo nhận"
+        ],
+        "correct_answer": [
+            0,
+            1,
+            4
+        ],
+        "explanation": "a.Đúng. UDP là một giao thức thuộc tầng giao vận\nb.Đúng. UDP truyền dữ liệu theo datagram\nc.Sai. UDP không tin cậy\nd.Sai. Cơ chế của truyền thông tin cậy là dùng time-out để kiểm tra \nxem gói tin có bị mất hay không\ne.Đúng. UDP gửi dữ liệu đi mà không cần quan tâm kết quả gửi"
+    },
+    {
+        "question": "Điều gì chứng tỏ UDP là một giao thức không tin cậy?",
+        "answers": [
+            "Không thiết lập liên kết trước khi truyền",
+            "Không sử dụng báo nhận",
+            "Không kiểm tra lỗi trên gói tin",
+            "Không kiểm soát lượn dữ liệu gửi đi làm quá tải bên nhận"
+        ],
+        "correct_answer": 1,
+        "explanation": "Downloaded by Ninh Nguy?n Quang (qndt123@gmail.com)\nlOMoARcPSD|43338792\nGiao thức truyền thông tin cậy là giao thức đảm bảo dữ liệu tới được \nđích. Tức là lúc gửi sẽ biết được là dữ liệu có tới đích thành công hay \nkhông\n\nGiao thức không tin cậy sẽ không sử dụng báo nhận\na.Không thiết lập liên kết trước khi truyên là đặc điểm của giao thức \nhướng không liên kết. Một giao thức hướng không liên kết vẫn nó thể \nđảm bảo độ tin cậy nếu ta thiết kế cơ chế bảo lại và khắc phục lỗi.\nc.  Sai. UDP dùng \nchecksum để kiểm soát phần tiêu đề.\nd.  Sai. Đây không phải là một đặc điểm của giao thức truyền thông không tin cậy"
+    },
+    {
+        "question": "Tại phía gửi, giao thức UDP thực hiện những thao tác xử lý nào?(Chọn 2 đáp án)",
+        "answers": [
+            "Chia dữ liệu nhận được từ tầng ứng dụng vào các gói tin",
+            "Thiết lập liên kết với phía nhận",
+            "Gửi lại nếu không nhận được báo nhận",
+            "Chuyển gói tin xuống tầng mạng",
+            "Đặt bộ đếm time-out cho mỗi gói tin gửi đi"
+        ],
+        "correct_answer": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ],
+        "explanation": "-\nĐặc điểm UDP:\n+ Không tin cậy.\n+ Hướng không liên kết( không kết nối) -> giảm độ trễ.\n+ Truyền tin “best-effort” (nhanh nhất).\n+ Đơn giản: Không cần lưu lại trạng thái liên kết ở bên gửi và bên nhận\n+ Phần đầu đoạn tin nhỏ\n+ Không có quản lý tắc nghẽn: UDP cứ gửi dữ liệu nhanh nhất, nhiều nhất\nnếu có thể\n+ Có chức năng cơ bản: Dồn kênh/ phân kênh\nPhát hiện lỗi bit bằng checksum\na.Đúng. Chia dữ liệu nhận được từ tầng ứng dụng vào các gói tin đây là \nquá trình đóng gói dữ liệu tại tầng giao vận dù là UDP hay TCP đều \nphải thực hiện đóng gói dữ liệu cả.\nb.Sai. UDP hướng không liên kết\nc.Sai. UDP không sử dụng báo nhận và UDP gửi dữ liệu đi mà không cần \nquan tâm kết quả gửi\nd.Đúng. Đây là quá trình đóng gói dữ liệu, UDP là giao thức ở tầng giao \nvận, sau khi xử lí xong thì chuyển gói tin xuống tầng dưới tức là tầng \nmạng\ne.Sai. UDP không time-out\nDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)\nlOMoARcPSD|43338792"
+    },
+    {
+        "question": "Trong hoạt động của giao thức UDP, phía nhận không thực hiệnthao tác nào dưới đây khi nhận được dữ liệu?(Chọn 2 đáp án)",
+        "answers": [
+            "Kiểm ta lỗi trên gói tin",
+            "Báo nhận thành công",
+            "Loại bỏ các gói tin nhận được không theo đúng trình tự",
+            "Chuyển dữ liệu cho tiến trình tầng ứng dụng dựa vào số hiệu cổng đích"
+        ],
+        "correct_answer": [
+            1,
+            2
+        ],
+        "explanation": "a.Đúng. UDP có sử dụng checksum để kiểm tra xem có lỗi xảy ra hay \nkhông (chỉ kiểm tra ở phần tiêu đề chứ không kiểm tra cả gói tin), nếu \nkhông có lỗi mới chuyển lên cho tầng ứng dụng để xử lý.\nCác giao thức tầng giao vận không kiểm soát lỗi cho toàn bộ gói tin \nmà chỉ kiểm soát lỗi ở phần tiêu đề\nb.Sai. UDP không sử dụng báo nhận\nc.Sai. UDP không đảm bảo truyền theo đúng thứ tự. UDP truyền gói tin \ntheo detra các gói tin được xử lí một cách độc lập nên không có thứ tự \ngiữa các gói tin\nd.Đúng. Chuyển dữ liệu cho tiến trình tầng ứng dụng dựa vào số hiệu \ncổng đích là nguyên lý chung của các giao thức tầng giao vận"
+    },
+    {
+        "question": "Những mô tả nào là đúng về hoạt động của giao thức UDP tại nútnhận? (chọn 2 đáp án)",
+        "answers": [
+            "Nhận dữ liệu từ tầng ứng dụng, xử lý dữ liệu và chuyển xuống chotầng mạng",
+            "Kiểm tra lỗi bit trên phần tiêu đề gói tin dựa vào mã checksum",
+            "Chuyển dữ liệu cho tiến trình trên tầng ứng dụng dựa vào sốhiệu cổng ứng dụng đích",
+            "Gửi gói tin ACK cho nút nguồn để báo nhận thành công",
+            "Loại bỏ các gói tin nhận được không theo đúng trình tự",
+            "Hủy liên kết sau khi đã nhận đủ dữ liệu"
+        ],
+        "correct_answer": [
+            1,
+            2
+        ],
+        "explanation": "a.Sai. Tại nút nhận thì thứ tự xử lý dữ liệu là tầng dưới lên tầng trên\nb.Đúng. Mã UDP kiểm tra lỗi bit trên phần tiêu đề gói tin dựa vào mã \nchecksum\nc.   Đúng. Chuyển dữ liệu cho tiến trình tầng ứng dụng dựa vào số hiệu \ncổng đích là nguyên lý chung của các giao thức tầng giao vận.\nd.   Sai. UDP là giao thức không tin cậy nên không sử dụng báo nhận\nDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)\nlOMoARcPSD|43338792\ne.Sai. UDP không đảm bảo truyền theo đúng thứ tự. UDP truyền gói tin \ntheo detra các gói tin được xử lí một cách độc lập nên không có thứ tự \ngiữa các gói tin.\nf.\nSai. UDP là giao thức hướng không liên kết"
+    },
+    {
+        "question": "Trong hoạt động của giao thức UDP, phía nhận xử lý như thế nàokhi gói tin nhận được bị lỗi?",
+        "answers": [
+            "Nếu giao thức tầng trên có chức năng sửa lỗi thì chuyển lên cho giaothức đó",
+            "Hủy gói tin",
+            "Gửi lại cho phía sửa lỗi",
+            "Báo nhận không thành công để phí gửi phát lại"
+        ],
+        "correct_answer": 1,
+        "explanation": "a.Sai. Chức năng của các tầng trong mô hình phân tầng là không dẫm \nchân lên nhau. Chỉ có một nguyên tắc là tầng trên sử dụng dịch vụ của\ntầng dưới chứ không  có chuyện tầng dưới biết tầng trên dùng dịch vụ \ngì\nb.Đúng. UDP là chuyền thông không tin cậy gói tin bị lỗi thì nó sẽ hủy \nmà không làm gì khác cả.\nc.Sai. Ở trong hệ thống truyền thông, truyền đi đã bị lỗi thì gói tin mặc \nđịnh sẽ là sửa được lỗi hoặc không sửa được lỗi sẽ bị loại bỏ chứ không\nbao giờ có chuyện truyền lại cho phia gửi để sửa lỗi.\nd.Sai. UDP không sử dụng báo nhận"
+    },
+    {
+        "question": "Lợi thế của giao thứ UDP so với TCP là gì? (Chọn 3 đáp án)",
+        "answers": [
+            "Kích thước phần tiêu đề nhỏ hơn",
+            "Hoạt động đơn giản hơn",
+            "Nhanh hơn",
+            "Không phải phát lại dữ liệu"
+        ],
+        "correct_answer": [
+            0,
+            1,
+            2
+        ],
+        "explanation": "học thuộc"
+    },
+    {
+        "question": "Ưu thế của giao thức TCP so với UDP là gì? (chọn 3 đáp án)",
+        "answers": [
+            "Nhanh hơn do truyền dữ liệu theo dòng byte",
+            "Tin cậy hơn",
+            "Không làm quá tải nút nhận",
+            "Có cơ chế kiểm soát tắc nghẽn"
+        ],
+        "correct_answer": [
+            1,
+            2,
+            3
+        ],
+        "explanation": "Downloaded by Ninh Nguy?n Quang (qndt123@gmail.com)\nlOMoARcPSD|43338792\nb. Đúng\nc. Đúng. TCP có cơ chế kiểm soát luồng\nd. Đúng. TCP có cơ chế kiểm soát tắc nghẽn"
+    },
+    {
+        "question": "Những hoạt động nào sau đây cho thấy TCP là một giao thứctruyền thông tin cậy? (Chọn 3 đáp án)",
+        "answers": [
+            "Sử dụng ACK báo nhận dữ liệu thành công",
+            "Sử dụng checksum để kiểm soát lỗi",
+            "Phát lại dữ liệu khi xảy ra time-out",
+            "Kiểm soát luồng, không làm quá tải phía nhận",
+            "Kiểm soát tắc nghẽn"
+        ],
+        "correct_answer": [
+            0,
+            1,
+            2
+        ],
+        "explanation": "a.Đúng. Truyền thông tin cậy là đảm bảo dữ liệu tới đích thành công. \nTrước tiên phía gửi phải biết dữ liệu có tới thành công hay không -> \nPhía gửi phải nhận được báo nhận.\nb.Đúng. Truyền thông tin cậy là cho phép phát hiện và khắc phục lỗi.\nc.Đúng. Trong hoạt động của giao thức TCP khi time-out xảy ra thì phía \nnhận sẽ đoán là có tắc nghẽn và time-out xảy ra nghĩa là có mất gói \ntin trên đường truyền nên sẽ phát lại để đảm bảo dữ liệu chắc chắn tới\nđược đích\nd.Sai. Kiểm soát luồng, không làm quá tải phía nhận không phải là một \nhoạt động của truyền thông tin cậy\ne.Sai. Kiểm soát tắc nghẽn không phải là một hoạt động của truyền \nthông tin cậy\nd và e đều là đặc điểm của giao thức TCP tuy nhiên nó không thể hiện độ \ntin cậy"
+    },
+    {
+        "question": "Trong hoạt động của giao thức TCP, khi nào cần phát lại gói tin đãgửi đi? (Chọn 3 đáp án)",
+        "answers": [
+            "Nhận được 3 gói tin báo nhận có ACK Number giống nhau",
+            "Xảy ra timeout",
+            "Phát hiện lỗi trên gói tin báo nhận",
+            "Giá trị ACK Number trên gói tin báo nhận không nằm trong cửa sổtrượt"
+        ],
+        "correct_answer": [
+            0,
+            1,
+            2
+        ],
+        "explanation": "a.Đúng\n. Đây là cơ chế phục hồi nhanh. Khi nhận được gói tin không đúng thứ tự ở phía nhận thì \nsẽ phát đi 3 ACK. Còn phía gửi nhận được 3ACK liên tiếp giống nhau thì gửi lại ngay gói tin mà\nDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)\nlOMoARcPSD|43338792\nkhông cần chờ time-out\nb.Đúng. Trong hoạt động của TCP khi time-out xảy ra nó coi là gói tin đã \nbị mất trên đường truyền dù đó là gói tin báo nhận hay là gói tin dữ \nliệu nên nó sẽ phát lại.\nc.Đúng. Nếu gói tin bào nhận (ACK) mà có lỗi tức là giao thức TCP không\nnhận diện được gói tin đó. Mà không nhận diện được gói tin đó thì giao\nthức TCP sẽ tự động phát lại\nd.Sai. Giá trị ACK Number trên gói tin báo nhận không nằm trong cửa sổ \ntrượt tức là hoặc là nó nằm bên trái thì coi là gói tin đã nhận được rồi \nnên nó không phát lại hoặc là nằm bên phải thì sẽ dịch cửa sổ đi hoặc \nđưa vào bộ đệm để chờ xử lý."
+    },
+    {
+        "question": "Giao thức TCP thực hiện báo nhận thành công như thế nào?(Chọn 2 đáp án)",
+        "answers": [
+            "Thiết lập cờ ACK trên gói tin phản hồi",
+            "Thiết lập cờ SYN trên gói tin phản hồi",
+            "Tính toán ACK Number trên gói tin phản hồi để yêu cầu dữliệu tiếp theo",
+            "Phản hồi lại gói tin đã nhận"
+        ],
+        "correct_answer": [
+            0,
+            2
+        ],
+        "explanation": "a.Đúng. Giao thức TCP thực hiện báo nhận thành công thì trước tiên \nphải thiết lập cờ ACK trên gói tin phản hồi.\nb.Sai. Thiết lập cờ SYN trên gói tin phản hồi là để tính toán liên kết\nDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)\nlOMoARcPSD|43338792\nc.Đúng. \nd.Sai. Không có trong hoạt động của TCP"
+    },
+    {
+        "question": "Giá trị Windows size trong phần tiêu đề của gói tin TCP được sửdụng như thế nào?",
+        "answers": [
+            "Phát hiện lỗi trên gói tin",
+            "Xác định lượng dữ liệu tối đa bên gửi có thể gửi đi",
+            "Xác định lượng dữ liệu tối đa bên nhận có thể nhận",
+            "Thiết lập liên kết"
+        ],
+        "correct_answer": 2,
+        "explanation": "Window size là xác định lượng dữ liệu tối đa bên nhận có thể nhận\n       Swnd(SendWindow): Kích thước dữ liệu tối đa bên gửi có thể gửi\n   \nSwnd <= min {Rwnd, Cwnd}\nRwnd: Kích thước cửa sổ nhận (kích thước dữ liệu tối đa bên nhận\ncó thể nhận)\nCwnd: Kích thước cửa sổ kiểm soát tắc nghẽn\nRwnd < Cwnd thì Swnd = Rwnd\nRwnd>Cwnd thì Swnd = Cwnd"
+    },
+    {
+        "question": "Giá trị checksum trong phần tiêu đề của gói tin TCP được sử dụngnhư thế nào?",
+        "answers": [
+            "Phát hiện lỗi trên gói tin",
+            "Xác định lượng dữ liệu tối đa bên nhận có thể nhận",
+            "Thiết lập liên kết",
+            "Sửa lỗi trên gói tin"
+        ],
+        "correct_answer": 0,
+        "explanation": "checksum luôn để phát hiện lỗi\nDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)\nlOMoARcPSD|43338792"
+    },
+    {
+        "question": "Mã phát hiện lỗi nào sau đây được sử dụng để kiểm tra lỗi trênphần tiêu đề của gói tin TCP?",
+        "answers": [
+            "Mã parity",
+            "Mã checksum 16 bit",
+            "Mã checksum 32 bit",
+            "Mã CRC 16 bit",
+            "Mã CRC 32 bitChecksum dùng trong TCP là checksum 16bit"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "question": "Khi nào một bên trong quá trình truyền tin điều khiển bằng TCPgửi gói tin có cờ FIN được thiết lập?",
+        "answers": [
+            "Yêu cầu thiết lập liên kết",
+            "Đồng ý thiết lập liên kết",
+            "Báo kết thúc gửi dữ liệu",
+            "Báo kết thúc nhận dữ liệuDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "question": "Giả sử từ mỗi host A và B có một tiến trình trao đổi dữ liệu vớimột tiến trình host C, điều khiển bởi giao thức TCP. Phát biểu nào sau đây là đúng?",
+        "answers": [
+            "Host A và B không thể kết nối tới cùng một cổng trên host C",
+            "Socket trên host A và B phải sử dụng số hiệu cổng khác nhau",
+            "Nếu phát hiện tắc nghẽn xảy ra trên liên kết với host A thì host Ckhởi động giai đoạn Slow Start trên cả 2 liên kết",
+            "Host C sử dụng các socket khác nhau để tạo liên kết với hostA và B",
+            "Host C sử dụng giá trị cửa số nhận giống nhau cho cả hai liên kết vớiA và B"
+        ],
+        "correct_answer": 3,
+        "explanation": "b. Sai. Socket trên trên host khác nhau có thể sử dụng số hiệu cổng \ngiống nhau\nc. Sai. Tắc nghẽn trên liên kết nào thì chỉ khởi động Slow Start trên liên \nkết đó\nd. Sai. Mỗi một socket mà host C tạo ra nó sẽ dùng một buffer khác \nnhau khi buffer khác nhau thì lượng dữ liệu trên các buffer cũng khác \nnhau -> vùng trống trên các buffer đó có kích thước khác nhau, vùng \ntrống trong các buffer khác nhau thì giá trị cửa sổ hiện cũng phải khác \nnhau"
+    },
+    {
+        "question": "Giả sử trên một nút mạng, P1 và P2 là hai tiến trình sử dụnggiao thức TCP để trao đổi dữ liệu với tiến trình P3 trên nút mạng khác. Phát biểu nào sau đây là đúng?",
+        "answers": [
+            "P1 và P2 phải sử dụng số hiệu cổng ứng dụng giống nhau",
+            "P1 và P2 không thể đồng thời gửi dữ liệu cho P3",
+            "Khi P1 ngắt liên kết, P2 vẫn trao đổi dữ liệu một cách bìnhthường với P3",
+            "P1 và P2 sử dụng cửa sổ kiểm soát tắc nghẽn giống nhau"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "question": "Trong hoạt động của giao thức TCP, phía nhận thực hiện thao tác xử lý nào nếu nhận được một gói tin khi bộ đệm đã đầy? (Chọn 2 đáp án) ",
+        "answers": [
+            "Xóa bộ đệm",
+            "Loại bỏ gói tin ",
+            "Gửi lại ACK xác nhận các gói tin trước đó với giá trị Receive Window = 0",
+            "Gửi ACK xác nhận gói tin vừa nhận được với giá trị Receive Window = 0",
+            "Gửi gói tin ACK bất kỳ với giá trị Receive Window bằng kích thước dữ liệu trong bộđệm Downloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792"
+        ],
+        "correct_answer": [
+            1,
+            2
+        ]
+    },
+    {
+        "question": "Tại sao sử dụng cơ chế “hồi phục nhanh” trong quá trình kiểm soát tắc ngẽn làm tăng hiệu năng của giao thức TCP? ",
+        "answers": [
+            "Phía gửi phát hiện sớm tắc nghẽn",
+            "Phía nhận sẽ nhận được các gói tin còn thiếu một cách sớm nhất",
+            "Cho phép lượng dữ liệu gửi đi lớn hơn giá trị cửa sổ nhận của phía nhận d.Cho phép gửi dữ liệu ngay mà không cần chờ báo nhận ",
+            "Phía gửi không cần chuyển sang giai đoạn tránh tắc nghẽn"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "question": "Quá trình điều khiển tắc nghẽn trong giao thức TCP không thực hiện thao tác nào? ",
+        "answers": [
+            "Giảm kích thước cửa sổ kiểm soát tắc nghẽn khi có timeout",
+            "Khởi tạo cửa sổ kiểm soát tắc nghẽn là 1 MSS (Maximum Segment Size) ",
+            "Giữ nguyên kích thước cửa sổ kiểm soát tắc nghẽn khi vượt qua giá trị ngưỡng của giaiđoạn  Slow Start ",
+            "Giảm giá trị ngưỡng của giai đoạn Slow Start khi có timeout"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "question": "Phát biểu nào sau đây là sai trong quá trình điều khiển tắc nghẽn của giao thức  TCP?(Chọn 2 đáp án) ",
+        "answers": [
+            "a. Tăng gấp đôi kích thước cửa sổ kiểm soát tắc nghẽn khi gửi thành công trong giai đoạn SlowStart? ",
+            "Không tăng kích thước cửa sổ kiểm soát tắc ngẽn trong giai đoạn tránh tắcnghẽn ",
+            "Bắt đầu lại giai đoạn tránh tắc nghẽn khi có time-out",
+            "d. Khi bắt đầu giai đoạn Slow Start, kích thước cửa số kiểm soát tắc nghẽn là 1MSS (MaximumSegment Size) Downloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792Giả sử trong một khoảng thời gian nào đó quan sát quá trình truyền dữ liệu giữa hai ứng  dụng được điều khiển bởi giao thức TCP, ta thu được đồ thị điều khiển tắc nghẽn như sau: Downloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792"
+        ],
+        "correct_answer": [
+            1,
+            2
+        ]
+    },
+    {
+        "question": "Giai đoạn Slow Start bắt đầu tại những lượtgửi nào? ",
+        "answers": [
+            "10 và 14",
+            "14 và 19",
+            "10 và 23",
+            "19 và 23"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "question": "Đoạn nào biểu diễn giai đoạn tránh tắcnghẽn? ",
+        "answers": [
+            "6-14",
+            "6-9 và 14-18",
+            "6-9, 14-18 và 19-22 ",
+            "19-22"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "question": "Tại lượt gửi nào, phía gửi xảy ra time-out?(Chọn 2 đáp án) ",
+        "answers": [
+            "9",
+            "14",
+            "18",
+            "22"
+        ],
+        "correct_answer": [
+            0,
+            3
+        ]
+    },
+    {
+        "question": "Trong quá trình truyền tin được điều khiển bởi giao thức TCP, tiến trình đích nhậnđược gói tin có trường Sequence Number = 5600 trong phần tiêu đề, dữ liệu có kích thước1400 byte. Nếu phát hiện có lỗi trên phần tiêu đề qua việc kiểm tra trường checksum, tiếntrình đích sẽ thực hiện các bước xử lý như thế nào? (Chọn 2 đáp án) ",
+        "answers": [
+            "Sửa lỗi bit tìm thấy trên phần tiêu đề",
+            "Hủy gói tin bị lỗi",
+            "Gửi báo nhận với ACK Number = 5600 cho bên nhận",
+            "Hủy tất cả các gói tin đã nhận trước đó",
+            "Tách phần dữ liệu và chuyển cho tầng ứng dụng"
+        ],
+        "correct_answer": [
+            1,
+            2
+        ]
+    },
+    {
+        "question": "Trong quá trình truyền tin được điều khiển bởi giao thức TCP, tiến trình nguồnkhông  nhận được báo nhận khi đã hết thời gian time-out. Giả sử giá trị cửa số kiểm soát tắc  nghẽn là 5600 byte, và 1 MSS = 1400 byte, tiến trình này gửi đi liên tiếp tối đa bao nhiêu  byte? ",
+        "answers": [
+            "0",
+            "1400",
+            "4200",
+            "5600Downloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792",
+            "7000"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "question": "Trong hoạt động của giao thức TCP, tiến trình nguồn đang sử dụng cửa sổ kiểm soáttắc  nghẽn là 8400 byte thì nhận được 3 gói tin báo nhận có ACK giống nhau (có trườngReceive  windows trong tiêu đề là 65000). Giả sử giá trị MSS = 1400 byte. Hãy cho biết tiếntrình  nguồn có thể gửi liên tiếp tối đa bao nhiêu byte? ",
+        "answers": [
+            "1400 byte",
+            "65000 byte",
+            "4200 byte",
+            "2800 byte",
+            "7000 byte"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "question": "Trong hoạt động của giao thức TCP, khi xảy ra time-out, phía gửi thực hiệnnhững thao  tác xử lý nào?(Chọn 2 đáp án) ",
+        "answers": [
+            "Tính toán lại giá trị cửa sổ kiểm soát tắc nghẽn",
+            "Tính toán lại giá trị cửa sổ kiểm soát luồng",
+            "Phát lại dữ liệu đã gửi mà chưa nhận được ACK",
+            "Chờ thêm một khoảng thời gian tối thiểu 2 lần RTT trung bình trước khi phát lại dữ liệu",
+            "Đóng liên kết hiện tại và thiết lập liên kết mới"
+        ],
+        "correct_answer": [
+            0,
+            2
+        ]
+    },
+    {
+        "question": "Trong hoạt động của giao thức TCP, phía nhận thực hiện thao tác xử lý nào nếunhận được một gói tin khi bộ đệm đã đầy? (Chọn 2 đáp án) ",
+        "answers": [
+            "Xóa bộ đệm",
+            "Loại bỏ gói tin",
+            "Gửi lại ACKxác nhận các gói tin trước đó với giá trị Receive Window = 0 ",
+            "Gửi ACK cho gói tin vừa nhận được với giá trị Receive Window = 0",
+            "Gửi gói tin ACK bất kỳ với giá trị Receive Window bằng kích thước dữ liệu trong bộ đệmDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792Chương 4: Tầng mạng"
+        ],
+        "correct_answer": [
+            1,
+            2
+        ]
+    },
+    {
+        "question": "Phát biểu nào sau đây là đúng về địa chỉ IP 116.12.34.113/28? (Chọn 2đáp án) ",
+        "answers": [
+            "Là một địa chỉ phân lớp A (số 0 ở đầu)",
+            "Phần địa chỉ máy trạm (Host ID) có 28 bit (/28 là network id)",
+            "Có thể gán cho một nút mạng (host id có cả 0 -1)",
+            "Chỉ dùng trong mạng LAN",
+            "Nằm trong mạng có địa chỉ 116.12.34.128 /28"
+        ],
+        "correct_answer": [
+            0,
+            2
+        ],
+        "explanation": "a. 116 = 0110 1010-> Thuộc phân lớp A-> đúng\nb. Mặt nạ/28 -> NetworkID có 28 bit->sai\nc. Địa chỉ unicat? -> Cần kiểm tra các bit thuộc HostID\nHostID có 4bit có mặt cả bit 0 và 1 -> là địa chỉ unicat->gán được cho nút mạng->đúng\n113 = 0111 \n0001\nd. Sai. IP mạng LAN phải là Private address\nDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)\nlOMoARcPSD|43338792\ne.\nĐịa chỉ mạng: 116.12.34.\n113\n /28\nMặt nạ /28: 1111 1111 1111 1111 1111 1111 1111 0000\nĐịa chỉ IP:  0110 1010 0000 1100 0010 0010 \n0111 0001\nĐịa chỉ mạng: 0110 1010 0000 1100 0010 0010 \n0111 0000\n = 116.12.34.112\nSử dụng mặt nạ 255.255.252.0 để chia mạng 160.12.64.0 /19 thành các mạng con. Hãy trả lời  \ncác câu hỏi sau:"
+    },
+    {
+        "question": "Số mạng con thành lập được là bao nhiêu?",
+        "answers": [
+            "22",
+            "19",
+            "3",
+            "8 (2^22-19)",
+            "6"
+        ],
+        "correct_answer": 3,
+        "explanation": "Mặt nạ mạng con: 255.255.252.0 = 1111 1111 1111 1111 1111 1100 0000 0000 = /22\nPrefix: /n\nDạng nhị phân: 1111…..111000.0000000 (gồm n bit 1)\nChia mạng con: dùng mặt nạ lớn hơn mạng gốc ban đầu\nCác mạng con sẽ có subnetID với số bit là k = Mặt nạ mạng con - Mặ nạ mạng gốc = 22 – 19 = 3\n\nCó 2^3 = 8 giá trị subnetID khác nhau -> có 8 mạng con\nDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)\nlOMoARcPSD|43338792"
+    },
+    {
+        "question": "Mỗi mạng con có thể cấp pháp được tối đa bao nhiêu địa chỉmáy trạm? ",
+        "answers": [
+            "3",
+            "8",
+            "22",
+            "1022",
+            "1024"
+        ],
+        "correct_answer": 3,
+        "explanation": "Mặt nạ mạng con: /22\nSố địa chỉ máy trạm có thể cấp phát: 2^(32-22) – 2 = 1022"
+    },
+    {
+        "question": "Địa chỉ nào sau đây không phải là một địa chỉ mạng con có được từ cách chia trên?(Chọn 2  đáp án) ",
+        "answers": [
+            "160.12.68.0 /22",
+            "160.12.70.0 /22",
+            "160.12.72.0 /22",
+            "160.12.74.0 /22",
+            "160.12.76.0 /22Subnet ID: 3bit -> 000, 001, 010, 011, 100, 101, 110, 11164= 0100 0000 -> mạng con 1 subnetID = 000a.68 = 0100 0100b.70 = 0100 0110c.72 = 0100 1000d.74 = 0100 1010e.76 = 0100 1100"
+        ],
+        "correct_answer": [
+            1,
+            3
+        ]
+    },
+    {
+        "question": "Các địa chỉ IP nào sau đây có cùng NetworkID (chọn 2đáp án)?",
+        "answers": [
+            "172.16.100.1 /20",
+            "172.16.110.1 /20",
+            "172.16.120.1 /20",
+            "172.16.130.1 /21",
+            "172.16.140.1 /21",
+            "172.16.150.1 /21100 = 0110 0100110 = 0110 1110Downloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792120 = 0111 1000"
+        ],
+        "correct_answer": [
+            0,
+            1
+        ]
+    },
+    {
+        "question": "Những địa chỉ IP nào sau đây KHÔNG dùng trên mạng Internet? (Chọn 3đáp án)",
+        "answers": [
+            "127.0.0.1 /8",
+            "169.254.1.1 /16",
+            "192.168.1.1 /24",
+            "12.34.56.78 /8",
+            "203.147.12.156 /24",
+            "172.12.101.57 /16"
+        ],
+        "correct_answer": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "question": "Địa chỉ 148.37.21.104 thuộc phân lớp nào?",
+        "answers": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E148 = 1001 0100 -> thuộc phân lớp BDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "question": "Địa chỉ IP nào sau đây gán được cho một nút mạng?",
+        "answers": [
+            "230.146.21.45 /28",
+            "192.168.1.0 /24",
+            "10.64.0.0 /12",
+            "10.64.0.0 /10",
+            "172.16.3.255 /21",
+            "172.16.3.255 /22a.Thuộc phân lớp D-> địa chỉ multicastb.Địa chỉ mạngc.64 = 0100 0000-> địa chỉ mạngd.64 = 0100 0000->Địa chỉ mạnge.Không thuộc phân lớp D và E3 = 0000 0011-> địa chỉ máy trạmf.3 = 0000 0011-> địa chỉ quảng bá"
+        ],
+        "correct_answer": 4
+    },
+    {
+        "question": "Sử dụng mặt nạ mạng nào sau đây để chia mạng 10.96.0.0 /10 thành 8mạng con? ",
+        "answers": [
+            "255.0.0.0",
+            "255.224.0.0",
+            "255.240.0.0",
+            "255.248.0.0",
+            "255.252.0.0"
+        ],
+        "correct_answer": 3,
+        "explanation": "Chia thành 8 mạng con -> SubnetID là 3 bit (8=2^3)\nMặt nạ mạng con /(10+3) = /13 = 255.248.0.0\n/13 = 1111 1111 1111 1000 0000 0000 0000 0000"
+    },
+    {
+        "question": "Một mạng có địa chỉ phần mạng dài 23 bit. Nếu chia thành 4 mạng con thì số địa chỉIP tối đa mỗi mạng con có thể gán cho máy trạm là bao nhiêu? Downloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792",
+        "answers": [
+            "512",
+            "256",
+            "128",
+            "254",
+            "126",
+            "30"
+        ],
+        "correct_answer": 4,
+        "explanation": "địa chỉ mạng con là /25 -> số địa chỉ IP có thể cấp phát cho các nút mạng dùng là 126\n2^(32-25) – 2 = 126"
+    },
+    {
+        "question": "Địa chỉ IP nào sau đây là một địa chỉ multicast?",
+        "answers": [
+            "127.0.0.1",
+            "192.168.1.1",
+            "8.8.8.8",
+            "224.0.0.25"
+        ],
+        "correct_answer": 3,
+        "explanation": "Địa chỉ multicast là địa chỉ phân lớp D"
+    },
+    {
+        "question": "Gói tin IP có địa chỉ đích 67.125.90.13 sẽ được router chuyển tiếp tớimạng nào? ",
+        "answers": [
+            "67.125.64.0 /19",
+            "67.125.0.0 /17",
+            "67.125.96.0 /19",
+            "67.125.128.0 /17"
+        ],
+        "correct_answer": 0,
+        "explanation": "Gói tin sẽ được chuyển tới mạng có phần NetworkID giống với các bit tương ứng của địa chỉ đích\nĐịa chỉ đích: 90 = 0101 1010\na.\n64= \n010\n0 0000-> phù hợp->Chọn vì theo quy tắc longest matching\nb.0= \n0\n000 0000->phù hợp\nc.\n96= \n011\n0 0000->không phù hợp\nd.128=\n1\n000 0000->không phù hợp"
+    },
+    {
+        "question": "Mặt nạ mạng nào sau đây có thể chia mạng 172.16.64.0 /18 thành 16mạng con? Downloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792",
+        "answers": [
+            "255.255.0.0",
+            "255.255.192.0",
+            "255.255.252.0",
+            "255.255.255.0Số bit subnetID là 4Mặt nạ mạng con: /22"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "question": "Ý nghĩa của trường TTL(Time-to-live) trong tiêu đề gói tin IP là gì?",
+        "answers": [
+            "Gốc thời gian để đồng bộ giữa hai bên",
+            "Thời điểm gói tin được gửi đi",
+            "Số chặng tối đa gói tin có thể được chuyển tiếp qua",
+            "Số chặng mã gói tin đã đi qua trước khi tới đích",
+            "Thời gian tối đa gói tin có thể nằm trong hàng đợi"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "question": "Trong hoạt động của giao thức IP, phía gửi không thực hiện thao tác nào dưới đây?(Chọn 2 đáp án) ",
+        "answers": [
+            "Đặt dữ liệu nhận được từ tầng giao vận vào gói tin và thêm thông tin điều khiển",
+            "Thiết lập liên kết với phía nhận trước khi truyền đi",
+            "Chuyển gói tin cho tầng liên kết dữ liệu xử lý",
+            "Chờ báo nhận trước khi gửi gói tin tiếp theo"
+        ],
+        "correct_answer": [
+            1,
+            3
+        ],
+        "explanation": "a.\nNguyên tắc đóng gói trong kiến trúc phân tầng\nb.IP là giao thức hướng không liên kết (connectionless) -> chọn đáp án này\nc.\nNguyên tắc đóng gói và truyền thông trong phân tầng\nd.IP là giao thức không tin cậy -> không có báo nhận -> chọn đáp án này"
+    },
+    {
+        "question": "Giao thức IP thực hiện những quá trình nào sau đây tại phía nhận? (Chọn 3đáp án) ",
+        "answers": [
+            "Phát ACK báo nhận thành công",
+            "Kiểm tra checksum để phát hiện lỗi",
+            "Hợp mảnh các gói tin nếu cần",
+            "Thêm thông tin phần tiêu đề trước khi chuyển cho giao thức tầng trên",
+            "Xác định giao thức tầng trên nào sẽ xử lý tiếp dữ liệu"
+        ],
+        "correct_answer": [
+            1,
+            2,
+            4
+        ],
+        "explanation": "a.\nSai vì IP là giao thức không tin cậy -> không dùng báo nhận\nDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)\nlOMoARcPSD|43338792\nb.Đúng. Checksum để kiểm tra lỗi trên header\nc.\nĐúng\nd.Sai (xem lại nguyên tắc đóng gói và truyền thông trong kiến trúc phân tầng)\ne.\nĐúng"
+    },
+    {
+        "question": "Giao thức IP không thực hiện thao tác nào tại phía nhận?(Chọn 2đáp án) ",
+        "answers": [
+            "Kiểm tra lỗi trên gói tin",
+            "Sửa lỗi nếu có lỗi",
+            "Phát báo nhận cho nút gửi",
+            "Hủy gói tin nếu TTL = 0"
+        ],
+        "correct_answer": [
+            1,
+            2
+        ]
+    },
+    {
+        "question": "Nếu không tìm được cổng để chuyển tiếp gói tin IP đi, router xử lý nhưthế nào? ",
+        "answers": [
+            "Gửi gói tin ra tất cả các cổngDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792",
+            "Thực hiện quá trình định tuyến để tìm đường đi cho gói tin này",
+            "Hủy gói tin và báo lỗi cho nút nguồn ",
+            "Gửi lại gói tin cho nút nguồn"
+        ],
+        "correct_answer": 2,
+        "explanation": "a.\nSai\nb.Sai vì quá trình định tuyến thực hiện trước\nc.\nĐúng. Báo lỗi bằng thông điệp ICMP\nd.Sai"
+    },
+    {
+        "question": "Router không thực hiện bước xử lý nào sau đây khi chuyển tiếp một gói tin IP?",
+        "answers": [
+            "Kiểm tra giá trị TTL của gói tin",
+            "Kiểm tra lỗi bit cho phần tiêu đề",
+            "Phân mảnh gói tin nếu kích thước lớn hơn giá trị MTU của đường truyền",
+            "Tìm kiếm lối ra dựa trên địa chỉ đích",
+            "Bổ sung địa chỉ đích vào bảng chuyển tiếp nếu chưa biết",
+            "Giảm giá trị TTL của gói tin"
+        ],
+        "correct_answer": 4,
+        "explanation": "a.\nRoutoer luôn kiểm tra TTL trước khi chuyển tiếp\nb."
+    },
+    {
+        "question": "Bộ định tuyến không thực hiện thao tác nào khi chuyển tiếp (forwarding) gói tin IP?(Chọn  3 đáp án) ",
+        "answers": [
+            "Thiết lập liên kết với nút kế tiếp",
+            "Quảng bá gói tin nếu không tìm thấy lối ra",
+            "Giảm giá trị TTL (time-to-live) của gói tin",
+            "Phân mảnh gói tin nếu cần",
+            "Bổ sung địa chỉ đích vào bảng chuyển tiếp nếu chưa biết"
+        ],
+        "correct_answer": [
+            0,
+            1,
+            4
+        ],
+        "explanation": "a.\nIP là giao thức hướng không liên kiết"
+    },
+    {
+        "question": "Trong hoạt động chuyển tiếp gói tin IP trên router, lý do nào sau đây khiến gói tin bịloại  bỏ? (Chọn 4 đáp án) ",
+        "answers": [
+            "Phát hiện lỗi thông qua trường checksum",
+            "Gói tin bị phân mảnh",
+            "Không tìm thấy cổng ra trên bảng chuyển tiếp",
+            "Hàng đợi trên router bị đầy",
+            "Giá trị TTL = 1 (hoặc TTL = 0)"
+        ],
+        "correct_answer": [
+            0,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "question": "Cơ chế nào được sử dụng để chuyển đổi địa chỉ IP khi chuyển tiếp gói tin IP giữamạng cục bộ và mạng công cộng? ",
+        "answers": [
+            "DNS",
+            "DHCP",
+            "ARPDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792",
+            "NAT"
+        ],
+        "correct_answer": 3,
+        "explanation": "a.\nPhân giải tên miền\nb.\nCấp phát địa chỉ IP tự động (Dynamic Host Configuration Protocol)\nc.\nTìm kiếm địa chỉ MAC (Address Resolution Protocol)\nd.\nNetwork Address Translation"
+    },
+    {
+        "question": "Khi nào cần phân mảnh gói tin IP trong quá trình truyền?",
+        "answers": [
+            "Có tắc nghẽn xảy ra trên đường truyền",
+            "Kích thước gói tin lớn hơn MTU của đường truyền",
+            "Kích thước gói tin lớn hơn kích thước còn trống trên bộ đệm của nút nhận d.Phát hiện lỗi trên gói tin "
+        ],
+        "correct_answer": 1
+    },
+    {
+        "question": "Khi chuyển tiếp, gói tin IP bị phân mảnh trong trường hợp nào?",
+        "answers": [
+            "Mạng có tắc nghẽn",
+            "Mạng có đụng độ",
+            "Kích thước gói tin lớn hơn MTU của đường truyền",
+            "Có nhiều lối ra phù hợp để đưa dữ liệu tới mạng đích",
+            "Kích thước vùng trống trong bộ đệm của nút kế tiếp không đủ để nhận gói tin"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "question": "Một gói tin IP có kích thước phần dữ liệu (payload) là 1200 byte bị phân thành 3mảnh có giá trị Fragment Offset lần lượt là 0, 69, 138. Phần dữ liệu trong các mảnh này cókích thước lần lượt là bao nhiêu byte? ",
+        "answers": [
+            "0, 69, 138",
+            "400, 400, 400",
+            "50, 50, 50",
+            "552, 552, 96",
+            "96, 552, 5520 x 8                                   55169 x 8 = 552                    1103138 x 8 = 1104               1199"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "question": "Phát biểu nào sau đây là đúng đối với gói tin IP có địa chỉ đích là255.255.255.255? ",
+        "answers": [
+            "Được sử dụng để thiết lập liên kết",
+            "Được ưu tiên đưa vào hàng đợi của router khi chờ chuyển tiếp",
+            "Được chuyển tới mọi nút trong miền quảng bá",
+            "Được sử dụng để thông báo có đụng độ xảy ra trong mạng điểm-đa điểm e.Được chuyển ngay ra ngoài mạng Internet mà không cần chuyển đổi địa chỉ "
+        ],
+        "correct_answer": 2,
+        "explanation": "255.255.255.255: địa chỉ quảng bá"
+    },
+    {
+        "question": "Phát biểu nào sau đây là đúng về định tuyến theo vec-tơkhoảng cách?Downloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792 ",
+        "answers": [
+            "Mỗi nút thu thập thông tin định tuyến từ tất cả các nút trong mạng",
+            "Cho phép tìm đường đi ngắn nhất giữa mọi cặp nút",
+            "Để tránh lỗi lặp vô hạn, các nút trao đổi toàn bộ vec-tơ khoảng cách với nhau",
+            "Chuyển tiếp các vec-tơ khoảng cách nhận được từ hàng xóm ra các cổng khác",
+            "Tốc độ hội tụ không phụ thuộc vào số liên kết giữa các nút"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "question": "Định tuyến theo vec-tơ khoảng cách hoạt động như thế nào? (Chọn 2đáp án) ",
+        "answers": [
+            "Trao đổi thông tin vec-tơ khoảng cách với các bộ định tuyến hàng xóm",
+            "Lan truyền thông tin vec-tơ khoảng cách nhận được tới các bộ định tuyến khác",
+            "Tính toán và cập nhật đường đi mới khi nhận được vec-tơ khoảng cách d. Xây dựng sơ đồ mạng từ các vec-tơ khoảng cách nhận được "
+        ],
+        "correct_answer": [
+            0,
+            2
+        ]
+    },
+    {
+        "question": "Tốc độ hội tụ của định tuyến theo vector khoảng cách phụ thuộc vào các yếu tốnào? (Chọn 2 đáp án) ",
+        "answers": [
+            "Số lượng nút định tuyến",
+            "Số kết nối giữa các nút định tuyến",
+            "Băng thông đường truyền",
+            "Độ trễ",
+            "Độ mất mát gói tin"
+        ],
+        "correct_answer": [
+            0,
+            1
+        ]
+    },
+    {
+        "question": "Phát biểu nào sau đây là SAI về định tuyến theo trạng thái liên kết?",
+        "answers": [
+            "Thông tin trạng thái liên kết được lan truyền cho tất cả các nút trong mạng",
+            "Sử dụng thuật toán Bellman-Ford để tìm đường đi ngắn nhất ",
+            "Mỗi nút tự xây dựng hình trạng (topology) của mạng",
+            "Số lượng bản tin trao đổi tăng nhanh theo số liên kết trong mạng"
+        ],
+        "correct_answer": [
+            1,
+            3
+        ]
+    },
+    {
+        "question": "Giao thức định tuyến theo trạng thái liên kết không thực hiện hoạt động nàosau đây? ",
+        "answers": [
+            "Quảng bá thông tin trạng thái liên kết trên mạng",
+            "Thu thập thông tin đường đi từ hàng xóm",
+            "Xây dựng topology của mạng",
+            "Thực hiện thuật toán tìm đường đi ngắn nhất"
+        ],
+        "correct_answer": 1,
+        "explanation": "a.\nĐúng\nb.Đặc điểm của định tuyến theo vec-tơ khoảng cách\nDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)\nlOMoARcPSD|43338792"
+    },
+    {
+        "question": "Trong một mạng sử dụng định tuyến theo trạng thái liên kết, router A thu thậpđược các thông tin liên kết dạng (link, cost) sau: (BA, 8), (CA, 1), (BC, 1), (CB, 1), (BD, 15), (DB, 15).  Những đường đi nào dưới đây là đường đi ngắn nhất? (Chọn 2 đáp án) ",
+        "answers": [
+            "A->B ",
+            "A->C->B ",
+            "A->B->D ",
+            "A->C->B->D"
+        ],
+        "correct_answer": [
+            1,
+            3
+        ],
+        "explanation": "Vẽ ra rồi tìm đường ngắn nhất"
+    },
+    {
+        "question": "Trong một mạng sử dụng định tuyến theo vec-tơ khoảng cách, router A có các hàngxóm là B, C, D với khoảng cách lần lượt là 3, 5, 3. Giả sử A nhận được thông tin đường đi dạng  (đích đến, chi phí) từ B là (C, 1) và (E, 5), từ C là (D, 8) và (E, 4), từ D là (E, 4) và (C, 8).  Đường đi nào sau đây KHÔNG phải là đường đi mà A lựa chọn? ",
+        "answers": [
+            "(B, 3)",
+            "(C, 4)",
+            "(D, 3)",
+            "(E, 8) ko phải tốt nhất"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "question": "Giao thức định tuyến nào được sử dụng để tìm đường đigiữa các vùng tự trị (AS – Autonomous System)? ",
+        "answers": [
+            "RIP",
+            "OSPF",
+            "IGRP",
+            "EIGRP",
+            "BGPBGP là định tuyến ngoại vùng còn lại là định tuyến nội vùng"
+        ],
+        "correct_answer": 4
+    },
+    {
+        "question": "Giao thức nào sau đây không nằm cùng nhóm với các giao thứccòn lại? Downloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792",
+        "answers": [
+            "OSPF",
+            "RIP",
+            "IGRP",
+            "EIGRP",
+            "BGPBGP là định tuyến ngoại vùng (liên vùng) còn OSPF, RIP, IGRP, EIGRP là định tuyến nội vùng"
+        ],
+        "correct_answer": 4
+    },
+    {
+        "question": "Phát biểu nào sau đây là SAI về giao thức định tuyến OSPF?",
+        "answers": [
+            "Thông tin trạng thái liên kết của một nút được lan truyền tới tất cả các nút trong miền",
+            "Có cơ chế định tuyến phân cấp",
+            "Sử dụng thuật toán Bellman-Ford để tìm đường đi ngắn nhất",
+            "Mỗi nút tự xây dựng hình trạng (topology) của toàn mạng",
+            "Tìm đường đi ngắn nhất từ một nút tới các nút khácOSPF là giao thức định tuyến theo trạng thái liên kếta.Đúng vì đây là đặc điểm của định tuyến theo TTLKb.Đúng vì đây là đặc điểm của định tuyến theo TTLKc.Sai vì đây là đặc điểm của định tuyến theo vec-tơ khoảng cáchd.Đúng vì đây là đặc điểm của định tuyến theo TTLKe.Đúng vì đây là đặc điểm của định tuyến theo TTLK"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "question": "Phát biểu nào sau đây là SAI về giao thức OSPF?",
+        "answers": [
+            "Là giao thức định tuyến theo vec-tơ khoảng cách",
+            "Được thực hiện trên các bộ định tuyến (router)",
+            "Là giao thức định tuyến nội vùng",
+            "Hỗ trợ định tuyến phân cấp"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "question": "Giao thức định tuyến RIPv2 tính chi phí đường đi dựa trênthông số nào? ",
+        "answers": [
+            "Băng thông",
+            "Số chặng (hop)",
+            "Độ trễ",
+            "TảiRIPv2 hay RIPv1 đều tính toán chi phí dựa trên số chặng"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "question": "Giao thức định tuyến nào phù hợp để cài đặt cho các routertrong vùng tự trị (AS) có 40 router? ",
+        "answers": [
+            "RIPv1",
+            "RIPv2",
+            "OSPF ",
+            "BGPDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792",
+            "Tất cả các giao thức trên"
+        ],
+        "correct_answer": 2,
+        "explanation": "a.\nDùng trong mạng có tối đa 15 router\nb.Dùng trong mạng có tối đa 30 router\nc.\nĐúng \nd.Sai vì BGP là giao thức định tuyến ngoại vùng"
+    },
+    {
+        "question": "Ưu thế của giao thức định tuyến RIP so với OSPF là gì?",
+        "answers": [
+            "Đơn giản hơn khi thực hiện cập nhật bảng định tuyến",
+            "Tốc độ hội tụ nhanh hơn",
+            "Tiết kiệm băng thông",
+            "Triển khai trên mạng có số lượng nút định tuyến lớn"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "question": "Cho đồ thị mô hình hóa một hệ thống mạng, trong đó mỗi đỉnh là một router vàmỗi liên kết có chi phí như hình vẽ dưới đây. Hãy trả lời các câu hỏi sau: Nếu các router cài đặt giao thức định tuyến OSPF thì tuyến đường ngắn nhất từ A tới E là gì? ",
+        "answers": [
+            "(A, B, D, E)",
+            "(A, C, D, E)",
+            "(A, C, E)",
+            "(A, B, C, D, E)"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "question": "Nếu các router cài đặt giao thức định tuyến RIP thì tuyến đường ngắn nhất từ Atới E là gì? ",
+        "answers": [
+            "(A, B, D, E)",
+            "(A, C, D, E)",
+            "(A, C, E)",
+            "(A, B, C, D, E)RIP tìm dựa trên số chặng"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "question": "Giao thức BGP thực hiện chức năng nào?",
+        "answers": [
+            "Điều khiển truyền dữ liệu giữa các tiến trình trên hệ thống cuối",
+            "Thiết lập kênh trong mạng chuyển mạch kênh",
+            "Định tuyến giữa các vùng tự trị (Autonomous System) trênInternet ",
+            "Điều khiển truy nhập đường truyền trong mạng đa truy nhậpDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "question": "Có thể cài đặt giao thức định tuyến nào sau đây trên router để tìm đường đitới mạng 108.21.16.0 /20 nằm trong vùng tự trị (AS) của router đó? (chọn 2 đáp án)",
+        "answers": [
+            "RIPv1",
+            "RIPv2",
+            "OSPF",
+            "BGPđịa chỉ mạng có mặt nạ nên là địa chỉ không phân lớp nhưng RIPv1 chỉ định tuyến tới mạng phân lớp nên không chọn ABGP định tuyến ngoại vùng"
+        ],
+        "correct_answer": [
+            1,
+            2
+        ]
+    },
+    {
+        "question": "Phát biểu nào sau đây là SAI về giao thức định tuyến BGP?",
+        "answers": [
+            "Là giao thức định tuyến giữa các AS (Autonomous System)",
+            "Phiên eBGP thực hiện giữa các router cùng một AS",
+            "Các thông điệp của phiên iBGP được định tuyến bởi các giao thức định tuyến nội vùng",
+            "Hai phiên iBGP và eBGP sử dụng giao thức giống nhaub.eBGP thực hiện giữa các router khác AS"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "question": "Phát biểu nào sau đây là SAI về giao thức BGP?",
+        "answers": [
+            "Được cài đặt trên tất cả các bộ định tuyến trong AS",
+            "Tìm đường đi tới các AS",
+            "Truyền thông tin định tuyến giữa các bộ định tuyến qua liên kết TCP",
+            "Sử dụng thuật toán định tuyến vec-tơ đường đi (path-vector)a.Sai vì chỉ cài đặt trên router biên của ASChương 2 và 3: Tầng liên kết dữ liệu và tầng vật lý"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "question": "Tầng liên kết dữ liệu không thực hiện chức năng nào?",
+        "answers": [
+            "Đồng bộ tốc độ truyền dữ liệu giữa 2 nút mạng trên liên kết",
+            "Biểu diễn các bit thành tín hiệu",
+            "Kiểm soát lỗi",
+            "Điều khiển truy nhập đường truyền"
+        ],
+        "correct_answer": 1,
+        "explanation": "b. Chức năng của tầng vật lý\nDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)\nlOMoARcPSD|43338792"
+    },
+    {
+        "question": "Trong hình trạng (topology) mạng nào sau đây, sự cố xảy ra trên đường truyềnvật lý có thể cản trở đến quá trình truyền dữ liệu toàn bộ mạng? ",
+        "answers": [
+            "Hình trục",
+            "Hình sao",
+            "Hình vòng",
+            "Hình lưới"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "question": "Mạng nào sau đây là mạng điểm-điểm (point-to-point)?",
+        "answers": [
+            "Mạng hình trục (bus)",
+            "Mạng hình sao (star) sử dụng bộ chia mạng (hub)",
+            "Mạng hình sao sử dụng bộ định tuyến (router)",
+            "Cả 3 mạng trên"
+        ],
+        "correct_answer": 2,
+        "explanation": "bus là điểm-đa điểm, vòng là điểm điểm, lưới là điểm điểm\nKiểu sao nếu thiết bị trung tâm là hub thì mô hình truyền là điểm – đa điểm\nCòn nếu thiết bị trung tâm là switch hoặc router thì điểm- điểm"
+    },
+    {
+        "question": "Mạng nào sau đây thực hiện lan truyền tín hiệu theo phương thức điểm-đa điểm?",
+        "answers": [
+            "Mạng hình trục (bus)",
+            "Mạng hình sao (star) sử dụng hub",
+            "Mạng hình sao (star) sử dụng switch",
+            "Mạng LAN không dây sử dụng chuẩn IEEE802.11",
+            "Mạng hình sao (star) sử dụng routerDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792"
+        ],
+        "correct_answer": [
+            0,
+            1,
+            3
+        ]
+    },
+    {
+        "question": "Mạng nào sau đây thực hiện lan truyền tín hiệu theo phương thức điểm-đa điểm ? a. Mạng hình trục (bus) ",
+        "answers": [
+            "Mạng hình sao (star) sử dụng hub",
+            "Mạng hình sao (star) sử dụng switch",
+            "Mạng LAN không dây sử dụng chuẩn IEEE802.11",
+            "Mạng hình vòng (ring)"
+        ],
+        "correct_answer": [
+            0,
+            2
+        ]
+    },
+    {
+        "question": "Các phương pháp điều khiển truy nhập đường truyền nào sau đây thuộc nhómphương pháp điều khiển ngẫu nhiên? (Chọn 2 đáp án) ",
+        "answers": [
+            "CSMA",
+            "TDMA",
+            "FDMA",
+            "CDMA",
+            "Slotted Aloha",
+            "Token Passinggợi ý: a.Carrier Sense Multiple Access(CSMA)-> điều khiển truy nhập ngẫu nhiênb.TDMA->Điều khiển truy nhập dựa trên chia kênh theo thời gianc.FDMA->Điều khiển truy nhập dựa trên chia kênh theo tần sốd.CDMA->Điều khiển truy nhập dựa trên chia kênh theo mãe.Slotted Aloha->Điều khiển truy nhập ngẫu nhiênf.Token Passing->Điều khiển truy nhập dùng thẻ bài (truy nhập lần lượt)"
+        ],
+        "correct_answer": [
+            0,
+            4
+        ]
+    },
+    {
+        "question": "Xác suất xảy ra đụng độ trong phương pháp điều khiển truy nhập đường truyềnnào sau đây là cao nhất? ",
+        "answers": [
+            "Pure Aloha",
+            "Slotted Aloha",
+            "CSMA/CA",
+            "CSMA/CD",
+            "Token passing"
+        ],
+        "correct_answer": 0,
+        "explanation": "Xác suất đụng độ của phương pháp đa truy nhập đường truyền:\n-\nDựa trên chia kênh: 0\n-\nSử dụng thẻ bài (lần lượt): Điều khiển các nút lần lượt dùng đường truyền -> 0\n-\nNgẫu nhiên: >0. Thứ tự xác suất đụng độ giảm dần Pure Aloha > Slotted Aloha>CSMA"
+    },
+    {
+        "question": "Phương pháp điều khiển truy nhập đường truyền nào dưới đây không nằm cùngnhóm với các phương pháp khác? ",
+        "answers": [
+            "Pure Aloha",
+            "Slotted Aloha",
+            "CSMA/CD",
+            "Token PassingDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792Gợi ý: Token Passing là truy nhập theo thẻ bài còn Pure Aloha, slotted Aloha, CSMA là truy nhập ngẫu nhiên"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "question": "Phát biểu nào sau đây là đúng về phương pháp điều khiển truy nhập đườngtruyền Pure Aloha? ",
+        "answers": [
+            "Thuộc nhóm phương pháp điều khiển truy nhập ngẫu nhiên",
+            "Kiểm tra trạng thái đường truyền trước khi gửi dữ liệu",
+            "Đồng bộ thời gian giữa các nút",
+            "Truyền nhiều khung tin nhất có thể trong một khung thời gian (frame time)"
+        ],
+        "correct_answer": 0,
+        "explanation": "b. Sai vì trong phương pháp Pure Aloha, nút mạng sẽ truyền ngay chứ không có kiểm tra\nc. Sai vì trong Slotted Aloha mới đồng bộ thời gian\nd. Sai vì trong 1 frame time chỉ truyền 1 khung tin"
+    },
+    {
+        "question": "Phát biểu nào sau đây là sai trong hoạt động của phương pháp điều khiển truynhập đường truyền Slotted Aloha? (Chọn 2 đáp án) ",
+        "answers": [
+            "Đồng bộ thời gian giữa các nút mạng",
+            "Mỗi nút mạng được phép truyền trong khe thời gian dành riêng cho nút mạngđó ",
+            "Truyền dữ liệu ngay khi cần",
+            "Phát hiện đụng độ và thông báo cho các nút trong mạng"
+        ],
+        "correct_answer": [
+            1,
+            3
+        ],
+        "explanation": "a.\nĐúng\nb.Sai. Đây là đặc điểm của TDMA\nc.\nĐúng truyền dữ liệu ngay khi cần là đặc điểm của mấy thằng Aloha\nd.Sai. Đây là đặc điểm của CSMA/CD"
+    },
+    {
+        "question": "Điều gì làm cho phương pháp điều khiển truy nhập Slotted Aloha có hiệu quả caohơn Pure Aloha? ",
+        "answers": [
+            "Kiểm tra trạng thái đường truyền trước khi đưa dữ liệu lên",
+            "Thiết lập mức ưu tiên truyền của các nút",
+            "Đồng bộ thời gian giữa các nút",
+            "Truyền nhiều hơn một khung tin trong một khe thời gian (frame time)"
+        ],
+        "correct_answer": 2,
+        "explanation": "a.\nSai\nDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)\nlOMoARcPSD|43338792\nb.Sai\nc.\n Đồng bộ thời gian giữa các nút trong Slotted Aloha thì xác suất truyền thành công sẽ tăng gấp \nđôi so với \nPure Aloha\nd.Sai. Một fame time chỉ truyền một khung tin"
+    },
+    {
+        "question": "Đặc điểm nào trong hoạt động của các giao thức điều khiển truy cập đườngtruyền Pure Aloha làm cho nó có hiệu quả thấp hơn hơn so với SlottedAloha? ",
+        "answers": [
+            "Truyền dữ liệu ngay khi có thể mà không kiểm tra trạng thái đường truyền b.Chỉ gửi 1 gói tin trong mỗi frame-time ",
+            "Không đồng bộ thời gian giữa các nút",
+            "Không kiểm tra trạng thái đường truyền trước khi truyền",
+            "Không thiết lập thứ tự truy cập đường truyền giữa các nút",
+            "Sai"
+        ],
+        "correct_answer": 1,
+        "explanation": "a.\nSai\nc.\nĐúng. \nd.Sai\ne.\nSai"
+    },
+    {
+        "question": "Phương pháp điều khiển truy nhập đường truyền CSMA/CD thực hiện như thếnào? (Chọn 3 đáp án) ",
+        "answers": [
+            "Cảm nhận năng lượng sóng mang trên đường truyền trước khi truyền",
+            "Cảm nhận năng lượng sóng mang khi truyền khung tin đầu tiên để phát hiện đúng độ",
+            "Duy trì việc phát tín hiệu báo đụng độ trên đường truyền trong một khoảng thời gian đểtất cả nút mạng khác cảm nhận được  ",
+            "Thiết lập độ ưu tiên truy nhập đường truyền cho các nút mạnggợi ý: nếu có song mang để truyền thì truy nhập đường truyền để truyền còn không thì thôiCSMA/CD: Carrier Sense Multiple Access/Collision Detectiond. Sai. Đã truy nhập ngẫu nhiên rồi thì đéo có ưu tiên"
+        ],
+        "correct_answer": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "question": "Trong hoạt động của phương pháp điều khiển truy nhập đường truyềnCSMA/CD, nút mạng không thực hiện những thao tác nào? ",
+        "answers": [
+            "Kiểm tra sự có mặt của tín hiệu sóng mang trên đường truyền",
+            "Kiểm tra đụng độ trong quá trình truyền",
+            "Phát tín hiệu JAM để duy trì đụng độ",
+            "Chờ đụng độ được vãn hồi trong khoảng thời gian nào đó",
+            "Sau khi đụng độ được vãn hồi, truyền lại ngay mà không cần kiểm tra trạng tháiđường truyền "
+        ],
+        "correct_answer": 4,
+        "explanation": "Downloaded by Ninh Nguy?n Quang (qndt123@gmail.com)\nlOMoARcPSD|43338792\ne. Sai nếu là CSMA/CD kiên trì thì nó sẽ \nkiểm tra trạng thái đường truyền trước khi \ntruyền chứ không\n truyền lại ngay"
+    },
+    {
+        "question": "Phát biểu nào sau đây là đúng về thẻ bài trong phương pháp truy nhậpđường truyền Token Passing? (Chọn 3 đáp án) ",
+        "answers": [
+            "Thẻ bài được luân chuyển tuần tự qua các nút mạng",
+            "Mỗi nút mạng được phép sử dụng thẻ bài trong một khe thời gian xác định",
+            "Thẻ bài được sử dụng để phát hiện đụng độ trong mạng",
+            "Cho phép thiết lập mức độ ưu tiên truyền dữ liệu",
+            "Là một gói tin có khuôn dạng và kích thước xác định"
+        ],
+        "correct_answer": [
+            0,
+            3,
+            4
+        ],
+        "explanation": "a.\nĐúng\nb.Sai. Vì nút mạng được sử dụng thẻ bài trong tg tùy ý\nc.\nSai. Thẻ bài là để xác lập quyền dùng đường truyền chứ không để phát hiện đụng độ\nd.Đúng\ne.\nĐúng"
+    },
+    {
+        "question": "Trong các mô tả sau về hoạt động của giao thức điều khiển truy nhập đường truyềnToken Passing, câu nào là SAI? (Chọn 2 đáp án) ",
+        "answers": [
+            "Chỉ tồn tại duy nhất một thẻ bài trong mạng để xác định quyền đưa dữ liệu lên đường truyền.",
+            "Một nút mạng muốn truyền dữ liệu nó phải đợi cho tới khi nhận được thẻ bài có trạng thái rỗi.",
+            "Khi kết thúc truyền dữ liệu, nút nguồn sẽ gửi thông báo để nút đích xác lập trạng thái chothẻ bài là rỗi. ",
+            "Sau khi truyền xong dữ liệu, nút mạng sẽ trả thẻ bài về cho trung tâm phân phối thẻ bài"
+        ],
+        "correct_answer": 2,
+        "explanation": "c. Sai. Nút nguồn là nút thiết lập thẻ bài trở về trạng thái rỗi chứ không gửi thông báo gì cả\nd. Sai. Trong \nToken Passing không có trung tâm phân phối thẻ bài"
+    },
+    {
+        "question": "Khi điều khiển truy nhập đường truyền, ưu thế của phương pháp phương phápsử dụng thẻ bài (Token Passing) so với điều khiển ngẫu nhiên là gì? ",
+        "answers": [
+            "Xác suất đụng độ thấp hơn",
+            "Đơn giản hơn",
+            "Hiệu suất sử dụng đường truyền cao hơn",
+            "Cả 3 đáp án trên"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "question": "Ưu điểm của phương pháp CSMA/CD so với Token Passing là gì?",
+        "answers": [
+            "Đơn giản hơn",
+            "Xác suất đụng độ thấp hơn",
+            "Có cơ chế thiết lập thứ tự ưu tiên truyền",
+            "Có cơ chế phát hiện và vãn hồi đụng độ",
+            "Tất cả các đáp án trên"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "question": "Điểm khác biệt của chuyển tiếp dữ liệu ở tầng 2 trên switch so với chuyển tiếp ởtầng 3 trên router là gì? (Chọn 2 đáp án) ",
+        "answers": [
+            "Không cần giao thức xác định trước đường điDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792",
+            "Không cần bảng chuyển tiếp",
+            "Nút đích phải cùng một mạng với nút nguồn",
+            "Các gói tin được xử lý độc lập",
+            "Không quảng bá dữ liệu có địa chỉ đích là địa chỉ quảng báa.Đúng vì switch dùng cơ chế tự học để xây dựng bảng chuyển tiếpb.Sai. chuyển tiếp dữ liệu ở tầng 2 trên switch tuân thủ quy tắc chuyển dữ liệu trong mạng chuyển mạch gói phải có bảng chuyển tiếpc.Đúng. d. Sai. Các gói tin được xử lý một cách độc lập là nguyên tắc của chuyển mạch gói nên ở tầng 2 trên switch và tầng 3 trên router Các gói tin được xử lý độc lập e. Sai. Đặc điểm của switch là nhận được dữ liệu quảng bá nó sẽ chuyển ra tiếp tất cả các cổng.Còn ở tầng 3 trên router thì Không quảng bá dữ liệu có địa chỉ đích là địa chỉ quảng bá "
+        ],
+        "correct_answer": [
+            0,
+            2
+        ]
+    },
+    {
+        "question": "Khi nhận được một khung tin, switch có thể thực hiện những thao tác xử lý nào?(Chọn 3 đáp án) ",
+        "answers": [
+            "Tìm kiếm cổng ra trên bảng chuyển tiếp theo địa chỉ đích",
+            "Phân mảnh khung tin",
+            "Bổ sung địa chỉ nguồn vào bảng chuyển tiếp nếu chưa biết",
+            "Quảng bá khung tin nếu chưa biết địa chỉ đích"
+        ],
+        "correct_answer": [
+            0,
+            2,
+            3
+        ]
+    },
+    {
+        "question": "Switch xây dựng bảng MAC Table như thế nào?",
+        "answers": [
+            "Nếu chưa biết địa chỉ nguồn trên khung tin, thêm vào bảng MACTable ",
+            "Nếu chưa biết địa chỉ đích trên khung tin, thêm vào bảng MAC Table",
+            "Quảng bá một thông điệp tìm kiếm địa chỉ các nút mạng, bổ sung thông tin từ thông điệp trảlời vào bảng MAC Table  ",
+            "Sử dụng bảng MAC Table từ các switch khác gửi tới"
+        ],
+        "correct_answer": 0,
+        "explanation": "a.\nĐúng. Đây là cơ chế tự học\nb.Sai"
+    },
+    {
+        "question": "Switch thực hiện những thao tác xử lý nào khi nhận được một khung tin có địa chỉđích là A1-B2-C3-D4-E5-F6? (Chọn 2 đáp án) ",
+        "answers": [
+            "Tìm cổng tương ứng trong bảng MAC Table và chuyển khung tin ra cổng đó nếu tìm thấy",
+            "Bổ sung địa chỉ này vào bảng MAC Table nếu trong bảng chưa có",
+            "Kiểm tra lỗi trên khung tin",
+            "Chuyển ngay khung tin ra tất cả các cổng trừ cổng nhận khung tin",
+            "Hủy khung tin và báo lỗi vì địa chỉ này không hợp lệ.a.Đúng vì đây là cơ chế chuyeernt iếp của switchb.Sai. Cơ chế tự học của Switch chỉ bổ sung địa chủ nguồn chứ không bổ sung địa chỉ đíchc.ĐúngDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792d.Sai. Chỉ thực hiện nếu bảng MAC Table không có địa chỉ này-> không đầy đủe.Sai. Không có cơ sở"
+        ],
+        "correct_answer": [
+            0,
+            2
+        ]
+    },
+    {
+        "question": "Switch hoạt động ở chế độ chuyển tiếp “store and forward” thực hiện những thaotác xử lý nào khi nhận được khung tin có địa chỉ MAC đích là FF-FF-FF-FF-FF-FF? (Chọn 2đáp án)",
+        "answers": [
+            "Tìm cổng tương ứng trong bảng Switching Table và chuyển khung tin ra cổng đó nếu tìm thấy. b.Bổ sung địa chỉ này vào bảng Switching Table nếu trong bảng chưa có ",
+            "Kiểm tra lỗi trên khung tin",
+            "Chuyển khung tin ra tất cả các cổng trừ cổng nhận khung tin",
+            "Hủy khung tin và báo lỗi vì địa chỉ này không hợp lệ.",
+            "Sai tự học chỉ bổ sung địa chỉ nguồn"
+        ],
+        "correct_answer": [
+            1,
+            2
+        ],
+        "explanation": "FF-FF-FF-FF-FF-FF là địa chỉ quảng bá\na.\nSai vì địa chỉ đích là địa chỉ quảng bá thì switch sẽ không tìm cổng tương ứng\nc.\nĐúng vì switch hoạt động ở chế độ \nstore and forward\nd.Đúng vì địa chỉ đích là địa chỉ quảng bá\ne.\nSai vì đây là địa chỉ hợp lệ"
+    },
+    {
+        "question": "Khi một nút mạng nhận được yêu cầu gửi gói tin tới một nút khác cùng mạng,nếu chưa    biết địa chỉ MAC của nút đích  , nó sẽ thực hiện như thế nào? ",
+        "answers": [
+            "Gửi gói tin tới gateway mặc định",
+            "Gửi gói tin với địa chỉ quảng bá",
+            "Gửi thông điệp ARP Request tìm kiếm địa chỉ MAC của nút đích",
+            "Từ chối yêu cầu gửi dữ liệu và báo lỗi"
+        ],
+        "correct_answer": 2,
+        "explanation": "a.\nSai\nb.Sai\nc.\nĐúng\nd.Sai\nARP là một phương thức tìm kiếm địa chỉ của một nút khác trong mạng nếu đã biết địa chỉ IP \ncủa nút đó"
+    },
+    {
+        "question": "Giao thức ARP(Address Resolution Protocol) thực hiện chứcnăng nào? ",
+        "answers": [
+            "Chuyển đổi giữa địa chỉ IP cục bộ và địa chỉ IP công cộng",
+            "Tìm kiếm địa chỉ MAC khi biết địa chỉ IP",
+            "Tìm kiểm địa chỉ IP khi biết địa chỉ MAC",
+            "Tìm kiếm địa chỉ mạng của một mạng"
+        ],
+        "correct_answer": 1,
+        "explanation": "a.\nChuyển đổi giữa địa chỉ IP cục bộ và địa chỉ IP công cộng là đặc điểm của NAT\nDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)\nlOMoARcPSD|43338792\nb.Đúng\nc.\nTìm kiểm địa chỉ IP khi biết địa chỉ MAC là Inverse ARP\nd.Không có giao thức nào thực hiện chức năng này"
+    },
+    {
+        "question": "Mô tả nào sau đây là đúng về địa chỉ MAC? (Chọn 2 đáp án)",
+        "answers": [
+            "Có 32 bit giá trị",
+            "Sử dụng giá trị duy nhất làm địa chỉ quảng bá là FF-FF-FF-FF-FF-FF",
+            "Địa chỉ MAC của nút mạng thay đổi một cách định kỳ",
+            "Địa chỉ MAC của các nút mạng được cấp phát tự động bởi dịch vụ DHCP",
+            "Được sử dụng để định danh tại tầng liên kết dữ liệu"
+        ],
+        "correct_answer": [
+            1,
+            4
+        ],
+        "explanation": "a.\nSai vì địa chỉ MAC có 48 bit\nb.Đúng\nc.\nSai vì địa chỉ MAC là địa chỉ vật lý-> không thay đổi\nd.Sai vì địa chỉ MAC được gán khi thiết bị được sản xuất\ne.\nĐúng"
+    },
+    {
+        "question": "Phát biểu nào sau đây là đúng về địa chỉ MAC? (Chọn 1 đáp án)",
+        "answers": [
+            "Là giá trị định danh cho nút mạng tại tầng liên kết dữ liệu",
+            "Thay đổi tùy thuộc theo địa chỉ của mạng mà nút mạng đang kết nối",
+            "Có kích thước 32 bit",
+            "Có thể cấp phát bởi dịch vụ DHCP"
+        ],
+        "correct_answer": 0
+    },
+    {
+        "question": "Loại mã phát hiện lỗi nào sau đây cho phép phát hiện nhiều vị trí lỗi nhất trên góidữ liệu? ",
+        "answers": [
+            "Parity",
+            "Checksum",
+            "CRC-16",
+            "CRC-32Parity và Checksum không cho phép phát hiện vị trí lỗiChỉ có CRC cho phép phát hiện vị trí lỗi. Nguyên tắc là càng nhiều bit thì phát hiện càng nhiều lỗiDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "question": "Chuẩn nào sau đây dùng cho mạng LAN không dây (WLAN)?",
+        "answers": [
+            "IEEE 802.3",
+            "IEEE 802.5",
+            "IEEE 802.11",
+            "IEEE 802.13"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "question": "Các chuẩn Fast Ethernet có tốc độ truyền tin tối đa là bao nhiêu?",
+        "answers": [
+            "10 Mbps",
+            "100 Mbps",
+            "10 Gbps",
+            "1 Gbps",
+            "54 Mbps"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "question": "Những mô tả nào sau đây là đúng với chuẩn Ethernet 1000BASE-T? (Chọn 3đáp án) ",
+        "answers": [
+            "Mạng dùng cáp xoắn đôi",
+            "Khoảng cách truyền dẫn tối đa là 1000m",
+            "Phù hợp với mọi hình trạng mạng",
+            "Điều khiển truy nhập đường truyền bằng CSMA/CD",
+            "Sử dụng đầu nối RJ-45c.sai vì chuẩn này dùng cho mạng hình saod.Đúnge.đúng"
+        ],
+        "correct_answer": [
+            0,
+            3,
+            4
+        ]
+    },
+    {
+        "question": "Chuẩn nào sau đây là chuẩn Fast Ethernet? (Chọn 2 đáp án)",
+        "answers": [
+            "10BASE-2",
+            "10BASE-5",
+            "100BASE-T",
+            "100BASE-F",
+            "1000BASE-T",
+            "1000BASE-CXChuẩn Fast Ethernet có tốc độ truyền tối đa là 100Mbps"
+        ],
+        "correct_answer": [
+            2,
+            3
+        ]
+    },
+    {
+        "question": "Cáp xoắn đôi được sử dụng trong các chuẩn mạng nào dưới đây?",
+        "answers": [
+            "10BASE2",
+            "10BASE5",
+            "100BASE-T",
+            "100BASE-FX",
+            "IEEE 802.11n"
+        ],
+        "correct_answer": 2,
+        "explanation": "kí hiệu cáp xoắn đôi là T\nCáp đồng trục mỏng là: 2\nCáp đồng trục chuẩn là 5\nCáp quang: F\nDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)\nlOMoARcPSD|43338792"
+    },
+    {
+        "question": "Phương pháp mã hóa nào sau đây sử dụng đề điều chế dữ liệu số-tín hiệu số?(Chọn 2 đáp án) ",
+        "answers": [
+            "Mã parity",
+            "Mã checksum",
+            "Mã vòng CRC",
+            "Mã NRZ",
+            "Mã Manchester"
+        ],
+        "correct_answer": [
+            3,
+            4
+        ],
+        "explanation": "mã parity, mã checksum, mã crc là các mã phát hiện lỗi\nMã NRZ và mã Manchester là mã dùng để điều chế dữ liệu số-tín hiệu số"
+    },
+    {
+        "question": "Phát biểu nào sau đây là đúng về mã Manchester?",
+        "answers": [
+            "Được sử dụng tại tầng vật lý",
+            "Bit 1 được biểu diễn luân phiên bởi các xung âm và xung dương",
+            "Chuyển về mức điện áp 0 ở giữa xung",
+            "Thay thế chuỗi các bit 0 liên tiếp bằng mẫu bít đặc biệt để tránh mất đồng bộ"
+        ],
+        "correct_answer": 0,
+        "explanation": "mã Manchester sử dụng tại tầng vật lý để biểu diễn dữ liệu thành tín hiệu xung vuông\nb.Sai vì đây là đặc điểm của mã Bipolar\nc.\nSai vì đây là đặc điểm của mã RZ (Return to Zero)\nd.Sai vì đây là đặc điểm của mã HDBn"
+    },
+    {
+        "question": "Mã chống nhiễu nào sau đây có thể phát hiện được nhiều lỗi nhất?",
+        "answers": [
+            "Mã parity chẵn",
+            "Mã parity lẻ",
+            "Mã checksum",
+            "Mã CRC-16",
+            "Mã CRC-32Mã parity chẵn    và Mã parity lẻ    có khả năng phát hiện lỗi như nhau  "
+        ],
+        "correct_answer": 4
+    },
+    {
+        "question": "Phương pháp mã hóa Manchester có thể được sử dụng tại tầng nào trong môhình OSI? ",
+        "answers": [
+            "Tầng ứng dụng",
+            "Tầng giao vận",
+            "Tầng liên kết dữ liệu",
+            "Tầng vật lý"
+        ],
+        "correct_answer": 3,
+        "explanation": "d. Đúng vì mã này điều ché dữ liệu số-tín hiệu số\n \nDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)\nlOMoARcPSD|43338792"
     }
 ]

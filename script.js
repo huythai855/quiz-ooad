@@ -156,7 +156,9 @@ function submitQuiz() {
 
   correctText =
     typeof correctAnswer === "number"
-      ? `Câu trả lời đúng: ${["A", "B", "C", "D"][correctAnswer]}`
+      ? `Câu trả lời đúng: ${
+          ["A", "B", "C", "D", "E.", "F.", "G."][correctAnswer]
+        }`
       : `Câu trả lời đúng: ${correctAnswer
           .map((index) => index + 1)
           .join(", ")}`;
