@@ -2875,13 +2875,7 @@
             "Độ suy hao tín hiệu",
             "Độ trễ"
         ],
-        "correct_answer": [
-            0,
-            1,
-            2,
-            3,
-            4
-        ],
+        "correct_answer": 2,
         "explanation": "a.Số bit tối đa truyền được trong 1 giây (bps-bit per second)\nb.Tốc độ truyền dữ liệu qua 1 điểm nó trong mạng tại thời điểm quan sát \n(bps)\nd. Mức độ suy giảm năng lượng\ne. Thời gian truyền dữ liệu từ nguồn tới đích (s)"
     },
     {
@@ -2892,12 +2886,7 @@
             "Trễ lan truyền tín hiệu trên đường truyền",
             "Trễ 2 chiều giữa nút nguồn"
         ],
-        "correct_answer": [
-            0,
-            1,
-            2,
-            3
-        ],
+        "correct_answer": 3,
         "explanation": "và nút đích \nTrễ truyền dữ liệu từ nguồn tới đích: tổng 4 thành phần trễ\n-\nTrễ truyền tin: thời gian truyền hết dữ liệu (từ khi truyền bit đầu tiên \ntới bit cuối cùng ra khỏi nút nguồn)\n-\nTrễ truyền dẫn: thời gian lan truyền tín hiệu từ nguồn tới đích\n-\nTrễ xử lý tại nút chuyển tiếp(nút trung gian)\n-\nTrễ hàng đợi: thời gian dữ liệu chờ trong hàng đợi\nRTT: thời gian từ khi nút nguồn gửi dữ liệu đi, tới khi nhận được dữ liệu trả lời \ncủa nút đích\nNút nguồn\nNút đích\nDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)\nlOMoARcPSD|43338792\nRTT = t1 – t0\nDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)\nlOMoARcPSD|43338792\nA\n   \nB"
     },
     {
@@ -2909,13 +2898,7 @@
             "140 s",
             "Xấp xỉ "
         ],
-        "correct_answer": [
-            0,
-            1,
-            2,
-            3,
-            4
-        ],
+        "correct_answer": 0,
         "explanation": "11.4 s \nRtrên toàn tuyến = 1 Mbps \n t = Kích thước dữ liệu cần truyền / Tốc \n\nđộ truyền\n \n\nt = 10 MB x 8 / 1 Mbps = 80 (s)"
     },
     {
@@ -2925,11 +2908,7 @@
             "Thiết lập liên kết trước khi truyền",
             "Sử dụng báo nhận"
         ],
-        "correct_answer": [
-            0,
-            1,
-            2
-        ]
+        "correct_answer": 0
     },
     {
         "question": "Tại sao đường truyền phải có giá trị MTU(MaximumTransmission Unit) để giới hạn kích thước của gói tin được truyền?",
@@ -2939,12 +2918,7 @@
             "Giảm xác suất phải truyền lại dữ liệu",
             "Tăng tốc độ truyền tinBER = Số bit lỗi / Tổng số bit truyền"
         ],
-        "correct_answer": [
-            0,
-            1,
-            2,
-            3
-        ]
+        "correct_answer": 2
     },
     {
         "question": "Tại sao phải đặt giá trị MTU (Maximum Transmission Unit) chođường truyền?",
@@ -2954,12 +2928,7 @@
             "Tăng hiệu suất sử dụng đường truyền",
             "Tránh tắc nghẽn"
         ],
-        "correct_answer": [
-            0,
-            1,
-            2,
-            3
-        ]
+        "correct_answer": 0
     },
     {
         "question": "Thông số nào sau đây được sử dụng để đánh giá độ tincậy của đường truyền? (Chọn 2 đáp án)Downloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792",
@@ -2971,9 +2940,6 @@
             "Tỉ lệ mất gói tin"
         ],
         "correct_answer": [
-            0,
-            1,
-            2,
             3,
             4
         ]
@@ -2986,12 +2952,7 @@
             "Quy định thứ tự các thông điệp khi truyền",
             "Độc lập với các giao thức khác"
         ],
-        "correct_answer": [
-            0,
-            1,
-            2,
-            3
-        ]
+        "correct_answer": 3
     },
     {
         "question": "Mô tả nào sau đây là đúng về kiến trúc phân tầng trong hệthống truyền thông? (chọn 2 đáp án)",
@@ -3003,11 +2964,8 @@
             "Giao thức của mỗi tầng độc lập với nhau"
         ],
         "correct_answer": [
-            0,
-            1,
             2,
-            3,
-            4
+            3
         ]
     },
     {
@@ -3020,9 +2978,7 @@
         ],
         "correct_answer": [
             0,
-            1,
-            2,
-            3
+            1
         ]
     },
     {
@@ -3033,12 +2989,7 @@
             "Đơn vị dữ liệu được đóng gói theo giao thức của mỗi tầng trongkiến trúc phân tầng",
             "Điểm truy cập dịch vụ của mỗi tầng cung cấp cho tầng trên"
         ],
-        "correct_answer": [
-            0,
-            1,
-            2,
-            3
-        ]
+        "correct_answer": 2
     },
     {
         "question": "Trong kiến trúc phân tầng, khi nhận được dữ liệu từ tầng caohơn chuyển xuống, tầng dưới xử lý như thế nào?",
@@ -3048,12 +2999,7 @@
             "Thêm tiêu đề cho gói tinDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792",
             "Thay thế tiêu đề của gói tin bằng tiêu đề mớiDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792"
         ],
-        "correct_answer": [
-            0,
-            1,
-            2,
-            3
-        ]
+        "correct_answer": 2
     },
     {
         "question": "Đóng gói dữ liệu(encapsulation) trong kiến trúc phân tầngđược thực hiện như thế nào?",
@@ -3063,12 +3009,7 @@
             "Nén phần dữ liệu trong gói tin nhận được từ tầng trên",
             "Chỉ thực hiện thêm phần tiêu đề ở tầng dưới cùng"
         ],
-        "correct_answer": [
-            0,
-            1,
-            2,
-            3
-        ]
+        "correct_answer": 0
     },
     {
         "question": "Tính trong suốt trong kiến trúc phân tầng thể hiện như thếnào?",
@@ -3079,13 +3020,7 @@
             "Chức năng trên mỗi tầng là khác nhau",
             "Hai tầng trên liên kết phải sử dụng giao thức giống nhau"
         ],
-        "correct_answer": [
-            0,
-            1,
-            2,
-            3,
-            4
-        ]
+        "correct_answer": 0
     },
     {
         "question": "Trong mô hình TCP/IP, tầng nào thực hiện chức năng điều khiển truyền dữ liệu trên liên kết vật lý?",
@@ -3095,46 +3030,7 @@
             "Tầng mạng",
             "Tầng giao vận"
         ],
-        "correct_answer": [
-            0,
-            1,
-            2,
-            3
-        ]
-    },
-    {
-        "question": "Trong quá trình truyền dữ liệu, chức năng của tầng nàotrong mô hình TCP/IP chỉ thực hiện trên các hệ thống đầu cuối? (chọn 2 đáp án)",
-        "answers": [
-            "Tầng ứng dụng",
-            "Tầng giao vận",
-            "Tầng mạng",
-            "Tầng liên kết dữ liệu",
-            "Tầng vật lý"
-        ],
-        "correct_answer": [
-            0,
-            1,
-            2,
-            3,
-            4
-        ]
-    },
-    {
-        "question": "Tầng ứng dụng của mô hình TCP/IP đảm nhận chức năngnhững tầng nào khi tham chiếu tới mô hình OSI?",
-        "answers": [
-            "Tầng dụng, tầng phiên",
-            "Tầng ứng dụng, tầng trình diễn",
-            "Tầng ứng dụng, tầng phiên, tầng trình diễn",
-            "Tầng ứng dụng, tầng giao vận, tầng mạng",
-            "Tầng ứng dụng, tầng giao vận, tầng mạng"
-        ],
-        "correct_answer": [
-            0,
-            1,
-            2,
-            3,
-            4
-        ]
+        "correct_answer": 1
     },
     {
         "question": "Chức năng của tầng nào dưới đây chỉ thực hiện trên các nútmạng đầu cuối?Downloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792",
@@ -3144,29 +3040,7 @@
             "Tầng liên kết dữ liệu",
             "Tầng vật lý"
         ],
-        "correct_answer": [
-            0,
-            1,
-            2,
-            3
-        ]
-    },
-    {
-        "question": "Phát biểu nào sau đây là SAI?(Chọn 2 đáp án)",
-        "answers": [
-            "Mạng chuyển mạch kênh cung cấp dịch vụ theo mô hình hướng kết nối (connection- oriented)",
-            "Trong mạng chuyển mạch gói, dữ liệu của các liên kết khác nhau đượctruyền trên cùng một đường truyền vật lý",
-            "Chuyển tiếp dữ liệu trên mạng chuyển mạch kênh chậm hơn trên mạng chuyển mạch gói",
-            "Khi chuyển tiếp dữ liệu trong mạng chuyển mạch gói, có thể thiết lập độ ưu tiên cho các gói tin khi xử lý hàng đợi",
-            "Trong chuyển mạch kênh, tài nguyên của mỗi cuộc hội thoại được xác định trong giai đoạn thiết lập kênh và không đổi trong suốt quá trình truyền dữ liệu"
-        ],
-        "correct_answer": [
-            0,
-            1,
-            2,
-            3,
-            4
-        ]
+        "correct_answer": 0
     },
     {
         "question": "Phát biểu nào sau đây là đúng về chuyển mạch kênh?(Chọn 2đáp án)",
@@ -3178,10 +3052,7 @@
             "Kênh sẽ được giải phóng khi một trong hai bên bất kỳ ngắt liênkết."
         ],
         "correct_answer": [
-            0,
-            1,
             2,
-            3,
             4
         ]
     },
@@ -3195,10 +3066,7 @@
             "Không mất thời gian thiết lập kênh truyền"
         ],
         "correct_answer": [
-            0,
             1,
-            2,
-            3,
             4
         ]
     },
@@ -3212,30 +3080,8 @@
             "Cho phép thiết lập độ ưu tiên cho các gói tin khi xử lý hàng đợi"
         ],
         "correct_answer": [
-            0,
             1,
-            2,
-            3,
-            4
-        ]
-    },
-    {
-        "question": "Các giao thức nào sau đây sử dụng giao thức TCP của tầnggiao vận? (Chọn 2 đáp án)",
-        "answers": [
-            "DNS",
-            "DHCP",
-            "FTP",
-            "POP",
-            "IP",
-            "OSPFDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792Chương 6: Tầng ứng dụng"
-        ],
-        "correct_answer": [
-            0,
-            1,
-            2,
-            3,
-            4,
-            5
+            3
         ]
     },
     {
@@ -3247,13 +3093,7 @@
             "Ethernet, IP, TCP, HTTP",
             "Ethernet, IP, TCP, FTP"
         ],
-        "correct_answer": [
-            0,
-            1,
-            2,
-            3,
-            4
-        ],
+        "correct_answer": 2,
         "explanation": "a.FTP là giao thức điều khiển dịch vụ truyền file, không phải dành cho Web\nb.Sai vì giao thức đóng gói kế tiếp HTTP không phải là UDP\nc.Đúng\nd.Sai vì không đúng thứ tự đóng gói theo chồng giao thức TCP/IP\ne.Sai vì không đúng thứ tự đóng gói theo chồng giao thức TCP/IP\nDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)\nlOMoARcPSD|43338792"
     },
     {
@@ -3264,12 +3104,7 @@
             "SMTP, UDP, IP, Ethernet",
             "DNS, UDP, IP, EthernetGợi ýa.Sai. Vì Ethernet trước IP là không đúng thứ tựb.Sai vì không đúng thứ tự đóng gói theo chồng giao thức TCP/IPc.Sai. Vì giao thức đóng gói kế tiếp SMTP(giao thức điều khiển dịch vụ truyền email trên tầng ứng dụng) không phải là UDPd.Đúng"
         ],
-        "correct_answer": [
-            0,
-            1,
-            2,
-            3
-        ]
+        "correct_answer": 3
     },
     {
         "question": "Những giao thức tầng ứng dụng nào sau đây là cần thiết khimột người dùng sử dụng web mail để gửi email từ địa chỉ user@gmail.com    tới user@yahoo.com  ?(Chọn   3 đáp án)",
@@ -3283,32 +3118,10 @@
         ],
         "correct_answer": [
             0,
-            1,
-            2,
             3,
-            4,
-            5
+            4
         ],
         "explanation": "e. Cứ dịch vụ web chọn ngay http\nd. Máy tính thì không dùng tên miền để trao đổi giữ liệu nên cần dùng giao \nthức DNS để phân giải tên miền\na. SMTP là giao thức truyền email từ người dùng đến máy chủ email hoặc \ntruyền từ máy chủ email này đến máy chủ email khác. Ở đây gửi từ gmail sang\nyahoo là từ server này sang server khác nên cần giao thức SMTP"
-    },
-    {
-        "question": "Những giao thức tầng ứng dụng nào sau đây là cần thiếtkhi một người dùng sử dụng web mail để gửi email từ địa chỉ user@gmail.com tới user@yahoo.com?(Chọn 2 đáp án)",
-        "answers": [
-            "SMTP",
-            "POP",
-            "IMAP",
-            "DNS",
-            "HTTP",
-            "TCP"
-        ],
-        "correct_answer": [
-            0,
-            1,
-            2,
-            3,
-            4,
-            5
-        ]
     },
     {
         "question": "Phát biểu nào sau đây là đúng về hệ thống DNS? (Chọn 2 đáp án)",
@@ -3486,10 +3299,7 @@
         ],
         "correct_answer": [
             0,
-            1,
-            2,
-            3,
-            4
+            3
         ],
         "explanation": "-\nĐặc điểm UDP:\n+ Không tin cậy.\n+ Hướng không liên kết( không kết nối) -> giảm độ trễ.\n+ Truyền tin “best-effort” (nhanh nhất).\n+ Đơn giản: Không cần lưu lại trạng thái liên kết ở bên gửi và bên nhận\n+ Phần đầu đoạn tin nhỏ\n+ Không có quản lý tắc nghẽn: UDP cứ gửi dữ liệu nhanh nhất, nhiều nhất\nnếu có thể\n+ Có chức năng cơ bản: Dồn kênh/ phân kênh\nPhát hiện lỗi bit bằng checksum\na.Đúng. Chia dữ liệu nhận được từ tầng ứng dụng vào các gói tin đây là \nquá trình đóng gói dữ liệu tại tầng giao vận dù là UDP hay TCP đều \nphải thực hiện đóng gói dữ liệu cả.\nb.Sai. UDP hướng không liên kết\nc.Sai. UDP không sử dụng báo nhận và UDP gửi dữ liệu đi mà không cần \nquan tâm kết quả gửi\nd.Đúng. Đây là quá trình đóng gói dữ liệu, UDP là giao thức ở tầng giao \nvận, sau khi xử lí xong thì chuyển gói tin xuống tầng dưới tức là tầng \nmạng\ne.Sai. UDP không time-out\nDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)\nlOMoARcPSD|43338792"
     },
