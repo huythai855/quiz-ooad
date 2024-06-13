@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <link rel="icon" href="https://uet.vnu.edu.vn/wp-content/uploads/2017/02/logo2_new.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trắc nghiệm Mạng máy tính</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <script>
+        var documentName = "cn";
+    </script>
+    <div class="quiz-container">
+        <h2 id="question">10 điểm Mạng máy tính không nói nhiều...</h2>
+        <img id="question-image" src="" alt="Question Image" style="display: none;">
+        <form id="quiz-form">
+            <div id="answers-container"></div>
+            <button id="button-submit" type="button" onclick="submitQuiz()">Submit</button>
+        </form>
+        <div id="result">
+            <p id="status"></p>
+            <p id="explanation"></p>
+        </div>
+        <br />
+        <div style="display: flex; width: 100%;">
+            <button id="button-next" type="button" onclick="nextQuestion()">Next</button>
+            <button id="button-reset" type="button" onclick="resetQuestions()">Reset</button>
+            <span id="counter"></span>
+        </div>
+    </div>
+
+    <div style="position: fixed; right: 0; bottom: 0; padding: 0px 10px;">
+        <p>Built by <a href="https://github.com/qninhdt">@qninhdt</a> with ❤️</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -72,7 +72,13 @@ function displayQuestion(question) {
     answerDiv.className = "answer";
 
     const answerCheckbox = document.createElement("input");
-    answerCheckbox.type = "radio";
+
+    if (typeof question.correct_answer === "number") {
+      answerCheckbox.type = "radio";
+    } else {
+      answerCheckbox.type = "checkbox";
+    }
+
     answerCheckbox.id = `answer${index}`;
     answerCheckbox.name = "answer";
     answerCheckbox.value = index;
@@ -92,31 +98,71 @@ function displayQuestion(question) {
 }
 
 function submitQuiz() {
-  const selectedAnswer = Array.from(
+  let selectedAnswer = Array.from(
     document.querySelectorAll('input[name="answer"]:checked')
-  ).map((cb) => parseInt(cb.value))[0];
+  ).map((cb) => parseInt(cb.value));
+
+  if (selectedAnswer.length === 0) {
+    alert("Vui lòng chọn câu trả lời");
+    return;
+  } else if (
+    typeof questions[currentQuestionIndex].correct_answer === "number"
+  ) {
+    selectedAnswer = selectedAnswer[0];
+  }
+
   const question = questions[currentQuestionIndex];
   const resultElement = document.getElementById("result");
   const statusElement = document.getElementById("status");
   const explanationElement = document.getElementById("explanation");
-
-  // const selectedAnswers2 = Array.from(document.querySelectorAll('input[name="answer"]:checked')).map(cb => parseInt(cb.name.split('answer')[1]));
-  // const correctAnswers2 = question.correct_answers;
 
   const questionAnswers = question.answers;
   const correctAnswer = question.correct_answer;
 
   resultElement.style.display = "block";
 
-  if (selectedAnswer === correctAnswer) {
-    statusElement.textContent = "Đúng";
-    statusElement.style.color = "green";
+  // if (selectedAnswer === correctAnswer) {
+  //   statusElement.textContent = "Đúng";
+  //   statusElement.style.color = "green";
+  // } else {
+  //   statusElement.textContent = "Sai";
+  //   statusElement.style.color = "red";
+  // }
+
+  if (typeof question.correct_answer === "number") {
+    if (selectedAnswer === question.correct_answer) {
+      statusElement.textContent = "Đúng";
+      statusElement.style.color = "green";
+    } else {
+      statusElement.textContent = "Sai";
+      statusElement.style.color = "red";
+    }
   } else {
-    statusElement.textContent = "Sai";
-    statusElement.style.color = "red";
+    const correctAnswers = question.correct_answer;
+    const correctAnswersSet = new Set(correctAnswers);
+    const selectedAnswersSet = new Set(selectedAnswer);
+
+    if (
+      correctAnswersSet.size === selectedAnswersSet.size &&
+      [...correctAnswersSet].every((value) => selectedAnswersSet.has(value))
+    ) {
+      statusElement.textContent = "Đúng";
+      statusElement.style.color = "green";
+    } else {
+      statusElement.textContent = "Sai";
+      statusElement.style.color = "red";
+    }
   }
 
-  if (question.explanation) {
-    explanationElement.textContent = question.explanation;
+  correctText =
+    typeof correctAnswer === "number"
+      ? `Câu trả lời đúng: ${["A", "B", "C", "D"][correctAnswer]}`
+      : `Câu trả lời đúng: ${correctAnswer
+          .map((index) => index + 1)
+          .join(", ")}`;
+  explanationElement.innerHTML = correctText;
+
+  if ("explanation" in question) {
+    explanationElement.innerHTML += `<br/>Giải thích:<br/n>${question.explanation}`;
   }
 }
