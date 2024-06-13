@@ -2887,7 +2887,7 @@
             "Trễ 2 chiều giữa nút nguồn"
         ],
         "correct_answer": 3,
-        "explanation": "và nút đích \nTrễ truyền dữ liệu từ nguồn tới đích: tổng 4 thành phần trễ\n-\nTrễ truyền tin: thời gian truyền hết dữ liệu (từ khi truyền bit đầu tiên \ntới bit cuối cùng ra khỏi nút nguồn)\n-\nTrễ truyền dẫn: thời gian lan truyền tín hiệu từ nguồn tới đích\n-\nTrễ xử lý tại nút chuyển tiếp(nút trung gian)\n-\nTrễ hàng đợi: thời gian dữ liệu chờ trong hàng đợi\nRTT: thời gian từ khi nút nguồn gửi dữ liệu đi, tới khi nhận được dữ liệu trả lời \ncủa nút đích\nNút nguồn\nNút đích\nDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)\nlOMoARcPSD|43338792\nRTT = t1 – t0\nDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)\nlOMoARcPSD|43338792\nA\n   \nB"
+        "explanation": "và nút đích \nTrễ truyền dữ liệu từ nguồn tới đích: tổng 4 thành phần trễ\n-\nTrễ truyền tin: thời gian truyền hết dữ liệu (từ khi truyền bit đầu tiên \ntới bit cuối cùng ra khỏi nút nguồn)\n-\nTrễ truyền dẫn: thời gian lan truyền tín hiệu từ nguồn tới đích\n-\nTrễ xử lý tại nút chuyển tiếp(nút trung gian)\n-\nTrễ hàng đợi: thời gian dữ liệu chờ trong hàng đợi\nRTT: thời gian từ khi nút nguồn gửi dữ liệu đi, tới khi nhận được dữ liệu trả lời \ncủa nút đích\nNút nguồn\nNút đích\nRTT = t1 – t0\nA\n   \nB"
     },
     {
         "question": "Giả sử đường đi từ nút A đến nút B qua 3 liên kết với băngthông lần lượt là 4Mbps, 1Mbps và 2 Mbps. Thời gian để A truyền đến B một file có kích thước 10 MB là bao nhiêu. Giả sử các kết nốikhông truyền dữ liệu nào khác, trễ lan truyền và trễ tại các nút trung gian là không đáng kể?",
@@ -2931,7 +2931,7 @@
         "correct_answer": 0
     },
     {
-        "question": "Thông số nào sau đây được sử dụng để đánh giá độ tincậy của đường truyền? (Chọn 2 đáp án)Downloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792",
+        "question": "Thông số nào sau đây được sử dụng để đánh giá độ tincậy của đường truyền? (Chọn 2 đáp án)",
         "answers": [
             "Băng thông",
             "Độ trễ",
@@ -2996,8 +2996,8 @@
         "answers": [
             "Sửa thông tin phần tiêu đề",
             "Loại bỏ phần tiêu đề của gói tin",
-            "Thêm tiêu đề cho gói tinDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792",
-            "Thay thế tiêu đề của gói tin bằng tiêu đề mớiDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792"
+            "Thêm tiêu đề cho gói tin",
+            "Thay thế tiêu đề của gói tin bằng tiêu đề mới"
         ],
         "correct_answer": 2
     },
@@ -3033,7 +3033,7 @@
         "correct_answer": 1
     },
     {
-        "question": "Chức năng của tầng nào dưới đây chỉ thực hiện trên các nútmạng đầu cuối?Downloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792",
+        "question": "Chức năng của tầng nào dưới đây chỉ thực hiện trên các nútmạng đầu cuối?",
         "answers": [
             "Tầng giao vận",
             "Tầng mạng",
@@ -3073,9 +3073,9 @@
     {
         "question": "Những phát biểu nào là SAI về hoạt động của kỹ thuậtchuyển mạch gói? (Chọn 2 đáp án)",
         "answers": [
-            "Gói tin của các liên kết khác nhau được truyền trên cùng một đường truyềnvật lýDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792",
+            "Gói tin của các liên kết khác nhau được truyền trên cùng một đường truyềnvật lý",
             "Độ trễ trong mạng không phụ thuộc vào tải",
-            "Trên cùng một liên kết vật lý, tất cả các gói tin đều được truyền với tốc độ như nhau.Downloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792",
+            "Trên cùng một liên kết vật lý, tất cả các gói tin đều được truyền với tốc độ như nhau.",
             "Các gói tin tới cùng một đích luôn được truyền theo cùng tuyếnđường đi",
             "Cho phép thiết lập độ ưu tiên cho các gói tin khi xử lý hàng đợi"
         ],
@@ -3094,7 +3094,7 @@
             "Ethernet, IP, TCP, FTP"
         ],
         "correct_answer": 2,
-        "explanation": "a.FTP là giao thức điều khiển dịch vụ truyền file, không phải dành cho Web\nb.Sai vì giao thức đóng gói kế tiếp HTTP không phải là UDP\nc.Đúng\nd.Sai vì không đúng thứ tự đóng gói theo chồng giao thức TCP/IP\ne.Sai vì không đúng thứ tự đóng gói theo chồng giao thức TCP/IP\nDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)\nlOMoARcPSD|43338792"
+        "explanation": "a.FTP là giao thức điều khiển dịch vụ truyền file, không phải dành cho Web\nb.Sai vì giao thức đóng gói kế tiếp HTTP không phải là UDP\nc.Đúng\nd.Sai vì không đúng thứ tự đóng gói theo chồng giao thức TCP/IP\ne.Sai vì không đúng thứ tự đóng gói theo chồng giao thức TCP/IP"
     },
     {
         "question": "Đâu là một thứ tự sử dụng các giao thức đóng gói dữ liệutrong mạng TCP/IP?",
@@ -3126,7 +3126,7 @@
     {
         "question": "Phát biểu nào sau đây là đúng về hệ thống DNS? (Chọn 2 đáp án)",
         "answers": [
-            "Mỗi tên miền chỉ ảnh xạ tới một địa chỉ IPDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792",
+            "Mỗi tên miền chỉ ảnh xạ tới một địa chỉ IP",
             "Mỗi địa chỉ IP có thể ánh xạ tới nhiều tên miền",
             "Hệ thống máy chủ tên miền gốc lưu trữ thông tin của toàn bộ tên miềntrên Internet",
             "Quá trình tìm kiếm thông tin tên miền được thực hiện từ gốctới các nút nhánh",
@@ -3152,7 +3152,7 @@
     {
         "question": "Phương thức nào được sử dụng trong thông điệp HTTP Requestđể yêu cầu một tài nguyên? (Chọn 2 đáp án)",
         "answers": [
-            "GETDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792",
+            "GET",
             "POST",
             "PUT",
             "HEAD"
@@ -3192,7 +3192,7 @@
             "1 HTTP Request, 5 HTTP Response",
             "5 HTTP Request, 5 HTTP Response",
             "5 HTTP Request, 1 HTTP Response",
-            "Không xác địnhDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792"
+            "Không xác định"
         ],
         "correct_answer": 2,
         "explanation": "Vài đoạn văn bản thì cần 1 Request HTML, 4 ảnh cần 4 Request. Số \nresponse = số request"
@@ -3210,7 +3210,7 @@
             0,
             1
         ],
-        "explanation": "Giao thức FTP dùng 2 số hiệu cổng ứng dụng là 20 và 21. Trong đó 20 \ndùng để truyền dữ liệu(tệp tin) còn 21 dùng để truyền lệnh (thông điệp điều \nkhiển).\nDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)\nlOMoARcPSD|43338792"
+        "explanation": "Giao thức FTP dùng 2 số hiệu cổng ứng dụng là 20 và 21. Trong đó 20 \ndùng để truyền dữ liệu(tệp tin) còn 21 dùng để truyền lệnh (thông điệp điều \nkhiển)."
     },
     {
         "question": "Hai kết nối giữa Client và Server trong dịch vụ FTP được sử dụngthế nào?",
@@ -3237,7 +3237,7 @@
     {
         "question": "Giả sử từ trên nút mạng A có hai tiến trình trao đổi dữ liệu vớimột tiến trình trên nút mạng B, điều khiển bởi giao thức UDP. Phát biểu nào sau đây là đúng?(Chọn 2 đáp án)",
         "answers": [
-            "Hai tiến trình trên nút mạng A sử dụng chung một socket dể trao đổidữ liệu với tiến trình trên nút BDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792",
+            "Hai tiến trình trên nút mạng A sử dụng chung một socket dể trao đổidữ liệu với tiến trình trên nút B",
             "Tiến trình trên nút B sử dụng hai socket khác nhau để trao đổi dữ liệuvới hai tiến trình của nút A",
             "Các gói tin gửi từ nút A tới tiến trình trên nút B có cùng sốhiệu cổng đich",
             "Các gói tin gửi từ nút B tới hai tiến trình trên nút A có cùng số hiệucổng đích",
@@ -3259,7 +3259,7 @@
             2,
             3
         ],
-        "explanation": "-\nĐặc điểm của UDP:\n+ Đơn giản\n+ Truyền dữ liệu nhanh nhất có thể\nDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)\nlOMoARcPSD|43338792\n+ Tốc độ truyền khi điểu khiển bởi UDP sẽ nhanh hơn khi điều khiển \nbởi TCP\n\nUDP phù hợp với những ứng dụng cần tốc độ\n+ Không tin cậy\n\nPhù hợp với các ứng dụng chấp nhận lỗi, chấp nhận mất mát dữ \nliệu\nc. Đúng. Khi dùng để kiểm tra trạng thái hoạt động giữa các nút mạng \nchúng ta không dùng các giao thức hướng liên kết như là TCP vì khi ta dùng \nUDP ta gửi một gói tin tới mà nút mạng đó đang hoạt động thì nó sẽ có gói tin\nphản hồi, nếu nút mạng đó không hoạt động thì sẽ không có gói tin phản hồi.\nNên khi dùng để kiểm tra trạng thái hoạt động giữa các nút mạng ta có thể \ndùng UDP, nó đơn giản hơn rất nhiều so với TCP, không cần thiết phải một \ngiao thức tin cậy như TCP\nd. Khi truyền hình trực tiếp đòi hỏi tốc độ truyền dữ liệu phải cao"
+        "explanation": "-\nĐặc điểm của UDP:\n+ Đơn giản\n+ Truyền dữ liệu nhanh nhất có thể\n+ Tốc độ truyền khi điểu khiển bởi UDP sẽ nhanh hơn khi điều khiển \nbởi TCP\n\nUDP phù hợp với những ứng dụng cần tốc độ\n+ Không tin cậy\n\nPhù hợp với các ứng dụng chấp nhận lỗi, chấp nhận mất mát dữ \nliệu\nc. Đúng. Khi dùng để kiểm tra trạng thái hoạt động giữa các nút mạng \nchúng ta không dùng các giao thức hướng liên kết như là TCP vì khi ta dùng \nUDP ta gửi một gói tin tới mà nút mạng đó đang hoạt động thì nó sẽ có gói tin\nphản hồi, nếu nút mạng đó không hoạt động thì sẽ không có gói tin phản hồi.\nNên khi dùng để kiểm tra trạng thái hoạt động giữa các nút mạng ta có thể \ndùng UDP, nó đơn giản hơn rất nhiều so với TCP, không cần thiết phải một \ngiao thức tin cậy như TCP\nd. Khi truyền hình trực tiếp đòi hỏi tốc độ truyền dữ liệu phải cao"
     },
     {
         "question": "Phát biểu nào sau đây là đúng về giao thức UDP?(Chọn 3 đáp án)",
@@ -3286,7 +3286,7 @@
             "Không kiểm soát lượn dữ liệu gửi đi làm quá tải bên nhận"
         ],
         "correct_answer": 1,
-        "explanation": "Downloaded by Ninh Nguy?n Quang (qndt123@gmail.com)\nlOMoARcPSD|43338792\nGiao thức truyền thông tin cậy là giao thức đảm bảo dữ liệu tới được \nđích. Tức là lúc gửi sẽ biết được là dữ liệu có tới đích thành công hay \nkhông\n\nGiao thức không tin cậy sẽ không sử dụng báo nhận\na.Không thiết lập liên kết trước khi truyên là đặc điểm của giao thức \nhướng không liên kết. Một giao thức hướng không liên kết vẫn nó thể \nđảm bảo độ tin cậy nếu ta thiết kế cơ chế bảo lại và khắc phục lỗi.\nc.  Sai. UDP dùng \nchecksum để kiểm soát phần tiêu đề.\nd.  Sai. Đây không phải là một đặc điểm của giao thức truyền thông không tin cậy"
+        "explanation": "Giao thức truyền thông tin cậy là giao thức đảm bảo dữ liệu tới được \nđích. Tức là lúc gửi sẽ biết được là dữ liệu có tới đích thành công hay \nkhông\n\nGiao thức không tin cậy sẽ không sử dụng báo nhận\na.Không thiết lập liên kết trước khi truyên là đặc điểm của giao thức \nhướng không liên kết. Một giao thức hướng không liên kết vẫn nó thể \nđảm bảo độ tin cậy nếu ta thiết kế cơ chế bảo lại và khắc phục lỗi.\nc.  Sai. UDP dùng \nchecksum để kiểm soát phần tiêu đề.\nd.  Sai. Đây không phải là một đặc điểm của giao thức truyền thông không tin cậy"
     },
     {
         "question": "Tại phía gửi, giao thức UDP thực hiện những thao tác xử lý nào?(Chọn 2 đáp án)",
@@ -3301,7 +3301,7 @@
             0,
             3
         ],
-        "explanation": "-\nĐặc điểm UDP:\n+ Không tin cậy.\n+ Hướng không liên kết( không kết nối) -> giảm độ trễ.\n+ Truyền tin “best-effort” (nhanh nhất).\n+ Đơn giản: Không cần lưu lại trạng thái liên kết ở bên gửi và bên nhận\n+ Phần đầu đoạn tin nhỏ\n+ Không có quản lý tắc nghẽn: UDP cứ gửi dữ liệu nhanh nhất, nhiều nhất\nnếu có thể\n+ Có chức năng cơ bản: Dồn kênh/ phân kênh\nPhát hiện lỗi bit bằng checksum\na.Đúng. Chia dữ liệu nhận được từ tầng ứng dụng vào các gói tin đây là \nquá trình đóng gói dữ liệu tại tầng giao vận dù là UDP hay TCP đều \nphải thực hiện đóng gói dữ liệu cả.\nb.Sai. UDP hướng không liên kết\nc.Sai. UDP không sử dụng báo nhận và UDP gửi dữ liệu đi mà không cần \nquan tâm kết quả gửi\nd.Đúng. Đây là quá trình đóng gói dữ liệu, UDP là giao thức ở tầng giao \nvận, sau khi xử lí xong thì chuyển gói tin xuống tầng dưới tức là tầng \nmạng\ne.Sai. UDP không time-out\nDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)\nlOMoARcPSD|43338792"
+        "explanation": "-\nĐặc điểm UDP:\n+ Không tin cậy.\n+ Hướng không liên kết( không kết nối) -> giảm độ trễ.\n+ Truyền tin “best-effort” (nhanh nhất).\n+ Đơn giản: Không cần lưu lại trạng thái liên kết ở bên gửi và bên nhận\n+ Phần đầu đoạn tin nhỏ\n+ Không có quản lý tắc nghẽn: UDP cứ gửi dữ liệu nhanh nhất, nhiều nhất\nnếu có thể\n+ Có chức năng cơ bản: Dồn kênh/ phân kênh\nPhát hiện lỗi bit bằng checksum\na.Đúng. Chia dữ liệu nhận được từ tầng ứng dụng vào các gói tin đây là \nquá trình đóng gói dữ liệu tại tầng giao vận dù là UDP hay TCP đều \nphải thực hiện đóng gói dữ liệu cả.\nb.Sai. UDP hướng không liên kết\nc.Sai. UDP không sử dụng báo nhận và UDP gửi dữ liệu đi mà không cần \nquan tâm kết quả gửi\nd.Đúng. Đây là quá trình đóng gói dữ liệu, UDP là giao thức ở tầng giao \nvận, sau khi xử lí xong thì chuyển gói tin xuống tầng dưới tức là tầng \nmạng\ne.Sai. UDP không time-out"
     },
     {
         "question": "Trong hoạt động của giao thức UDP, phía nhận không thực hiệnthao tác nào dưới đây khi nhận được dữ liệu?(Chọn 2 đáp án)",
@@ -3331,7 +3331,7 @@
             1,
             2
         ],
-        "explanation": "a.Sai. Tại nút nhận thì thứ tự xử lý dữ liệu là tầng dưới lên tầng trên\nb.Đúng. Mã UDP kiểm tra lỗi bit trên phần tiêu đề gói tin dựa vào mã \nchecksum\nc.   Đúng. Chuyển dữ liệu cho tiến trình tầng ứng dụng dựa vào số hiệu \ncổng đích là nguyên lý chung của các giao thức tầng giao vận.\nd.   Sai. UDP là giao thức không tin cậy nên không sử dụng báo nhận\nDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)\nlOMoARcPSD|43338792\ne.Sai. UDP không đảm bảo truyền theo đúng thứ tự. UDP truyền gói tin \ntheo detra các gói tin được xử lí một cách độc lập nên không có thứ tự \ngiữa các gói tin.\nf.\nSai. UDP là giao thức hướng không liên kết"
+        "explanation": "a.Sai. Tại nút nhận thì thứ tự xử lý dữ liệu là tầng dưới lên tầng trên\nb.Đúng. Mã UDP kiểm tra lỗi bit trên phần tiêu đề gói tin dựa vào mã \nchecksum\nc.   Đúng. Chuyển dữ liệu cho tiến trình tầng ứng dụng dựa vào số hiệu \ncổng đích là nguyên lý chung của các giao thức tầng giao vận.\nd.   Sai. UDP là giao thức không tin cậy nên không sử dụng báo nhận\ne.Sai. UDP không đảm bảo truyền theo đúng thứ tự. UDP truyền gói tin \ntheo detra các gói tin được xử lí một cách độc lập nên không có thứ tự \ngiữa các gói tin.\nf.\nSai. UDP là giao thức hướng không liên kết"
     },
     {
         "question": "Trong hoạt động của giao thức UDP, phía nhận xử lý như thế nàokhi gói tin nhận được bị lỗi?",
@@ -3372,7 +3372,7 @@
             2,
             3
         ],
-        "explanation": "Downloaded by Ninh Nguy?n Quang (qndt123@gmail.com)\nlOMoARcPSD|43338792\nb. Đúng\nc. Đúng. TCP có cơ chế kiểm soát luồng\nd. Đúng. TCP có cơ chế kiểm soát tắc nghẽn"
+        "explanation": "b. Đúng\nc. Đúng. TCP có cơ chế kiểm soát luồng\nd. Đúng. TCP có cơ chế kiểm soát tắc nghẽn"
     },
     {
         "question": "Những hoạt động nào sau đây cho thấy TCP là một giao thứctruyền thông tin cậy? (Chọn 3 đáp án)",
@@ -3403,7 +3403,7 @@
             1,
             2
         ],
-        "explanation": "a.Đúng\n. Đây là cơ chế phục hồi nhanh. Khi nhận được gói tin không đúng thứ tự ở phía nhận thì \nsẽ phát đi 3 ACK. Còn phía gửi nhận được 3ACK liên tiếp giống nhau thì gửi lại ngay gói tin mà\nDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)\nlOMoARcPSD|43338792\nkhông cần chờ time-out\nb.Đúng. Trong hoạt động của TCP khi time-out xảy ra nó coi là gói tin đã \nbị mất trên đường truyền dù đó là gói tin báo nhận hay là gói tin dữ \nliệu nên nó sẽ phát lại.\nc.Đúng. Nếu gói tin bào nhận (ACK) mà có lỗi tức là giao thức TCP không\nnhận diện được gói tin đó. Mà không nhận diện được gói tin đó thì giao\nthức TCP sẽ tự động phát lại\nd.Sai. Giá trị ACK Number trên gói tin báo nhận không nằm trong cửa sổ \ntrượt tức là hoặc là nó nằm bên trái thì coi là gói tin đã nhận được rồi \nnên nó không phát lại hoặc là nằm bên phải thì sẽ dịch cửa sổ đi hoặc \nđưa vào bộ đệm để chờ xử lý."
+        "explanation": "a.Đúng\n. Đây là cơ chế phục hồi nhanh. Khi nhận được gói tin không đúng thứ tự ở phía nhận thì \nsẽ phát đi 3 ACK. Còn phía gửi nhận được 3ACK liên tiếp giống nhau thì gửi lại ngay gói tin mà\nkhông cần chờ time-out\nb.Đúng. Trong hoạt động của TCP khi time-out xảy ra nó coi là gói tin đã \nbị mất trên đường truyền dù đó là gói tin báo nhận hay là gói tin dữ \nliệu nên nó sẽ phát lại.\nc.Đúng. Nếu gói tin bào nhận (ACK) mà có lỗi tức là giao thức TCP không\nnhận diện được gói tin đó. Mà không nhận diện được gói tin đó thì giao\nthức TCP sẽ tự động phát lại\nd.Sai. Giá trị ACK Number trên gói tin báo nhận không nằm trong cửa sổ \ntrượt tức là hoặc là nó nằm bên trái thì coi là gói tin đã nhận được rồi \nnên nó không phát lại hoặc là nằm bên phải thì sẽ dịch cửa sổ đi hoặc \nđưa vào bộ đệm để chờ xử lý."
     },
     {
         "question": "Giao thức TCP thực hiện báo nhận thành công như thế nào?(Chọn 2 đáp án)",
@@ -3417,7 +3417,7 @@
             0,
             2
         ],
-        "explanation": "a.Đúng. Giao thức TCP thực hiện báo nhận thành công thì trước tiên \nphải thiết lập cờ ACK trên gói tin phản hồi.\nb.Sai. Thiết lập cờ SYN trên gói tin phản hồi là để tính toán liên kết\nDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)\nlOMoARcPSD|43338792\nc.Đúng. \nd.Sai. Không có trong hoạt động của TCP"
+        "explanation": "a.Đúng. Giao thức TCP thực hiện báo nhận thành công thì trước tiên \nphải thiết lập cờ ACK trên gói tin phản hồi.\nb.Sai. Thiết lập cờ SYN trên gói tin phản hồi là để tính toán liên kết\nc.Đúng. \nd.Sai. Không có trong hoạt động của TCP"
     },
     {
         "question": "Giá trị Windows size trong phần tiêu đề của gói tin TCP được sửdụng như thế nào?",
@@ -3439,7 +3439,7 @@
             "Sửa lỗi trên gói tin"
         ],
         "correct_answer": 0,
-        "explanation": "checksum luôn để phát hiện lỗi\nDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)\nlOMoARcPSD|43338792"
+        "explanation": "checksum luôn để phát hiện lỗi"
     },
     {
         "question": "Mã phát hiện lỗi nào sau đây được sử dụng để kiểm tra lỗi trênphần tiêu đề của gói tin TCP?",
@@ -3458,7 +3458,7 @@
             "Yêu cầu thiết lập liên kết",
             "Đồng ý thiết lập liên kết",
             "Báo kết thúc gửi dữ liệu",
-            "Báo kết thúc nhận dữ liệuDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792"
+            "Báo kết thúc nhận dữ liệu"
         ],
         "correct_answer": 2
     },
@@ -3491,7 +3491,7 @@
             "Loại bỏ gói tin ",
             "Gửi lại ACK xác nhận các gói tin trước đó với giá trị Receive Window = 0",
             "Gửi ACK xác nhận gói tin vừa nhận được với giá trị Receive Window = 0",
-            "Gửi gói tin ACK bất kỳ với giá trị Receive Window bằng kích thước dữ liệu trong bộđệm Downloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792"
+            "Gửi gói tin ACK bất kỳ với giá trị Receive Window bằng kích thước dữ liệu trong bộđệm "
         ],
         "correct_answer": [
             1,
@@ -3524,7 +3524,7 @@
             "a. Tăng gấp đôi kích thước cửa sổ kiểm soát tắc nghẽn khi gửi thành công trong giai đoạn SlowStart? ",
             "Không tăng kích thước cửa sổ kiểm soát tắc ngẽn trong giai đoạn tránh tắcnghẽn ",
             "Bắt đầu lại giai đoạn tránh tắc nghẽn khi có time-out",
-            "d. Khi bắt đầu giai đoạn Slow Start, kích thước cửa số kiểm soát tắc nghẽn là 1MSS (MaximumSegment Size) Downloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792Giả sử trong một khoảng thời gian nào đó quan sát quá trình truyền dữ liệu giữa hai ứng  dụng được điều khiển bởi giao thức TCP, ta thu được đồ thị điều khiển tắc nghẽn như sau: Downloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792"
+            "d. Khi bắt đầu giai đoạn Slow Start, kích thước cửa số kiểm soát tắc nghẽn là 1MSS (MaximumSegment Size) Giả sử trong một khoảng thời gian nào đó quan sát quá trình truyền dữ liệu giữa hai ứng  dụng được điều khiển bởi giao thức TCP, ta thu được đồ thị điều khiển tắc nghẽn như sau: "
         ],
         "correct_answer": [
             1,
@@ -3584,7 +3584,7 @@
             "0",
             "1400",
             "4200",
-            "5600Downloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792",
+            "5600",
             "7000"
         ],
         "correct_answer": 1
@@ -3621,7 +3621,7 @@
             "Loại bỏ gói tin",
             "Gửi lại ACKxác nhận các gói tin trước đó với giá trị Receive Window = 0 ",
             "Gửi ACK cho gói tin vừa nhận được với giá trị Receive Window = 0",
-            "Gửi gói tin ACK bất kỳ với giá trị Receive Window bằng kích thước dữ liệu trong bộ đệmDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792Chương 4: Tầng mạng"
+            "Gửi gói tin ACK bất kỳ với giá trị Receive Window bằng kích thước dữ liệu trong bộ đệmChương 4: Tầng mạng"
         ],
         "correct_answer": [
             1,
@@ -3641,7 +3641,7 @@
             0,
             2
         ],
-        "explanation": "a. 116 = 0110 1010-> Thuộc phân lớp A-> đúng\nb. Mặt nạ/28 -> NetworkID có 28 bit->sai\nc. Địa chỉ unicat? -> Cần kiểm tra các bit thuộc HostID\nHostID có 4bit có mặt cả bit 0 và 1 -> là địa chỉ unicat->gán được cho nút mạng->đúng\n113 = 0111 \n0001\nd. Sai. IP mạng LAN phải là Private address\nDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)\nlOMoARcPSD|43338792\ne.\nĐịa chỉ mạng: 116.12.34.\n113\n /28\nMặt nạ /28: 1111 1111 1111 1111 1111 1111 1111 0000\nĐịa chỉ IP:  0110 1010 0000 1100 0010 0010 \n0111 0001\nĐịa chỉ mạng: 0110 1010 0000 1100 0010 0010 \n0111 0000\n = 116.12.34.112\nSử dụng mặt nạ 255.255.252.0 để chia mạng 160.12.64.0 /19 thành các mạng con. Hãy trả lời  \ncác câu hỏi sau:"
+        "explanation": "a. 116 = 0110 1010-> Thuộc phân lớp A-> đúng\nb. Mặt nạ/28 -> NetworkID có 28 bit->sai\nc. Địa chỉ unicat? -> Cần kiểm tra các bit thuộc HostID\nHostID có 4bit có mặt cả bit 0 và 1 -> là địa chỉ unicat->gán được cho nút mạng->đúng\n113 = 0111 \n0001\nd. Sai. IP mạng LAN phải là Private address\ne.\nĐịa chỉ mạng: 116.12.34.\n113\n /28\nMặt nạ /28: 1111 1111 1111 1111 1111 1111 1111 0000\nĐịa chỉ IP:  0110 1010 0000 1100 0010 0010 \n0111 0001\nĐịa chỉ mạng: 0110 1010 0000 1100 0010 0010 \n0111 0000\n = 116.12.34.112\nSử dụng mặt nạ 255.255.252.0 để chia mạng 160.12.64.0 /19 thành các mạng con. Hãy trả lời  \ncác câu hỏi sau:"
     },
     {
         "question": "Số mạng con thành lập được là bao nhiêu?",
@@ -3653,7 +3653,7 @@
             "6"
         ],
         "correct_answer": 3,
-        "explanation": "Mặt nạ mạng con: 255.255.252.0 = 1111 1111 1111 1111 1111 1100 0000 0000 = /22\nPrefix: /n\nDạng nhị phân: 1111…..111000.0000000 (gồm n bit 1)\nChia mạng con: dùng mặt nạ lớn hơn mạng gốc ban đầu\nCác mạng con sẽ có subnetID với số bit là k = Mặt nạ mạng con - Mặ nạ mạng gốc = 22 – 19 = 3\n\nCó 2^3 = 8 giá trị subnetID khác nhau -> có 8 mạng con\nDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)\nlOMoARcPSD|43338792"
+        "explanation": "Mặt nạ mạng con: 255.255.252.0 = 1111 1111 1111 1111 1111 1100 0000 0000 = /22\nPrefix: /n\nDạng nhị phân: 1111…..111000.0000000 (gồm n bit 1)\nChia mạng con: dùng mặt nạ lớn hơn mạng gốc ban đầu\nCác mạng con sẽ có subnetID với số bit là k = Mặt nạ mạng con - Mặ nạ mạng gốc = 22 – 19 = 3\n\nCó 2^3 = 8 giá trị subnetID khác nhau -> có 8 mạng con"
     },
     {
         "question": "Mỗi mạng con có thể cấp pháp được tối đa bao nhiêu địa chỉmáy trạm? ",
@@ -3689,7 +3689,7 @@
             "172.16.120.1 /20",
             "172.16.130.1 /21",
             "172.16.140.1 /21",
-            "172.16.150.1 /21100 = 0110 0100110 = 0110 1110Downloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792120 = 0111 1000"
+            "172.16.150.1 /21100 = 0110 0100110 = 0110 1110120 = 0111 1000"
         ],
         "correct_answer": [
             0,
@@ -3719,7 +3719,7 @@
             "B",
             "C",
             "D",
-            "E148 = 1001 0100 -> thuộc phân lớp BDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792"
+            "E148 = 1001 0100 -> thuộc phân lớp B"
         ],
         "correct_answer": 1
     },
@@ -3748,7 +3748,7 @@
         "explanation": "Chia thành 8 mạng con -> SubnetID là 3 bit (8=2^3)\nMặt nạ mạng con /(10+3) = /13 = 255.248.0.0\n/13 = 1111 1111 1111 1000 0000 0000 0000 0000"
     },
     {
-        "question": "Một mạng có địa chỉ phần mạng dài 23 bit. Nếu chia thành 4 mạng con thì số địa chỉIP tối đa mỗi mạng con có thể gán cho máy trạm là bao nhiêu? Downloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792",
+        "question": "Một mạng có địa chỉ phần mạng dài 23 bit. Nếu chia thành 4 mạng con thì số địa chỉIP tối đa mỗi mạng con có thể gán cho máy trạm là bao nhiêu? ",
         "answers": [
             "512",
             "256",
@@ -3783,7 +3783,7 @@
         "explanation": "Gói tin sẽ được chuyển tới mạng có phần NetworkID giống với các bit tương ứng của địa chỉ đích\nĐịa chỉ đích: 90 = 0101 1010\na.\n64= \n010\n0 0000-> phù hợp->Chọn vì theo quy tắc longest matching\nb.0= \n0\n000 0000->phù hợp\nc.\n96= \n011\n0 0000->không phù hợp\nd.128=\n1\n000 0000->không phù hợp"
     },
     {
-        "question": "Mặt nạ mạng nào sau đây có thể chia mạng 172.16.64.0 /18 thành 16mạng con? Downloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792",
+        "question": "Mặt nạ mạng nào sau đây có thể chia mạng 172.16.64.0 /18 thành 16mạng con? ",
         "answers": [
             "255.255.0.0",
             "255.255.192.0",
@@ -3831,7 +3831,7 @@
             2,
             4
         ],
-        "explanation": "a.\nSai vì IP là giao thức không tin cậy -> không dùng báo nhận\nDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)\nlOMoARcPSD|43338792\nb.Đúng. Checksum để kiểm tra lỗi trên header\nc.\nĐúng\nd.Sai (xem lại nguyên tắc đóng gói và truyền thông trong kiến trúc phân tầng)\ne.\nĐúng"
+        "explanation": "a.\nSai vì IP là giao thức không tin cậy -> không dùng báo nhận\nb.Đúng. Checksum để kiểm tra lỗi trên header\nc.\nĐúng\nd.Sai (xem lại nguyên tắc đóng gói và truyền thông trong kiến trúc phân tầng)\ne.\nĐúng"
     },
     {
         "question": "Giao thức IP không thực hiện thao tác nào tại phía nhận?(Chọn 2đáp án) ",
@@ -3849,7 +3849,7 @@
     {
         "question": "Nếu không tìm được cổng để chuyển tiếp gói tin IP đi, router xử lý nhưthế nào? ",
         "answers": [
-            "Gửi gói tin ra tất cả các cổngDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792",
+            "Gửi gói tin ra tất cả các cổng",
             "Thực hiện quá trình định tuyến để tìm đường đi cho gói tin này",
             "Hủy gói tin và báo lỗi cho nút nguồn ",
             "Gửi lại gói tin cho nút nguồn"
@@ -3907,7 +3907,7 @@
         "answers": [
             "DNS",
             "DHCP",
-            "ARPDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792",
+            "ARP",
             "NAT"
         ],
         "correct_answer": 3,
@@ -3956,7 +3956,7 @@
         "explanation": "255.255.255.255: địa chỉ quảng bá"
     },
     {
-        "question": "Phát biểu nào sau đây là đúng về định tuyến theo vec-tơkhoảng cách?Downloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792 ",
+        "question": "Phát biểu nào sau đây là đúng về định tuyến theo vec-tơkhoảng cách? ",
         "answers": [
             "Mỗi nút thu thập thông tin định tuyến từ tất cả các nút trong mạng",
             "Cho phép tìm đường đi ngắn nhất giữa mọi cặp nút",
@@ -4014,7 +4014,7 @@
             "Thực hiện thuật toán tìm đường đi ngắn nhất"
         ],
         "correct_answer": 1,
-        "explanation": "a.\nĐúng\nb.Đặc điểm của định tuyến theo vec-tơ khoảng cách\nDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)\nlOMoARcPSD|43338792"
+        "explanation": "a.\nĐúng\nb.Đặc điểm của định tuyến theo vec-tơ khoảng cách"
     },
     {
         "question": "Trong một mạng sử dụng định tuyến theo trạng thái liên kết, router A thu thậpđược các thông tin liên kết dạng (link, cost) sau: (BA, 8), (CA, 1), (BC, 1), (CB, 1), (BD, 15), (DB, 15).  Những đường đi nào dưới đây là đường đi ngắn nhất? (Chọn 2 đáp án) ",
@@ -4052,7 +4052,7 @@
         "correct_answer": 4
     },
     {
-        "question": "Giao thức nào sau đây không nằm cùng nhóm với các giao thứccòn lại? Downloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792",
+        "question": "Giao thức nào sau đây không nằm cùng nhóm với các giao thứccòn lại? ",
         "answers": [
             "OSPF",
             "RIP",
@@ -4099,7 +4099,7 @@
             "RIPv1",
             "RIPv2",
             "OSPF ",
-            "BGPDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792",
+            "BGP",
             "Tất cả các giao thức trên"
         ],
         "correct_answer": 2,
@@ -4141,7 +4141,7 @@
             "Điều khiển truyền dữ liệu giữa các tiến trình trên hệ thống cuối",
             "Thiết lập kênh trong mạng chuyển mạch kênh",
             "Định tuyến giữa các vùng tự trị (Autonomous System) trênInternet ",
-            "Điều khiển truy nhập đường truyền trong mạng đa truy nhậpDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792"
+            "Điều khiển truy nhập đường truyền trong mạng đa truy nhập"
         ],
         "correct_answer": 2
     },
@@ -4187,7 +4187,7 @@
             "Điều khiển truy nhập đường truyền"
         ],
         "correct_answer": 1,
-        "explanation": "b. Chức năng của tầng vật lý\nDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)\nlOMoARcPSD|43338792"
+        "explanation": "b. Chức năng của tầng vật lý"
     },
     {
         "question": "Trong hình trạng (topology) mạng nào sau đây, sự cố xảy ra trên đường truyềnvật lý có thể cản trở đến quá trình truyền dữ liệu toàn bộ mạng? ",
@@ -4217,7 +4217,7 @@
             "Mạng hình sao (star) sử dụng hub",
             "Mạng hình sao (star) sử dụng switch",
             "Mạng LAN không dây sử dụng chuẩn IEEE802.11",
-            "Mạng hình sao (star) sử dụng routerDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792"
+            "Mạng hình sao (star) sử dụng router"
         ],
         "correct_answer": [
             0,
@@ -4271,7 +4271,7 @@
             "Pure Aloha",
             "Slotted Aloha",
             "CSMA/CD",
-            "Token PassingDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792Gợi ý: Token Passing là truy nhập theo thẻ bài còn Pure Aloha, slotted Aloha, CSMA là truy nhập ngẫu nhiên"
+            "Token PassingGợi ý: Token Passing là truy nhập theo thẻ bài còn Pure Aloha, slotted Aloha, CSMA là truy nhập ngẫu nhiên"
         ],
         "correct_answer": 3
     },
@@ -4309,7 +4309,7 @@
             "Truyền nhiều hơn một khung tin trong một khe thời gian (frame time)"
         ],
         "correct_answer": 2,
-        "explanation": "a.\nSai\nDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)\nlOMoARcPSD|43338792\nb.Sai\nc.\n Đồng bộ thời gian giữa các nút trong Slotted Aloha thì xác suất truyền thành công sẽ tăng gấp \nđôi so với \nPure Aloha\nd.Sai. Một fame time chỉ truyền một khung tin"
+        "explanation": "a.\nSai\nb.Sai\nc.\n Đồng bộ thời gian giữa các nút trong Slotted Aloha thì xác suất truyền thành công sẽ tăng gấp \nđôi so với \nPure Aloha\nd.Sai. Một fame time chỉ truyền một khung tin"
     },
     {
         "question": "Đặc điểm nào trong hoạt động của các giao thức điều khiển truy cập đườngtruyền Pure Aloha làm cho nó có hiệu quả thấp hơn hơn so với SlottedAloha? ",
@@ -4347,7 +4347,7 @@
             "Sau khi đụng độ được vãn hồi, truyền lại ngay mà không cần kiểm tra trạng tháiđường truyền "
         ],
         "correct_answer": 4,
-        "explanation": "Downloaded by Ninh Nguy?n Quang (qndt123@gmail.com)\nlOMoARcPSD|43338792\ne. Sai nếu là CSMA/CD kiên trì thì nó sẽ \nkiểm tra trạng thái đường truyền trước khi \ntruyền chứ không\n truyền lại ngay"
+        "explanation": "e. Sai nếu là CSMA/CD kiên trì thì nó sẽ \nkiểm tra trạng thái đường truyền trước khi \ntruyền chứ không\n truyền lại ngay"
     },
     {
         "question": "Phát biểu nào sau đây là đúng về thẻ bài trong phương pháp truy nhậpđường truyền Token Passing? (Chọn 3 đáp án) ",
@@ -4400,7 +4400,7 @@
     {
         "question": "Điểm khác biệt của chuyển tiếp dữ liệu ở tầng 2 trên switch so với chuyển tiếp ởtầng 3 trên router là gì? (Chọn 2 đáp án) ",
         "answers": [
-            "Không cần giao thức xác định trước đường điDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792",
+            "Không cần giao thức xác định trước đường đi",
             "Không cần bảng chuyển tiếp",
             "Nút đích phải cùng một mạng với nút nguồn",
             "Các gói tin được xử lý độc lập",
@@ -4443,7 +4443,7 @@
             "Bổ sung địa chỉ này vào bảng MAC Table nếu trong bảng chưa có",
             "Kiểm tra lỗi trên khung tin",
             "Chuyển ngay khung tin ra tất cả các cổng trừ cổng nhận khung tin",
-            "Hủy khung tin và báo lỗi vì địa chỉ này không hợp lệ.a.Đúng vì đây là cơ chế chuyeernt iếp của switchb.Sai. Cơ chế tự học của Switch chỉ bổ sung địa chủ nguồn chứ không bổ sung địa chỉ đíchc.ĐúngDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792d.Sai. Chỉ thực hiện nếu bảng MAC Table không có địa chỉ này-> không đầy đủe.Sai. Không có cơ sở"
+            "Hủy khung tin và báo lỗi vì địa chỉ này không hợp lệ.a.Đúng vì đây là cơ chế chuyeernt iếp của switchb.Sai. Cơ chế tự học của Switch chỉ bổ sung địa chủ nguồn chứ không bổ sung địa chỉ đíchc.Đúngd.Sai. Chỉ thực hiện nếu bảng MAC Table không có địa chỉ này-> không đầy đủe.Sai. Không có cơ sở"
         ],
         "correct_answer": [
             0,
@@ -4485,7 +4485,7 @@
             "Tìm kiếm địa chỉ mạng của một mạng"
         ],
         "correct_answer": 1,
-        "explanation": "a.\nChuyển đổi giữa địa chỉ IP cục bộ và địa chỉ IP công cộng là đặc điểm của NAT\nDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)\nlOMoARcPSD|43338792\nb.Đúng\nc.\nTìm kiểm địa chỉ IP khi biết địa chỉ MAC là Inverse ARP\nd.Không có giao thức nào thực hiện chức năng này"
+        "explanation": "a.\nChuyển đổi giữa địa chỉ IP cục bộ và địa chỉ IP công cộng là đặc điểm của NAT\nb.Đúng\nc.\nTìm kiểm địa chỉ IP khi biết địa chỉ MAC là Inverse ARP\nd.Không có giao thức nào thực hiện chức năng này"
     },
     {
         "question": "Mô tả nào sau đây là đúng về địa chỉ MAC? (Chọn 2 đáp án)",
@@ -4518,7 +4518,7 @@
             "Parity",
             "Checksum",
             "CRC-16",
-            "CRC-32Parity và Checksum không cho phép phát hiện vị trí lỗiChỉ có CRC cho phép phát hiện vị trí lỗi. Nguyên tắc là càng nhiều bit thì phát hiện càng nhiều lỗiDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)lOMoARcPSD|43338792"
+            "CRC-32Parity và Checksum không cho phép phát hiện vị trí lỗiChỉ có CRC cho phép phát hiện vị trí lỗi. Nguyên tắc là càng nhiều bit thì phát hiện càng nhiều lỗi"
         ],
         "correct_answer": 3
     },
@@ -4583,7 +4583,7 @@
             "IEEE 802.11n"
         ],
         "correct_answer": 2,
-        "explanation": "kí hiệu cáp xoắn đôi là T\nCáp đồng trục mỏng là: 2\nCáp đồng trục chuẩn là 5\nCáp quang: F\nDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)\nlOMoARcPSD|43338792"
+        "explanation": "kí hiệu cáp xoắn đôi là T\nCáp đồng trục mỏng là: 2\nCáp đồng trục chuẩn là 5\nCáp quang: F"
     },
     {
         "question": "Phương pháp mã hóa nào sau đây sử dụng đề điều chế dữ liệu số-tín hiệu số?(Chọn 2 đáp án) ",
@@ -4631,6 +4631,6 @@
             "Tầng vật lý"
         ],
         "correct_answer": 3,
-        "explanation": "d. Đúng vì mã này điều ché dữ liệu số-tín hiệu số\n \nDownloaded by Ninh Nguy?n Quang (qndt123@gmail.com)\nlOMoARcPSD|43338792"
+        "explanation": "d. Đúng vì mã này điều ché dữ liệu số-tín hiệu số"
     }
 ]
